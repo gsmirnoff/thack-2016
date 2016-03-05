@@ -24,6 +24,9 @@ public class User {
     private List<String> badges;
     private String bio;
 
+    private String role;
+    private String status;
+
     public User() {}
 
     public User(String firstName, String lastName) {
