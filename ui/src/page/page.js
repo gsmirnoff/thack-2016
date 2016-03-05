@@ -2,12 +2,12 @@ import {Component, View} from 'angular2/core';
 import {ROUTER_DIRECTIVES} from 'angular2/router';
 
 @Component({
-  selector: 'ui',
+  selector: 'page',
   directives: [ROUTER_DIRECTIVES],
-  templateUrl: 'ui.html'
+  templateUrl: 'page/page.html'
 })
 
-export class Ui {
+export class Page {
 
   constructor() {
     console.info('Ui Component Mounted Successfully');

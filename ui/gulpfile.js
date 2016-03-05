@@ -1,10 +1,11 @@
 var gulp = require('gulp'),
   rename = require('gulp-rename'),
   traceur = require('gulp-traceur'),
-  webserver = require('gulp-webserver');
+  webserver = require('gulp-webserver'),
+  concatCss = require('gulp-concat-css');
 
 // run init tasks
-gulp.task('default', ['dependencies', 'js', 'html', 'css']);
+gulp.task('default', ['dependencies', 'js', 'html', 'css', 'img']);
 
 // run development task
 gulp.task('dev', ['watch', 'serve']);
@@ -69,5 +70,12 @@ gulp.task('html', function () {
 // move css
 gulp.task('css', function () {
   return gulp.src('src/**/*.css')
+    .pipe(concatCss("css/styles.css"))
     .pipe(gulp.dest('build'))
+});
+
+// move css
+gulp.task('img', function () {
+  return gulp.src('img/**/*')
+    .pipe(gulp.dest('build/img'))
 });

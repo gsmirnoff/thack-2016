@@ -1,0 +1,113 @@
+.primaryContainer {
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 100%;
+  width: 100%;
+}
+
+#Header {
+  float: left;
+  height: 80px;
+  margin-left: 0%;
+  margin-top: 0px;
+  clear: none;
+  width: 100%;
+  background-color: rgb(0, 148, 255);
+}
+
+#text {
+  float: left;
+  font-size: 48px;
+  width: 245.87500494000003px;
+  height: auto;
+  text-align: left;
+  font-weight: normal;
+  line-height: 1em;
+  margin-left: 6.131235%;
+  margin-top: 16px;
+  clear: none;
+  min-height: 37px;
+  color: rgb(255, 255, 255);
+  font-family: 'Roboto Black';
+  font-style: italic;
+}
+
+#text1 {
+  float: left;
+  font-size: 1em;
+  width: 133.00000029px;
+  height: auto;
+  text-align: left;
+  font-weight: normal;
+  line-height: 1em;
+  margin-left: 0%;
+  margin-top: 0px;
+  clear: none;
+  min-height: 0px;
+  margin-right: 0%;
+  font-family: Roboto;
+  color: rgb(255, 255, 255);
+}
+
+#text3 {
+  float: left;
+  font-size: 1em;
+  width: 49.00000476px;
+  height: auto;
+  text-align: left;
+  font-weight: normal;
+  line-height: 1em;
+  margin-left: 10.557279%;
+  margin-top: 0px;
+  clear: none;
+  min-height: 21px;
+  font-family: Roboto;
+  color: rgb(255, 255, 255);
+  margin-right: 0%;
+}
+
+#text4 {
+  float: left;
+  font-size: 1em;
+  width: 69.18750627px;
+  height: auto;
+  text-align: left;
+  font-weight: normal;
+  line-height: 1em;
+  margin-left: 7.49278%;
+  margin-top: 0px;
+  clear: none;
+  min-height: 0px;
+  margin-right: 0%;
+  font-family: Roboto;
+  color: rgb(255, 255, 255);
+}
+
+#Menu {
+  float: right;
+  height: auto;
+  margin-left: 0px;
+  margin-top: 30px;
+  clear: none;
+  width: 569.171875px;
+  margin-right: 6.134947%;
+}
+
+#text2 {
+  float: left;
+  font-size: 1em;
+  width: 120.99999928312499px;
+  height: auto;
+  text-align: left;
+  font-weight: normal;
+  line-height: 1em;
+  margin-left: 8.813777%;
+  margin-top: 0px;
+  clear: none;
+  min-height: 21px;
+  font-family: Roboto;
+  color: rgb(255, 255, 255);
+  margin-right: 0%;
+}
+
