@@ -12,7 +12,6 @@ export class GuideInfo {
     constructor(params: RouteParams, http:Http) {
         this.id = params.get('id');
         this.http = Http;
-
         this.loadGuide();
     }
 
@@ -24,6 +23,7 @@ export class GuideInfo {
 
     processGuide(response) {
         this.guideData = response.json();
+        console.log(this.guideData);
     }
 
 }
