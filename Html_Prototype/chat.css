@@ -86,7 +86,7 @@ body {
     color: rgb(255, 255, 255);
 }
 
-#Register_Graphic {
+#guide_pic {
     float: left;
     height: 80px;
     margin-left: 4.660127%;
@@ -107,7 +107,7 @@ body {
     background-size: cover;
 }
 
-#text4 {
+#guide_username {
     float: left;
     font-size: 32px;
     width: 67.526832%;
@@ -143,7 +143,7 @@ body {
     margin-right: 0%;
 }
 
-#box {
+#Chat_main_box {
     float: none;
     height: 455px;
     margin-left: auto;
@@ -154,7 +154,7 @@ body {
     margin-right: auto;
 }
 
-#Header1 {
+#chat_header {
     float: left;
     height: 102px;
     margin-left: -0.00230819%;
@@ -172,7 +172,7 @@ body {
     background-size: cover;
 }
 
-#text5 {
+#message2 {
     float: left;
     font-size: 1em;
     width: 43.290093%;
@@ -195,9 +195,9 @@ body {
     border-bottom-left-radius: 6px;
 }
 
-#text6 {
+#message1 {
     float: left;
-    font-size: 1em;
+    font-size: 16px;
     width: 43.290092%;
     height: auto;
     text-align: left;
@@ -219,7 +219,7 @@ body {
     margin-right: 0%;
 }
 
-#box1 {
+#message_input_box {
     float: left;
     height: 53px;
     margin-left: 23.19997%;
@@ -229,7 +229,7 @@ body {
     background-color: rgb(241, 241, 241);
 }
 
-#input {
+#send_btn {
     float: left;
     height: 53px;
     font-size: 1em;
@@ -252,7 +252,7 @@ body {
     color: rgb(255, 255, 255);
 }
 
-#Add_Lang_btn {
+#end_connection_btn {
     float: none;
     height: 64px;
     font-size: 18px;
@@ -274,7 +274,7 @@ body {
     position: static;
     top: 0px;
     left: 0px;
-    margin-top: 140px;
+    margin-top: 133px;
     margin-left: auto;
     background-color: rgb(229, 1, 0);
     margin-right: auto;
@@ -284,9 +284,9 @@ body {
     float: left;
     width: auto;
     max-width: none;
-    height: 23px;
+    height: 20px;
     margin-left: 4.663531%;
-    margin-top: 30px;
+    margin-top: 18px;
     clear: none;
     color: rgb(0, 0, 0);
     margin-right: 0%;
@@ -301,13 +301,14 @@ body {
         float: right;
         margin-top: 28px;
         clear: none;
+        height: 25px;
     }
 
     #Menu {
         display: none;
     }
 
-    #box {
+    #Chat_main_box {
         margin-top: 0px;
         margin-left: auto;
         clear: both;
@@ -315,32 +316,97 @@ body {
         margin-right: auto;
     }
 
-    #box1 {
+    #message_input_box {
         margin-top: 20px;
         margin-left: 0%;
         clear: none;
         width: 68.263346%;
     }
 
-    #input {
+    #send_btn {
         margin-top: 20px;
         margin-left: 0.0016276%;
         clear: none;
         width: 31.738281%;
     }
 
-    #Add_Lang_btn {
+    #end_connection_btn {
         margin-top: 120px;
         clear: none;
         width: 30%;
     }
 
-    #text6 {
+    #message1 {
         margin-top: 30px;
+        font-size: 16px;
     }
 
-    #text5 {
+    #message2 {
         margin-top: 150px;
+    }
+
+    #Header {
+        height: 80px;
+    }
+
+    #text {
+        font-size: 48px;
+        margin-top: 16px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #message1 {
+        font-size: 14px;
+    }
+
+    #message2 {
+        font-size: 14px;
+        margin-top: 140px;
+    }
+
+    #message_input_box {
+        margin-top: 12px;
+        margin-left: 0%;
+        clear: none;
+    }
+
+    #send_btn {
+        margin-top: 12px;
+        margin-left: 0%;
+        clear: none;
+    }
+
+    #end_connection_btn {
+        margin-top: 105px;
+        clear: none;
+        width: 56%;
+    }
+
+    #Chat_main_box {
+        height: 409px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        clear: both;
+    }
+
+    #Header {
+        height: 56px;
+    }
+
+    #text {
+        font-size: 36px;
+        margin-top: 10px;
+    }
+
+    #Hamburger {
+        height: 20px;
+        margin-top: 18px;
+    }
+
+    #guide_username {
+        font-size: 24px;
     }
 }
 

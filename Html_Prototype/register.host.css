@@ -35,7 +35,7 @@
     font-style: italic;
 }
 
-#Register_Graphic {
+#host_pic {
     float: none;
     height: 200px;
     margin-left: auto;
@@ -55,7 +55,7 @@
     border-bottom-left-radius: 100px;
 }
 
-#text4 {
+#host_info {
     float: none;
     font-size: 1em;
     width: 36.324723%;
@@ -72,7 +72,7 @@
     margin-right: auto;
 }
 
-#Address_Input {
+#profession {
     float: right;
     height: 93px;
     display: block;
@@ -84,7 +84,7 @@
     margin-right: 31.734956%;
 }
 
-#text5 {
+#profession_label {
     float: none;
     font-size: 1em;
     width: auto;
@@ -104,7 +104,7 @@
     clear: none;
 }
 
-#textinput {
+#profession_input {
     float: none;
     height: 54.625px;
     padding-top: 0px;
@@ -138,7 +138,7 @@
     background-color: rgb(241, 241, 241);
 }
 
-#Email_Input {
+#city {
     float: right;
     height: 93px;
     display: block;
@@ -150,7 +150,7 @@
     margin-right: 31.733353%;
 }
 
-#text6 {
+#city_label {
     float: none;
     font-size: 1em;
     width: auto;
@@ -170,7 +170,7 @@
     clear: none;
 }
 
-#textinput1 {
+#city_input {
     float: none;
     height: 54.625px;
     padding-top: 0px;
@@ -204,7 +204,7 @@
     background-color: rgb(241, 241, 241);
 }
 
-#Language_Select {
+#since {
     float: left;
     height: 93px;
     display: block;
@@ -215,7 +215,7 @@
     width: 36.429879%;
 }
 
-#select {
+#since_select {
     float: none;
     height: 54.63px;
     padding-top: 0px;
@@ -237,7 +237,7 @@
     background-color: rgb(241, 241, 241);
 }
 
-#text7 {
+#since_label {
     float: none;
     font-size: 1em;
     width: auto;
@@ -321,7 +321,7 @@ body {
     color: rgb(255, 255, 255);
 }
 
-#Add_Lang_btn {
+#register_host_btn {
     float: left;
     height: 54px;
     font-size: 18px;
@@ -346,7 +346,7 @@ body {
     display: block;
 }
 
-#formgroup {
+#knowledge1 {
     float: left;
     height: auto;
     display: block;
@@ -358,7 +358,7 @@ body {
     margin-right: 0%;
 }
 
-#input {
+#knowledge1_chk {
     float: none;
     height: auto;
     padding-top: 0px;
@@ -370,7 +370,7 @@ body {
     width: auto;
 }
 
-#text8 {
+#knowledge1_label {
     float: none;
     font-size: 1em;
     width: auto;
@@ -387,7 +387,7 @@ body {
     font-family: 'Roboto Light';
 }
 
-#formgroup1 {
+#knowledge2 {
     float: left;
     height: auto;
     display: block;
@@ -399,7 +399,7 @@ body {
     margin-right: 0%;
 }
 
-#input1 {
+#knowledge2_chk {
     float: none;
     height: auto;
     padding-top: 0px;
@@ -411,7 +411,7 @@ body {
     width: auto;
 }
 
-#text9 {
+#knowledge2_label {
     float: none;
     font-size: 1em;
     width: auto;
@@ -428,7 +428,7 @@ body {
     font-family: 'Roboto Light';
 }
 
-#formgroup6 {
+#knowledge7 {
     float: left;
     height: auto;
     display: block;
@@ -440,7 +440,7 @@ body {
     margin-right: 0%;
 }
 
-#input6 {
+#knowledge7_chk {
     float: none;
     height: auto;
     padding-top: 0px;
@@ -452,7 +452,7 @@ body {
     width: auto;
 }
 
-#text14 {
+#knowledge7_label {
     float: none;
     font-size: 1em;
     width: auto;
@@ -469,7 +469,7 @@ body {
     font-family: 'Roboto Light';
 }
 
-#formgroup2 {
+#knowledge3 {
     float: left;
     height: auto;
     display: block;
@@ -481,7 +481,7 @@ body {
     margin-right: 0%;
 }
 
-#input2 {
+#knowledge3_chk {
     float: none;
     height: auto;
     padding-top: 0px;
@@ -493,7 +493,7 @@ body {
     width: auto;
 }
 
-#text10 {
+#knowledge3_label {
     float: none;
     font-size: 1em;
     width: auto;
@@ -510,7 +510,7 @@ body {
     font-family: 'Roboto Light';
 }
 
-#formgroup3 {
+#knowledge4 {
     float: left;
     height: auto;
     display: block;
@@ -522,7 +522,7 @@ body {
     margin-right: 0%;
 }
 
-#input3 {
+#knowledge4_chk {
     float: none;
     height: auto;
     padding-top: 0px;
@@ -534,7 +534,7 @@ body {
     width: auto;
 }
 
-#text11 {
+#knowledge4_label {
     float: none;
     font-size: 1em;
     width: auto;
@@ -551,7 +551,7 @@ body {
     font-family: 'Roboto Light';
 }
 
-#formgroup8 {
+#knowledge9 {
     float: left;
     height: auto;
     display: block;
@@ -563,7 +563,7 @@ body {
     margin-right: 0%;
 }
 
-#input8 {
+#knowledge9_chk {
     float: none;
     height: auto;
     padding-top: 0px;
@@ -575,7 +575,7 @@ body {
     width: auto;
 }
 
-#text16 {
+#knowledge9_label {
     float: none;
     font-size: 1em;
     width: auto;
@@ -592,7 +592,7 @@ body {
     font-family: 'Roboto Light';
 }
 
-#formgroup4 {
+#knowledge5 {
     float: left;
     height: auto;
     display: block;
@@ -604,7 +604,7 @@ body {
     margin-right: 0%;
 }
 
-#input4 {
+#knowledge5_chk {
     float: none;
     height: auto;
     padding-top: 0px;
@@ -616,7 +616,7 @@ body {
     width: auto;
 }
 
-#text12 {
+#knowledge5_label {
     float: none;
     font-size: 1em;
     width: auto;
@@ -633,7 +633,7 @@ body {
     font-family: 'Roboto Light';
 }
 
-#formgroup5 {
+#knowledge6 {
     float: left;
     height: auto;
     display: block;
@@ -645,7 +645,7 @@ body {
     margin-right: 0%;
 }
 
-#input5 {
+#knowledge6_chk {
     float: none;
     height: auto;
     padding-top: 0px;
@@ -657,7 +657,7 @@ body {
     width: auto;
 }
 
-#text13 {
+#knowledge6_label {
     float: none;
     font-size: 1em;
     width: auto;
@@ -674,7 +674,7 @@ body {
     font-family: 'Roboto Light';
 }
 
-#formgroup10 {
+#knowledge11 {
     float: left;
     height: auto;
     display: block;
@@ -686,7 +686,7 @@ body {
     margin-right: 0%;
 }
 
-#input10 {
+#knowledge11_chk {
     float: none;
     height: auto;
     padding-top: 0px;
@@ -698,7 +698,7 @@ body {
     width: auto;
 }
 
-#text18 {
+#knowledge11_label {
     float: none;
     font-size: 1em;
     width: auto;
@@ -715,7 +715,7 @@ body {
     font-family: 'Roboto Light';
 }
 
-#formgroup7 {
+#knowledge8 {
     float: left;
     height: auto;
     display: block;
@@ -727,7 +727,7 @@ body {
     margin-right: 0%;
 }
 
-#input7 {
+#knowledge8_chk {
     float: none;
     height: auto;
     padding-top: 0px;
@@ -739,7 +739,7 @@ body {
     width: auto;
 }
 
-#text15 {
+#knowledge8_label {
     float: none;
     font-size: 1em;
     width: auto;
@@ -756,7 +756,7 @@ body {
     font-family: 'Roboto Light';
 }
 
-#formgroup9 {
+#knowledge10 {
     float: left;
     height: auto;
     display: block;
@@ -768,7 +768,7 @@ body {
     margin-right: 0%;
 }
 
-#input9 {
+#knowledge10_chk {
     float: none;
     height: auto;
     padding-top: 0px;
@@ -780,7 +780,7 @@ body {
     width: auto;
 }
 
-#text17 {
+#knowledge10_label {
     float: none;
     font-size: 1em;
     width: auto;
@@ -797,7 +797,7 @@ body {
     font-family: 'Roboto Light';
 }
 
-#formgroup11 {
+#knowledge12 {
     float: left;
     height: auto;
     display: block;
@@ -809,7 +809,7 @@ body {
     margin-right: 0%;
 }
 
-#input11 {
+#knowledge12_chk {
     float: none;
     height: auto;
     padding-top: 0px;
@@ -821,7 +821,7 @@ body {
     width: auto;
 }
 
-#text19 {
+#knowledge12_label {
     float: none;
     font-size: 1em;
     width: auto;
@@ -865,7 +865,7 @@ body {
         clear: none;
     }
 
-    #text4 {
+    #host_info {
         height: auto;
         margin-top: 41px;
         margin-left: auto;
@@ -875,7 +875,7 @@ body {
         min-height: 86px;
     }
 
-    #Address_Input {
+    #profession {
         margin-right: auto;
         margin-top: 77px;
         clear: none;
@@ -884,7 +884,7 @@ body {
         width: 70%;
     }
 
-    #Email_Input {
+    #city {
         margin-right: auto;
         margin-top: 28px;
         clear: none;
@@ -893,7 +893,7 @@ body {
         width: 70%;
     }
 
-    #Language_Select {
+    #since {
         margin-top: 26px;
         margin-left: auto;
         clear: none;
@@ -902,56 +902,56 @@ body {
         width: 70%;
     }
 
-    #formgroup {
+    #knowledge1 {
         margin-top: 57px;
         margin-left: 15%;
         clear: none;
         width: 19.132487%;
     }
 
-    #formgroup2 {
+    #knowledge3 {
         margin-top: 57px;
         margin-left: 6.222331%;
         clear: none;
         width: 19.046224%;
     }
 
-    #formgroup4 {
+    #knowledge5 {
         margin-top: 48px;
         margin-left: 6.132813%;
         clear: none;
         width: 19.466146%;
     }
 
-    #formgroup5 {
+    #knowledge6 {
         margin-top: 48px;
         margin-left: 6.118164%;
         clear: none;
         width: 19.482422%;
     }
 
-    #formgroup6 {
+    #knowledge7 {
         margin-top: 48px;
         margin-left: 15%;
         clear: both;
         width: 19.132487%;
     }
 
-    #formgroup8 {
+    #knowledge9 {
         margin-top: 48px;
         margin-left: 6.222331%;
         clear: none;
         width: 19.378255%;
     }
 
-    #formgroup10 {
+    #knowledge11 {
         margin-top: 48px;
         margin-left: 6.132813%;
         clear: none;
         width: 19.466146%;
     }
 
-    #formgroup7 {
+    #knowledge8 {
         margin-top: 48px;
         margin-left: 6.220703%;
         clear: none;
@@ -959,7 +959,7 @@ body {
         width: 19.378255%;
     }
 
-    #formgroup9 {
+    #knowledge10 {
         margin-top: 48px;
         margin-left: 15%;
         clear: both;
@@ -967,14 +967,14 @@ body {
         width: 19.132487%;
     }
 
-    #formgroup11 {
+    #knowledge12 {
         margin-top: 48px;
         margin-left: 6.118164%;
         clear: none;
         width: 19.482422%;
     }
 
-    #Add_Lang_btn {
+    #register_host_btn {
         margin-top: 380px;
         margin-left: auto;
         clear: none;
@@ -983,14 +983,14 @@ body {
         width: 53%;
     }
 
-    #formgroup1 {
+    #knowledge2 {
         margin-top: 57px;
         margin-left: 6.132813%;
         clear: none;
         width: 19.466146%;
     }
 
-    #formgroup3 {
+    #knowledge4 {
         margin-top: 48px;
         margin-left: 15%;
         clear: both;
@@ -1013,18 +1013,18 @@ body {
         margin-top: 18px;
     }
 
-    #Register_Graphic {
+    #host_pic {
         margin-top: 90px;
     }
 
-    #text4 {
+    #host_info {
         width: 100%;
         padding-right: 16px;
         padding-left: 16px;
         margin-top: 24px;
     }
 
-    #Address_Input {
+    #profession {
         margin-top: 24px;
         width: 87%;
         height: 87.375px;
@@ -1032,11 +1032,11 @@ body {
         margin-right: auto;
     }
 
-    #textinput {
+    #profession_input {
         height: 48px;
     }
 
-    #Email_Input {
+    #city {
         margin-top: 24px;
         clear: none;
         height: 87.375px;
@@ -1045,11 +1045,11 @@ body {
         width: 87%;
     }
 
-    #textinput1 {
+    #city_input {
         height: 48px;
     }
 
-    #Language_Select {
+    #since {
         margin-top: 24px;
         clear: none;
         height: 87px;
@@ -1058,39 +1058,39 @@ body {
         width: 87%;
     }
 
-    #select {
+    #since_select {
         height: 48px;
     }
 
-    #formgroup {
+    #knowledge1 {
         margin-top: 48px;
         margin-left: 6.128125%;
         clear: none;
         width: 28.003125%;
     }
 
-    #formgroup1 {
+    #knowledge2 {
         margin-top: 48px;
         margin-left: 2.33125%;
         clear: none;
         width: 29%;
     }
 
-    #formgroup2 {
+    #knowledge3 {
         margin-top: 48px;
         margin-left: 0.4875%;
         clear: none;
         width: 28%;
     }
 
-    #formgroup3 {
+    #knowledge4 {
         margin-top: 48px;
         margin-left: 6.128125%;
         clear: both;
         width: 28.003125%;
     }
 
-    #formgroup4 {
+    #knowledge5 {
         margin-top: 48px;
         margin-left: 2.33125%;
         clear: none;
@@ -1098,60 +1098,60 @@ body {
         height: 19px;
     }
 
-    #formgroup5 {
+    #knowledge6 {
         margin-top: 48px;
         margin-left: 2.18125%;
         clear: none;
         width: 28.021875%;
     }
 
-    #formgroup6 {
+    #knowledge7 {
         margin-top: 48px;
         margin-left: 6.5%;
         clear: both;
         width: 27.63125%;
     }
 
-    #formgroup7 {
+    #knowledge8 {
         margin-top: 48px;
         margin-left: 2.33125%;
         clear: none;
         width: 27.2%;
     }
 
-    #formgroup8 {
+    #knowledge9 {
         margin-top: 48px;
         margin-left: 2.203125%;
         clear: none;
         width: 28%;
     }
 
-    #formgroup9 {
+    #knowledge10 {
         margin-top: 48px;
         margin-left: 6.128125%;
         clear: both;
         width: 30.334375%;
     }
 
-    #formgroup10 {
+    #knowledge11 {
         margin-top: 48px;
         margin-left: 0%;
         clear: none;
         width: 30.603125%;
     }
 
-    #formgroup11 {
+    #knowledge12 {
         margin-top: 48px;
         margin-left: 0.2%;
         clear: none;
         width: 30.68125%;
     }
 
-    #Add_Lang_btn {
+    #register_host_btn {
         margin-top: 330px;
         height: 48px;
         font-size: 20px;
-        width: 75%;
+        width: 87%;
     }
 }
 

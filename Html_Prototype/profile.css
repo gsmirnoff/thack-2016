@@ -92,7 +92,10 @@ body {
     font-size: 18px;
     clear: left;
     width: 48.849466%;
-    border-style: none;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
     -webkit-box-shadow: none;
     box-shadow: none;
     font-family: 'Roboto Medium';
@@ -243,11 +246,11 @@ body {
     clear: both;
     width: 100%;
     background-image:url("img/breakfast_blur.jpg");
+    background-position: 50% 50%;
+    background-repeat: repeat;
     background-attachment: scroll;
     -webkit-background-size: cover;
     background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: repeat repeat;
 }
 
 #Profile_info_box {
@@ -278,11 +281,11 @@ body {
     border-bottom-left-radius: 100px;
     display: block;
     background-image:url("img/jonathan_s.jpg");
+    background-position: 50% 10%;
+    background-repeat: no-repeat;
     background-attachment: scroll;
     -webkit-background-size: auto;
     background-size: auto;
-    background-position: 50% 10%;
-    background-repeat: no-repeat no-repeat;
 }
 
 #text2 {
@@ -404,21 +407,27 @@ body {
     text-align: left;
     font-weight: normal;
     line-height: 1.2em;
-    margin: 80px 0px 0px -50%;
+    margin-left: -50%;
+    margin-top: 80px;
     clear: none;
     min-height: 118px;
     color: rgb(81, 81, 81);
     font-family: 'Roboto Light';
+    margin-right: 0px;
     display: block;
+    margin-bottom: 0px;
 }
 
 #Badges {
     float: left;
     height: auto;
-    margin: 40px 0% 0px -49.87%;
+    margin-left: -49.87%;
+    margin-top: 40px;
     clear: none;
     width: 20%;
+    margin-right: 0%;
     min-height: 0px;
+    margin-bottom: 0px;
 }
 
 #Profile_info {
@@ -584,11 +593,11 @@ body {
         width: 120px;
         height: 120px;
         background-image:url("img/jonathan_s.jpg");
+        background-position: 50% 10%;
+        background-repeat: no-repeat;
         background-attachment: scroll;
         -webkit-background-size: cover;
         background-size: cover;
-        background-position: 50% 10%;
-        background-repeat: no-repeat no-repeat;
     }
 
     #Profile_info {
@@ -703,6 +712,8 @@ body {
         margin-top: 548px;
         clear: none;
         width: 87%;
+        height: 48px;
+        font-size: 20px;
     }
 }
 

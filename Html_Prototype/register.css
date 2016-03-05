@@ -35,7 +35,7 @@
     font-style: italic;
 }
 
-#Register_Graphic {
+#user_pic {
     float: none;
     height: 200px;
     margin-left: auto;
@@ -56,7 +56,7 @@
     background-size: cover;
 }
 
-#Name_Input {
+#name {
     float: right;
     height: 93px;
     display: block;
@@ -68,7 +68,7 @@
     margin-right: 31.734956%;
 }
 
-#textinput {
+#name_input {
     float: none;
     height: 54.625px;
     padding-top: 0px;
@@ -102,7 +102,7 @@
     background-color: rgb(241, 241, 241);
 }
 
-#text6 {
+#name_label {
     float: none;
     font-size: 1em;
     width: auto;
@@ -122,7 +122,7 @@
     clear: none;
 }
 
-#text5 {
+#user_info {
     float: none;
     font-size: 1em;
     width: 31.734956%;
@@ -139,7 +139,7 @@
     margin-right: auto;
 }
 
-#Address_Input {
+#address {
     float: right;
     height: 93px;
     display: block;
@@ -148,10 +148,10 @@
     margin-top: 28px;
     clear: right;
     width: 36.532561%;
-    margin-right: 31.733719%;
+    margin-right: 31.732383%;
 }
 
-#text7 {
+#address_label {
     float: none;
     font-size: 1em;
     width: auto;
@@ -171,7 +171,7 @@
     clear: none;
 }
 
-#textinput1 {
+#address_input {
     float: none;
     height: 54.625px;
     padding-top: 0px;
@@ -205,7 +205,7 @@
     background-color: rgb(241, 241, 241);
 }
 
-#Email_Input {
+#email {
     float: right;
     height: 93px;
     display: block;
@@ -214,10 +214,10 @@
     margin-top: 28px;
     clear: right;
     width: 36.532561%;
-    margin-right: 31.733719%;
+    margin-right: 31.732383%;
 }
 
-#text8 {
+#email_label {
     float: none;
     font-size: 1em;
     width: auto;
@@ -237,7 +237,7 @@
     clear: none;
 }
 
-#textinput2 {
+#email_input {
     float: none;
     height: 54.625px;
     padding-top: 0px;
@@ -271,18 +271,18 @@
     background-color: rgb(241, 241, 241);
 }
 
-#Language_Select {
+#language {
     float: left;
     height: 93px;
     display: block;
     text-align: left;
-    margin-left: 31.730008%;
+    margin-left: 31.729386%;
     margin-top: 26px;
     clear: right;
     width: 27.998812%;
 }
 
-#select {
+#language_select {
     float: none;
     height: 54.63px;
     padding-top: 0px;
@@ -304,7 +304,7 @@
     background-color: rgb(241, 241, 241);
 }
 
-#text9 {
+#language_label {
     float: none;
     font-size: 1em;
     width: auto;
@@ -326,7 +326,7 @@ body {
     color: rgb(81, 81, 81);
 }
 
-#Add_Lang_btn {
+#add_lang_btn {
     float: left;
     height: 54px;
     font-size: 18px;
@@ -428,11 +428,11 @@ body {
     color: rgb(255, 255, 255);
 }
 
-#Add_Lang_btn1 {
+#register_btn {
     float: left;
     height: 54px;
     font-size: 18px;
-    margin-left: 31.791865%;
+    margin-left: 31.790808%;
     margin-top: 72px;
     clear: left;
     width: 36.579572%;
@@ -453,19 +453,19 @@ body {
     display: block;
 }
 
-#formgroup {
+#interest1 {
     float: left;
     height: auto;
     display: block;
     text-align: left;
-    margin-left: 31.791865%;
+    margin-left: 31.873202%;
     margin-top: 56.5px;
     clear: left;
     width: 17.009353%;
     margin-right: 0%;
 }
 
-#input {
+#interest1_chk {
     float: none;
     height: auto;
     padding-top: 0px;
@@ -477,7 +477,7 @@ body {
     width: auto;
 }
 
-#text10 {
+#interest1_label {
     float: none;
     font-size: 1em;
     width: auto;
@@ -494,19 +494,19 @@ body {
     font-family: 'Roboto Light';
 }
 
-#formgroup1 {
+#interest2 {
     float: left;
     height: auto;
     display: block;
     text-align: left;
-    margin-left: 2.432205%;
+    margin-left: 2.348993%;
     margin-top: 56.5px;
     clear: none;
     width: 17.029147%;
     margin-right: 0%;
 }
 
-#input1 {
+#interest2_chk {
     float: none;
     height: auto;
     padding-top: 0px;
@@ -518,7 +518,7 @@ body {
     width: auto;
 }
 
-#text11 {
+#interest2_label {
     float: none;
     font-size: 1em;
     width: auto;
@@ -535,19 +535,19 @@ body {
     font-family: 'Roboto Light';
 }
 
-#formgroup6 {
+#interest7 {
     float: left;
     height: auto;
     display: block;
     text-align: left;
-    margin-left: 31.791865%;
+    margin-left: 31.790808%;
     margin-top: 33px;
     clear: left;
     width: 17.009353%;
     margin-right: 0%;
 }
 
-#input6 {
+#interest7_chk {
     float: none;
     height: auto;
     padding-top: 0px;
@@ -559,7 +559,7 @@ body {
     width: auto;
 }
 
-#text16 {
+#interest7_label {
     float: none;
     font-size: 1em;
     width: auto;
@@ -576,19 +576,19 @@ body {
     font-family: 'Roboto Light';
 }
 
-#formgroup2 {
+#interest3 {
     float: left;
     height: auto;
     display: block;
     text-align: left;
-    margin-left: 31.845061%;
+    margin-left: 31.844739%;
     margin-top: 33px;
     clear: left;
     width: 16.952445%;
     margin-right: 0%;
 }
 
-#input2 {
+#interest3_chk {
     float: none;
     height: auto;
     padding-top: 0px;
@@ -600,7 +600,7 @@ body {
     width: auto;
 }
 
-#text12 {
+#interest3_label {
     float: none;
     font-size: 1em;
     width: auto;
@@ -617,7 +617,7 @@ body {
     font-family: 'Roboto Light';
 }
 
-#formgroup3 {
+#interest4 {
     float: left;
     height: auto;
     display: block;
@@ -629,7 +629,7 @@ body {
     margin-right: 0%;
 }
 
-#input3 {
+#interest4_chk {
     float: none;
     height: auto;
     padding-top: 0px;
@@ -641,7 +641,7 @@ body {
     width: auto;
 }
 
-#text13 {
+#interest4_label {
     float: none;
     font-size: 1em;
     width: auto;
@@ -658,19 +658,19 @@ body {
     font-family: 'Roboto Light';
 }
 
-#formgroup8 {
+#interest9 {
     float: left;
     height: auto;
     display: block;
     text-align: left;
-    margin-left: 31.845061%;
+    margin-left: 31.844739%;
     margin-top: 31px;
     clear: left;
     width: 16.952445%;
     margin-right: 0%;
 }
 
-#input8 {
+#interest9_chk {
     float: none;
     height: auto;
     padding-top: 0px;
@@ -682,7 +682,7 @@ body {
     width: auto;
 }
 
-#text18 {
+#interest9_label {
     float: none;
     font-size: 1em;
     width: auto;
@@ -699,19 +699,19 @@ body {
     font-family: 'Roboto Light';
 }
 
-#formgroup4 {
+#interest5 {
     float: left;
     height: auto;
     display: block;
     text-align: left;
-    margin-left: 31.873515%;
+    margin-left: 31.873202%;
     margin-top: 33px;
     clear: left;
     width: 16.925228%;
     margin-right: 0%;
 }
 
-#input4 {
+#interest5_chk {
     float: none;
     height: auto;
     padding-top: 0px;
@@ -723,7 +723,7 @@ body {
     width: auto;
 }
 
-#text14 {
+#interest5_label {
     float: none;
     font-size: 1em;
     width: auto;
@@ -740,7 +740,7 @@ body {
     font-family: 'Roboto Light';
 }
 
-#formgroup5 {
+#interest6 {
     float: left;
     height: auto;
     display: block;
@@ -752,7 +752,7 @@ body {
     margin-right: 0%;
 }
 
-#input5 {
+#interest6_chk {
     float: none;
     height: auto;
     padding-top: 0px;
@@ -764,7 +764,7 @@ body {
     width: auto;
 }
 
-#text15 {
+#interest6_label {
     float: none;
     font-size: 1em;
     width: auto;
@@ -781,19 +781,19 @@ body {
     font-family: 'Roboto Light';
 }
 
-#formgroup10 {
+#interest11 {
     float: left;
     height: auto;
     display: block;
     text-align: left;
-    margin-left: 31.873515%;
+    margin-left: 31.873202%;
     margin-top: 33px;
     clear: left;
     width: 16.928939%;
     margin-right: 0%;
 }
 
-#input10 {
+#interest11_chk {
     float: none;
     height: auto;
     padding-top: 0px;
@@ -805,7 +805,7 @@ body {
     width: auto;
 }
 
-#text20 {
+#interest11_label {
     float: none;
     font-size: 1em;
     width: auto;
@@ -822,7 +822,7 @@ body {
     font-family: 'Roboto Light';
 }
 
-#formgroup7 {
+#interest8 {
     float: left;
     height: auto;
     display: block;
@@ -834,7 +834,7 @@ body {
     margin-right: 0px;
 }
 
-#input7 {
+#interest8_chk {
     float: none;
     height: auto;
     padding-top: 0px;
@@ -846,7 +846,7 @@ body {
     width: auto;
 }
 
-#text17 {
+#interest8_label {
     float: none;
     font-size: 1em;
     width: auto;
@@ -863,7 +863,7 @@ body {
     font-family: 'Roboto Light';
 }
 
-#formgroup9 {
+#interest10 {
     float: left;
     height: auto;
     display: block;
@@ -875,7 +875,7 @@ body {
     margin-right: 0%;
 }
 
-#input9 {
+#interest10_chk {
     float: none;
     height: auto;
     padding-top: 0px;
@@ -887,7 +887,7 @@ body {
     width: auto;
 }
 
-#text19 {
+#interest10_label {
     float: none;
     font-size: 1em;
     width: auto;
@@ -904,7 +904,7 @@ body {
     font-family: 'Roboto Light';
 }
 
-#formgroup11 {
+#interest12 {
     float: left;
     height: auto;
     display: block;
@@ -916,7 +916,7 @@ body {
     margin-right: 0%;
 }
 
-#input11 {
+#interest12_chk {
     float: none;
     height: auto;
     padding-top: 0px;
@@ -928,7 +928,7 @@ body {
     width: auto;
 }
 
-#text21 {
+#interest12_label {
     float: none;
     font-size: 1em;
     width: auto;
@@ -972,7 +972,7 @@ body {
         clear: none;
     }
 
-    #text5 {
+    #user_info {
         height: auto;
         margin-top: 41px;
         margin-left: auto;
@@ -982,7 +982,7 @@ body {
         min-height: 82px;
     }
 
-    #Name_Input {
+    #name {
         margin-top: 77px;
         clear: none;
         margin-left: auto;
@@ -991,7 +991,7 @@ body {
         margin-right: auto;
     }
 
-    #Address_Input {
+    #address {
         margin-top: 28px;
         clear: none;
         margin-left: auto;
@@ -1000,7 +1000,7 @@ body {
         margin-right: auto;
     }
 
-    #Email_Input {
+    #email {
         margin-top: 28px;
         clear: none;
         margin-left: auto;
@@ -1009,56 +1009,56 @@ body {
         margin-right: auto;
     }
 
-    #Language_Select {
+    #language {
         margin-top: 26px;
         margin-left: 15%;
         clear: none;
         width: 53.372396%;
     }
 
-    #formgroup {
+    #interest1 {
         margin-top: 57px;
         margin-left: 15%;
         clear: both;
         width: 19.132487%;
     }
 
-    #formgroup2 {
+    #interest3 {
         margin-top: 57px;
         margin-left: 6.326497%;
         clear: none;
         width: 19.275716%;
     }
 
-    #formgroup4 {
+    #interest5 {
         margin-top: 48px;
         margin-left: 6.132813%;
         clear: none;
         width: 19.466146%;
     }
 
-    #formgroup5 {
+    #interest6 {
         margin-top: 48px;
         margin-left: 6.118164%;
         clear: none;
         width: 19.482422%;
     }
 
-    #formgroup6 {
+    #interest7 {
         margin-top: 48px;
         margin-left: 14.788411%;
         clear: both;
         width: 19.344076%;
     }
 
-    #formgroup8 {
+    #interest9 {
         margin-top: 48px;
         margin-left: 6.118164%;
         clear: none;
         width: 19.482422%;
     }
 
-    #formgroup10 {
+    #interest11 {
         margin-top: 48px;
         margin-left: 6.015625%;
         clear: none;
@@ -1066,7 +1066,7 @@ body {
         margin-right: 0%;
     }
 
-    #formgroup7 {
+    #interest8 {
         margin-top: 46px;
         margin-left: 5.97168%;
         clear: none;
@@ -1074,7 +1074,7 @@ body {
         width: 19.627279%;
     }
 
-    #formgroup9 {
+    #interest10 {
         margin-top: 46px;
         margin-left: 14.635417%;
         clear: both;
@@ -1082,14 +1082,14 @@ body {
         width: 19.49707%;
     }
 
-    #formgroup11 {
+    #interest12 {
         margin-top: 48px;
         margin-left: 5.913086%;
         clear: none;
         width: 19.614258%;
     }
 
-    #Add_Lang_btn1 {
+    #register_btn {
         margin-top: 500px;
         margin-left: auto;
         clear: none;
@@ -1098,21 +1098,21 @@ body {
         margin-right: auto;
     }
 
-    #Add_Lang_btn {
+    #add_lang_btn {
         margin-top: 65px;
         margin-left: 1.861979%;
         clear: none;
         width: 15.185547%;
     }
 
-    #formgroup1 {
+    #interest2 {
         margin-top: 57px;
         margin-left: 6.220703%;
         clear: none;
         width: 19.378255%;
     }
 
-    #formgroup3 {
+    #interest4 {
         margin-top: 48px;
         margin-left: 14.666341%;
         clear: both;
@@ -1121,7 +1121,7 @@ body {
 }
 
 @media only screen and (max-width: 500px) {
-    #Register_Graphic {
+    #user_pic {
         background-image:url("img/girl-s.jpg");
         background-position: 50% 0%;
         background-repeat: repeat;
@@ -1145,14 +1145,14 @@ body {
         margin-top: 18px;
     }
 
-    #text5 {
+    #user_info {
         margin-top: 24px;
         width: 100%;
         padding-left: 16px;
         padding-right: 16px;
     }
 
-    #Name_Input {
+    #name {
         margin-top: 24px;
         clear: none;
         margin-left: auto;
@@ -1161,7 +1161,7 @@ body {
         height: 87.375px;
     }
 
-    #Address_Input {
+    #address {
         width: 87%;
         margin-top: 24px;
         clear: none;
@@ -1170,7 +1170,7 @@ body {
         margin-right: auto;
     }
 
-    #Email_Input {
+    #email {
         width: 87%;
         margin-top: 24px;
         clear: none;
@@ -1179,7 +1179,7 @@ body {
         margin-right: auto;
     }
 
-    #Language_Select {
+    #language {
         margin-top: 24px;
         margin-left: 6.13125%;
         clear: none;
@@ -1187,7 +1187,7 @@ body {
         height: 87px;
     }
 
-    #Add_Lang_btn {
+    #add_lang_btn {
         width: 23.26875%;
         margin-top: 63px;
         margin-left: 2.09375%;
@@ -1196,28 +1196,28 @@ body {
         font-size: 20px;
     }
 
-    #formgroup {
+    #interest1 {
         margin-top: 48px;
         margin-left: 6.128125%;
         clear: both;
         width: 28.003125%;
     }
 
-    #formgroup1 {
+    #interest2 {
         margin-top: 48px;
         margin-left: 3.6%;
         clear: none;
         width: 25.640625%;
     }
 
-    #formgroup3 {
+    #interest4 {
         margin-top: 48px;
         margin-left: 6.5%;
         clear: both;
         width: 27.63125%;
     }
 
-    #formgroup6 {
+    #interest7 {
         margin-top: 48px;
         margin-left: 6.128125%;
         clear: both;
@@ -1225,7 +1225,7 @@ body {
         width: 28.003125%;
     }
 
-    #formgroup9 {
+    #interest10 {
         margin-top: 48px;
         margin-left: 6.5%;
         clear: both;
@@ -1233,7 +1233,7 @@ body {
         width: 27.63125%;
     }
 
-    #formgroup4 {
+    #interest5 {
         margin-top: 48px;
         margin-left: 3.6%;
         clear: none;
@@ -1241,14 +1241,14 @@ body {
         width: 25.946875%;
     }
 
-    #formgroup2 {
+    #interest3 {
         margin-top: 48px;
         margin-left: 5.365625%;
         clear: none;
         width: 24.696875%;
     }
 
-    #formgroup5 {
+    #interest6 {
         margin-top: 48px;
         margin-left: 4.7875%;
         clear: none;
@@ -1256,7 +1256,7 @@ body {
         width: 25.034375%;
     }
 
-    #formgroup7 {
+    #interest8 {
         margin-top: 48px;
         margin-left: 3.6%;
         clear: none;
@@ -1264,7 +1264,7 @@ body {
         width: 25.946875%;
     }
 
-    #formgroup8 {
+    #interest9 {
         margin-top: 48px;
         margin-left: 4.5875%;
         clear: none;
@@ -1272,7 +1272,7 @@ body {
         width: 25.234375%;
     }
 
-    #formgroup10 {
+    #interest11 {
         margin-top: 48px;
         margin-left: 3.6%;
         clear: none;
@@ -1280,7 +1280,7 @@ body {
         width: 25.640625%;
     }
 
-    #formgroup11 {
+    #interest12 {
         margin-top: 48px;
         margin-left: 4.5875%;
         clear: none;
@@ -1288,27 +1288,27 @@ body {
         width: 25.234375%;
     }
 
-    #Add_Lang_btn1 {
-        margin-top: 455.625px;
+    #register_btn {
+        margin-top: 433.25px;
         clear: none;
         height: 48px;
         font-size: 20px;
-        width: 75%;
+        width: 87%;
     }
 
-    #textinput {
+    #name_input {
         height: 48px;
     }
 
-    #textinput1 {
+    #address_input {
         height: 48px;
     }
 
-    #textinput2 {
+    #email_input {
         height: 48px;
     }
 
-    #select {
+    #language_select {
         height: 48px;
     }
 }
