@@ -52,9 +52,15 @@ export class Map {
 
         this.map = new google.maps.Map(document.getElementById("map"), mapOptions);
 
+        var myIcon = {
+            url: "/img/map_pin_red.svg",
+            fillOpacity: 0.8,
+            scale: 0.1
+        };
 
         this.myMarker = new google.maps.Marker({
             map: this.map,
+            icon: myIcon,
             animation: google.maps.Animation.DROP,
             position: this.map.getCenter()
         });
@@ -63,12 +69,9 @@ export class Map {
         for (let i = 0; i < this.markers.length; i++) {
             let marker = this.markers[i];
             var guideIcon = {
-                path: 'M 125,5 155,90 245,90 175,145 200,230 125,180 50,230 75,145 5,90 95,90 z',
-                fillColor: 'yellow',
+                url: "/img/map_pin_green.svg",
                 fillOpacity: 0.8,
-                scale: 0.1,
-                strokeColor: 'gold',
-                strokeWeight: 14
+                scale: 0.1
             };
 
             let markerPin = new google.maps.Marker({
@@ -77,10 +80,20 @@ export class Map {
                 animation: google.maps.Animation.DROP,
                 position: new google.maps.LatLng(marker.position[0], marker.position[1])
             });
+            this.addInfoWindow(markerPin, marker);
             this.markerPins.push(markerPin);
         }
 
+    }
 
+    addInfoWindow (markerPin, info) {
+        let infoWindow = new google.maps.InfoWindow({
+            content: info.description
+        });
+
+        google.maps.event.addListener(markerPin, 'click', function(){
+            infoWindow.open(this.map, markerPin);
+        });
     }
 
     clickedMarker(label, index) {
