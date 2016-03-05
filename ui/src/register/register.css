@@ -1,0 +1,832 @@
+#Register_Graphic {
+  float: none;
+  height: 200px;
+  margin-left: auto;
+  margin-top: 151px;
+  clear: none;
+  width: 200px;
+  background-color: rgb(18, 112, 178);
+  margin-right: auto;
+}
+
+#Name_Input {
+  float: right;
+  height: 93px;
+  display: block;
+  text-align: left;
+  margin-left: 0px;
+  margin-top: 43px;
+  clear: none;
+  width: 36.532561%;
+  margin-right: 31.734956%;
+}
+
+#textinput {
+  float: none;
+  height: 54.625px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 16px;
+  font-size: 1em;
+  display: block;
+  width: 100%;
+  margin-top: 17px;
+  margin-left: 0%;
+  clear: none;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  color: rgb(119, 119, 119);
+  font-family: Roboto;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-color: rgb(241, 241, 241);
+  border-right-color: rgb(241, 241, 241);
+  border-bottom-color: rgb(241, 241, 241);
+  border-left-color: rgb(241, 241, 241);
+  background-color: rgb(241, 241, 241);
+}
+
+#text6 {
+  float: none;
+  font-size: 1em;
+  width: auto;
+  height: auto;
+  text-align: left;
+  font-weight: normal;
+  line-height: 1em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 0em;
+  padding-right: 0em;
+  display: block;
+  font-family: 'Roboto Light';
+  color: rgb(81, 81, 81);
+  margin-top: 0px;
+  margin-left: 0%;
+  clear: none;
+}
+
+#text5 {
+  float: none;
+  font-size: 1em;
+  width: 31.734956%;
+  height: auto;
+  text-align: center;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin-left: auto;
+  margin-top: 41px;
+  clear: none;
+  min-height: 137px;
+  color: rgb(81, 81, 81);
+  font-family: 'Roboto Light';
+  margin-right: auto;
+}
+
+#Address_Input {
+  float: right;
+  height: 93px;
+  display: block;
+  text-align: left;
+  margin-left: 0px;
+  margin-top: 28px;
+  clear: right;
+  width: 36.532561%;
+  margin-right: 31.734956%;
+}
+
+#text7 {
+  float: none;
+  font-size: 1em;
+  width: auto;
+  height: auto;
+  text-align: left;
+  font-weight: normal;
+  line-height: 1em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 0em;
+  padding-right: 0em;
+  display: block;
+  font-family: 'Roboto Light';
+  color: rgb(81, 81, 81);
+  margin-top: 0px;
+  margin-left: 0%;
+  clear: none;
+}
+
+#textinput1 {
+  float: none;
+  height: 54.625px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 16px;
+  font-size: 1em;
+  display: block;
+  width: 100%;
+  margin-top: 17px;
+  margin-left: 0%;
+  clear: none;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  color: rgb(119, 119, 119);
+  font-family: Roboto;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-color: rgb(215, 215, 215);
+  border-right-color: rgb(215, 215, 215);
+  border-bottom-color: rgb(215, 215, 215);
+  border-left-color: rgb(215, 215, 215);
+  background-color: rgb(241, 241, 241);
+}
+
+#Email_Input {
+  float: right;
+  height: 93px;
+  display: block;
+  text-align: left;
+  margin-left: 0px;
+  margin-top: 28px;
+  clear: right;
+  width: 36.532561%;
+  margin-right: 31.734956%;
+}
+
+#text8 {
+  float: none;
+  font-size: 1em;
+  width: auto;
+  height: auto;
+  text-align: left;
+  font-weight: normal;
+  line-height: 1em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 0em;
+  padding-right: 0em;
+  display: block;
+  font-family: 'Roboto Light';
+  color: rgb(81, 81, 81);
+  margin-top: 0px;
+  margin-left: 0%;
+  clear: none;
+}
+
+#textinput2 {
+  float: none;
+  height: 54.625px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 16px;
+  font-size: 1em;
+  display: block;
+  width: 100%;
+  margin-top: 17px;
+  margin-left: 0%;
+  clear: none;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  color: rgb(119, 119, 119);
+  font-family: Roboto;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-color: rgb(215, 215, 215);
+  border-right-color: rgb(215, 215, 215);
+  border-bottom-color: rgb(215, 215, 215);
+  border-left-color: rgb(215, 215, 215);
+  background-color: rgb(241, 241, 241);
+}
+
+#Language_Select {
+  float: left;
+  height: 93px;
+  display: block;
+  text-align: left;
+  margin-left: 31.732482%;
+  margin-top: 26px;
+  clear: right;
+  width: 27.998812%;
+}
+
+#select {
+  float: none;
+  height: 54.63px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 16px;
+  font-size: 1em;
+  display: block;
+  width: 100%;
+  margin-top: 17px;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  background-color: rgb(241, 241, 241);
+}
+
+#text9 {
+  float: none;
+  font-size: 1em;
+  width: auto;
+  height: 22px;
+  text-align: left;
+  font-weight: normal;
+  line-height: 1em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 0em;
+  padding-right: 0em;
+  display: block;
+  color: rgb(81, 81, 81);
+  font-family: 'Roboto Light';
+}
+
+body {
+  font-family: Roboto;
+  color: rgb(81, 81, 81);
+}
+
+#Add_Lang_btn {
+  float: left;
+  height: 54px;
+  font-size: 18px;
+  margin-left: 1.155483%;
+  margin-top: 65px;
+  clear: none;
+  width: 7.378266%;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background-color: rgb(255, 95, 0);
+  font-family: 'Roboto Medium';
+  color: rgb(255, 255, 255);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+#Menu {
+  float: right;
+  height: auto;
+  margin-left: 0px;
+  margin-top: 30px;
+  clear: none;
+  width: 569.171875px;
+  margin-right: 6.132472%;
+  display: block;
+}
+
+#Add_Lang_btn1 {
+  float: left;
+  height: 54px;
+  font-size: 18px;
+  margin-left: 31.794339%;
+  margin-top: 48px;
+  clear: left;
+  width: 36.579572%;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-family: 'Roboto Medium';
+  color: rgb(255, 255, 255);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  background-color: rgb(255, 95, 0);
+  margin-right: 0%;
+  display: block;
+}
+
+#formgroup {
+  float: left;
+  height: auto;
+  display: block;
+  text-align: left;
+  margin-left: 31.794339%;
+  margin-top: 56.5px;
+  clear: left;
+  width: 17.009353%;
+  margin-right: 0%;
+}
+
+#input {
+  float: none;
+  height: auto;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  font-size: 1em;
+  display: inline-block;
+  width: auto;
+}
+
+#text10 {
+  float: none;
+  font-size: 1em;
+  width: auto;
+  height: auto;
+  text-align: left;
+  font-weight: normal;
+  line-height: 1em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  display: inline-block;
+  margin-left: 16px;
+  font-family: 'Roboto Light';
+}
+
+#formgroup1 {
+  float: left;
+  height: auto;
+  display: block;
+  text-align: left;
+  margin-left: 2.432205%;
+  margin-top: 56.5px;
+  clear: none;
+  width: 17.029147%;
+  margin-right: 0%;
+}
+
+#input1 {
+  float: none;
+  height: auto;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  font-size: 1em;
+  display: inline-block;
+  width: auto;
+}
+
+#text11 {
+  float: none;
+  font-size: 1em;
+  width: auto;
+  height: auto;
+  text-align: left;
+  font-weight: normal;
+  line-height: 1em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  display: inline-block;
+  margin-left: 16px;
+  font-family: 'Roboto Light';
+}
+
+#formgroup6 {
+  float: left;
+  height: auto;
+  display: block;
+  text-align: left;
+  margin-left: 31.794339%;
+  margin-top: 33px;
+  clear: left;
+  width: 17.009353%;
+  margin-right: 0%;
+}
+
+#input6 {
+  float: none;
+  height: auto;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  font-size: 1em;
+  display: inline-block;
+  width: auto;
+}
+
+#text16 {
+  float: none;
+  font-size: 1em;
+  width: auto;
+  height: auto;
+  text-align: left;
+  font-weight: normal;
+  line-height: 1em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  display: inline-block;
+  margin-left: 16px;
+  font-family: 'Roboto Light';
+}
+
+#formgroup2 {
+  float: left;
+  height: auto;
+  display: block;
+  text-align: left;
+  margin-left: 31.847536%;
+  margin-top: 33px;
+  clear: left;
+  width: 16.952445%;
+  margin-right: 0%;
+}
+
+#input2 {
+  float: none;
+  height: auto;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  font-size: 1em;
+  display: inline-block;
+  width: auto;
+}
+
+#text12 {
+  float: none;
+  font-size: 1em;
+  width: auto;
+  height: auto;
+  text-align: left;
+  font-weight: normal;
+  line-height: 1em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  display: inline-block;
+  margin-left: 16px;
+  font-family: 'Roboto Light';
+}
+
+#formgroup3 {
+  float: left;
+  height: auto;
+  display: block;
+  text-align: left;
+  margin-left: 2.515093%;
+  margin-top: 33px;
+  clear: none;
+  width: 16.948733%;
+  margin-right: 0%;
+}
+
+#input3 {
+  float: none;
+  height: auto;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  font-size: 1em;
+  display: inline-block;
+  width: auto;
+}
+
+#text13 {
+  float: none;
+  font-size: 1em;
+  width: auto;
+  height: auto;
+  text-align: left;
+  font-weight: normal;
+  line-height: 1em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  display: inline-block;
+  margin-left: 16px;
+  font-family: 'Roboto Light';
+}
+
+#formgroup7 {
+  float: left;
+  height: auto;
+  display: block;
+  text-align: left;
+  margin-left: 31.847536%;
+  margin-top: 33px;
+  clear: left;
+  width: 16.952445%;
+  margin-right: 0%;
+}
+
+#input7 {
+  float: none;
+  height: auto;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  font-size: 1em;
+  display: inline-block;
+  width: auto;
+}
+
+#text17 {
+  float: none;
+  font-size: 1em;
+  width: auto;
+  height: auto;
+  text-align: left;
+  font-weight: normal;
+  line-height: 1em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  display: inline-block;
+  margin-left: 16px;
+  font-family: 'Roboto Light';
+}
+
+#formgroup4 {
+  float: left;
+  height: auto;
+  display: block;
+  text-align: left;
+  margin-left: 31.874753%;
+  margin-top: 33px;
+  clear: left;
+  width: 16.925228%;
+  margin-right: 0%;
+}
+
+#input4 {
+  float: none;
+  height: auto;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  font-size: 1em;
+  display: inline-block;
+  width: auto;
+}
+
+#text14 {
+  float: none;
+  font-size: 1em;
+  width: auto;
+  height: auto;
+  text-align: left;
+  font-weight: normal;
+  line-height: 1em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  display: inline-block;
+  margin-left: 16px;
+  font-family: 'Roboto Light';
+}
+
+#formgroup5 {
+  float: left;
+  height: auto;
+  display: block;
+  text-align: left;
+  margin-left: 2.398802%;
+  margin-top: 33px;
+  clear: none;
+  width: 17.066261%;
+  margin-right: 0%;
+}
+
+#input5 {
+  float: none;
+  height: auto;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  font-size: 1em;
+  display: inline-block;
+  width: auto;
+}
+
+#text15 {
+  float: none;
+  font-size: 1em;
+  width: auto;
+  height: auto;
+  text-align: left;
+  font-weight: normal;
+  line-height: 1em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  display: inline-block;
+  margin-left: 16px;
+  font-family: 'Roboto Light';
+}
+
+#formgroup8 {
+  float: left;
+  height: auto;
+  display: block;
+  text-align: left;
+  margin-left: 31.874753%;
+  margin-top: 33px;
+  clear: left;
+  width: 16.928939%;
+  margin-right: 0%;
+}
+
+#input8 {
+  float: none;
+  height: auto;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  font-size: 1em;
+  display: inline-block;
+  width: auto;
+}
+
+#text18 {
+  float: none;
+  font-size: 1em;
+  width: auto;
+  height: auto;
+  text-align: left;
+  font-weight: normal;
+  line-height: 1em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  display: inline-block;
+  margin-left: 16px;
+  font-family: 'Roboto Light';
+}
+
+#formgroup9 {
+  float: left;
+  height: auto;
+  display: block;
+  text-align: left;
+  margin-left: 2.486639%;
+  margin-top: -69px;
+  clear: none;
+  width: 17.029147%;
+  margin-right: 0%;
+}
+
+#input9 {
+  float: none;
+  height: auto;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  font-size: 1em;
+  display: inline-block;
+  width: auto;
+}
+
+#text19 {
+  float: none;
+  font-size: 1em;
+  width: auto;
+  height: auto;
+  text-align: left;
+  font-weight: normal;
+  line-height: 1em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  display: inline-block;
+  margin-left: 16px;
+  font-family: 'Roboto Light';
+}
+
+#formgroup10 {
+  float: left;
+  height: auto;
+  display: block;
+  text-align: left;
+  margin-left: 2.567053%;
+  margin-top: -17px;
+  clear: none;
+  width: 16.948733%;
+  margin-right: 0%;
+}
+
+#input10 {
+  float: none;
+  height: auto;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  font-size: 1em;
+  display: inline-block;
+  width: auto;
+}
+
+#text20 {
+  float: none;
+  font-size: 1em;
+  width: auto;
+  height: auto;
+  text-align: left;
+  font-weight: normal;
+  line-height: 1em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  display: inline-block;
+  margin-left: 16px;
+  font-family: 'Roboto Light';
+}
+
+#formgroup11 {
+  float: left;
+  height: auto;
+  display: block;
+  text-align: left;
+  margin-left: -17.065024%;
+  margin-top: 35px;
+  clear: none;
+  width: 17.066261%;
+  margin-right: 0%;
+}
+
+#input11 {
+  float: none;
+  height: auto;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  font-size: 1em;
+  display: inline-block;
+  width: auto;
+}
+
+#text21 {
+  float: none;
+  font-size: 1em;
+  width: auto;
+  height: auto;
+  text-align: left;
+  font-weight: normal;
+  line-height: 1em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  display: inline-block;
+  margin-left: 16px;
+  font-family: 'Roboto Light';
+}
+
