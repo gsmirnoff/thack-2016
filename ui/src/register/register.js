@@ -32,8 +32,8 @@ export class Register {
 
   saveNewUser(fields, position) {
     fields.position = [
-      position.coords.latitude + 0.1,
-      position.coords.longitude - 0.4
+      position.coords.latitude + 0.000001,
+      position.coords.longitude - 0.000004
     ];
     this.userService.save(new User(fields))
       .subscribe((user) => {
