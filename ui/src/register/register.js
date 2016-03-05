@@ -1,6 +1,7 @@
 import {Component} from 'angular2/core';
 import {FormBuilder, Validators} from 'angular2/common';
 import {User} from '../models/user'
+import {HTTP_PROVIDERS} from 'angular2/http'
 import {UserService} from '../services/UserService'
 
 
