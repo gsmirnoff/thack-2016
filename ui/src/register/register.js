@@ -3,7 +3,7 @@ import {FormBuilder, Validators} from 'angular2/common';
 import {User} from '../models/user'
 import {HTTP_PROVIDERS} from 'angular2/http'
 import {Router} from 'angular2/router';
-import {UserService} from '../services/UserService'
+import {UserService} from '../services/userService'
 
 
 @Component({
