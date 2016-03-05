@@ -1120,3 +1120,196 @@ body {
     }
 }
 
+@media only screen and (max-width: 500px) {
+    #Register_Graphic {
+        background-image:url("img/girl-s.jpg");
+        background-position: 50% 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        -webkit-background-size: cover;
+        background-size: cover;
+        margin-top: 90px;
+    }
+
+    #Header {
+        height: 56px;
+    }
+
+    #text {
+        font-size: 36px;
+        margin-top: 10px;
+    }
+
+    #Hamburger {
+        height: 20px;
+        margin-top: 18px;
+    }
+
+    #text5 {
+        margin-top: 24px;
+        width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    #Name_Input {
+        margin-top: 24px;
+        clear: none;
+        margin-left: auto;
+        width: 87%;
+        margin-right: auto;
+        height: 87.375px;
+    }
+
+    #Address_Input {
+        width: 87%;
+        margin-top: 24px;
+        clear: none;
+        height: 87.375px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #Email_Input {
+        width: 87%;
+        margin-top: 24px;
+        clear: none;
+        height: 87.375px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #Language_Select {
+        margin-top: 24px;
+        margin-left: 6.13125%;
+        clear: none;
+        width: 62.240625%;
+        height: 87px;
+    }
+
+    #Add_Lang_btn {
+        width: 23.26875%;
+        margin-top: 63px;
+        margin-left: 2.09375%;
+        clear: none;
+        height: 48px;
+        font-size: 20px;
+    }
+
+    #formgroup {
+        margin-top: 48px;
+        margin-left: 6.128125%;
+        clear: both;
+        width: 28.003125%;
+    }
+
+    #formgroup1 {
+        margin-top: 48px;
+        margin-left: 3.6%;
+        clear: none;
+        width: 25.640625%;
+    }
+
+    #formgroup3 {
+        margin-top: 48px;
+        margin-left: 6.5%;
+        clear: both;
+        width: 27.63125%;
+    }
+
+    #formgroup6 {
+        margin-top: 48px;
+        margin-left: 6.128125%;
+        clear: both;
+        height: 19px;
+        width: 28.003125%;
+    }
+
+    #formgroup9 {
+        margin-top: 48px;
+        margin-left: 6.5%;
+        clear: both;
+        height: 19px;
+        width: 27.63125%;
+    }
+
+    #formgroup4 {
+        margin-top: 48px;
+        margin-left: 3.6%;
+        clear: none;
+        height: 21px;
+        width: 25.946875%;
+    }
+
+    #formgroup2 {
+        margin-top: 48px;
+        margin-left: 5.365625%;
+        clear: none;
+        width: 24.696875%;
+    }
+
+    #formgroup5 {
+        margin-top: 48px;
+        margin-left: 4.7875%;
+        clear: none;
+        height: 19px;
+        width: 25.034375%;
+    }
+
+    #formgroup7 {
+        margin-top: 48px;
+        margin-left: 3.6%;
+        clear: none;
+        height: auto;
+        width: 25.946875%;
+    }
+
+    #formgroup8 {
+        margin-top: 48px;
+        margin-left: 4.5875%;
+        clear: none;
+        height: auto;
+        width: 25.234375%;
+    }
+
+    #formgroup10 {
+        margin-top: 48px;
+        margin-left: 3.6%;
+        clear: none;
+        height: 19px;
+        width: 25.640625%;
+    }
+
+    #formgroup11 {
+        margin-top: 48px;
+        margin-left: 4.5875%;
+        clear: none;
+        height: auto;
+        width: 25.234375%;
+    }
+
+    #Add_Lang_btn1 {
+        margin-top: 455.625px;
+        clear: none;
+        height: 48px;
+        font-size: 20px;
+        width: 75%;
+    }
+
+    #textinput {
+        height: 48px;
+    }
+
+    #textinput1 {
+        height: 48px;
+    }
+
+    #textinput2 {
+        height: 48px;
+    }
+
+    #select {
+        height: 48px;
+    }
+}
+
