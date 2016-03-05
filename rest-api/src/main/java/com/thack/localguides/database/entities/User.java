@@ -5,6 +5,7 @@ import lombok.Data;
 import org.springframework.data.annotation.Id;
 
 import javax.xml.bind.annotation.XmlRootElement;
+import java.util.List;
 
 /**
  * Created by aakhmerov on 05.03.16.
@@ -17,6 +18,10 @@ public class User {
     private String firstName;
     private String lastName;
     private double[] position;
+    private String password;
+    private List<String> interests;
+    private List<String> languages;
+    private List<String> badges;
 
     public User() {}
 
