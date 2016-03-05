@@ -41,11 +41,11 @@
     clear: both;
     width: 100%;
     background-image:url("img/city.jpg");
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
     background-attachment: scroll;
-    -webkit-background-size: 100%;
-    background-size: 100%;
-    background-position: 50% 60%;
-    background-repeat: no-repeat no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
 #text5 {
@@ -72,7 +72,10 @@
     margin-top: 128px;
     clear: both;
     width: 31.728771%;
-    border-style: none;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
     -webkit-box-shadow: none;
     box-shadow: none;
     border-top-left-radius: 3px;
@@ -160,6 +163,32 @@
     min-height: 21px;
     font-family: Roboto;
     color: rgb(255, 255, 255);
+    margin-right: 0%;
+    display: block;
+}
+
+#Main_CTA1 {
+    float: left;
+    height: 65px;
+    font-size: 24px;
+    margin-left: 34.22407%;
+    margin-top: 39px;
+    clear: both;
+    width: 31.728771%;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    font-family: 'Roboto Medium';
+    color: rgb(255, 255, 255);
+    display: block;
+    background-color: rgb(255, 95, 0);
     margin-right: 0%;
 }
 

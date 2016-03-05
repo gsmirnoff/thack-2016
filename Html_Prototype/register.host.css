@@ -42,21 +42,37 @@
     margin-top: 151px;
     clear: none;
     width: 200px;
-    background-color: rgb(18, 112, 178);
     margin-right: auto;
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
-    border-bottom-right-radius: 100px;
-    border-bottom-left-radius: 100px;
-    background-image:url("img/girl-s.jpg");
+    background-image:url("img/jonathan_s.jpg");
     background-position: 50% 0%;
     background-repeat: repeat;
     background-attachment: scroll;
     -webkit-background-size: cover;
     background-size: cover;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
 }
 
-#Name_Input {
+#text4 {
+    float: none;
+    font-size: 1em;
+    width: 36.324723%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1.2em;
+    margin-left: auto;
+    margin-top: 41px;
+    clear: none;
+    min-height: 137px;
+    color: rgb(81, 81, 81);
+    font-family: 'Roboto Light';
+    margin-right: auto;
+}
+
+#Address_Input {
     float: right;
     height: 93px;
     display: block;
@@ -66,6 +82,26 @@
     clear: none;
     width: 36.532561%;
     margin-right: 31.734956%;
+}
+
+#text5 {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: block;
+    font-family: 'Roboto Light';
+    color: rgb(81, 81, 81);
+    margin-top: 0px;
+    margin-left: 0%;
+    clear: none;
 }
 
 #textinput {
@@ -87,59 +123,22 @@
     border-bottom-left-radius: 3px;
     color: rgb(119, 119, 119);
     font-family: Roboto;
-    border-top-style: solid;
-    border-right-style: solid;
-    border-bottom-style: solid;
-    border-left-style: solid;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
     border-top-width: 1px;
     border-right-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
-    border-top-color: rgb(241, 241, 241);
-    border-right-color: rgb(241, 241, 241);
-    border-bottom-color: rgb(241, 241, 241);
-    border-left-color: rgb(241, 241, 241);
+    border-top-color: rgb(215, 215, 215);
+    border-right-color: rgb(215, 215, 215);
+    border-bottom-color: rgb(215, 215, 215);
+    border-left-color: rgb(215, 215, 215);
     background-color: rgb(241, 241, 241);
 }
 
-#text6 {
-    float: none;
-    font-size: 1em;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    padding-top: 0.2em;
-    padding-bottom: 0.2em;
-    padding-left: 0em;
-    padding-right: 0em;
-    display: block;
-    font-family: 'Roboto Light';
-    color: rgb(81, 81, 81);
-    margin-top: 0px;
-    margin-left: 0%;
-    clear: none;
-}
-
-#text5 {
-    float: none;
-    font-size: 1em;
-    width: 31.734956%;
-    height: auto;
-    text-align: center;
-    font-weight: normal;
-    line-height: 1.2em;
-    margin-left: auto;
-    margin-top: 41px;
-    clear: none;
-    min-height: 137px;
-    color: rgb(81, 81, 81);
-    font-family: 'Roboto Light';
-    margin-right: auto;
-}
-
-#Address_Input {
+#Email_Input {
     float: right;
     height: 93px;
     display: block;
@@ -151,7 +150,7 @@
     margin-right: 31.734956%;
 }
 
-#text7 {
+#text6 {
     float: none;
     font-size: 1em;
     width: auto;
@@ -205,72 +204,6 @@
     background-color: rgb(241, 241, 241);
 }
 
-#Email_Input {
-    float: right;
-    height: 93px;
-    display: block;
-    text-align: left;
-    margin-left: 0px;
-    margin-top: 28px;
-    clear: right;
-    width: 36.532561%;
-    margin-right: 31.734956%;
-}
-
-#text8 {
-    float: none;
-    font-size: 1em;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    padding-top: 0.2em;
-    padding-bottom: 0.2em;
-    padding-left: 0em;
-    padding-right: 0em;
-    display: block;
-    font-family: 'Roboto Light';
-    color: rgb(81, 81, 81);
-    margin-top: 0px;
-    margin-left: 0%;
-    clear: none;
-}
-
-#textinput2 {
-    float: none;
-    height: 54.625px;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 16px;
-    font-size: 1em;
-    display: block;
-    width: 100%;
-    margin-top: 17px;
-    margin-left: 0%;
-    clear: none;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-    border-bottom-left-radius: 3px;
-    color: rgb(119, 119, 119);
-    font-family: Roboto;
-    border-top-style: none;
-    border-right-style: none;
-    border-bottom-style: none;
-    border-left-style: none;
-    border-top-width: 1px;
-    border-right-width: 1px;
-    border-bottom-width: 1px;
-    border-left-width: 1px;
-    border-top-color: rgb(215, 215, 215);
-    border-right-color: rgb(215, 215, 215);
-    border-bottom-color: rgb(215, 215, 215);
-    border-left-color: rgb(215, 215, 215);
-    background-color: rgb(241, 241, 241);
-}
-
 #Language_Select {
     float: left;
     height: 93px;
@@ -279,7 +212,7 @@
     margin-left: 31.732482%;
     margin-top: 26px;
     clear: right;
-    width: 27.998812%;
+    width: 36.429879%;
 }
 
 #select {
@@ -304,7 +237,7 @@
     background-color: rgb(241, 241, 241);
 }
 
-#text9 {
+#text7 {
     float: none;
     font-size: 1em;
     width: auto;
@@ -326,36 +259,13 @@ body {
     color: rgb(81, 81, 81);
 }
 
-#Add_Lang_btn {
-    float: left;
-    height: 54px;
-    font-size: 18px;
-    margin-left: 1.155483%;
-    margin-top: 65px;
-    clear: none;
-    width: 7.378266%;
-    border-top-style: none;
-    border-right-style: none;
-    border-bottom-style: none;
-    border-left-style: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    background-color: rgb(255, 95, 0);
-    font-family: 'Roboto Medium';
-    color: rgb(255, 255, 255);
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-    border-bottom-left-radius: 3px;
-}
-
 #Menu {
     float: right;
     height: auto;
     margin-left: 0px;
     margin-top: 30px;
     clear: none;
-    width: 569.171875px;
+    width: 324.671875px;
     margin-right: 6.132472%;
     display: block;
 }
@@ -380,12 +290,12 @@ body {
 #text2 {
     float: left;
     font-size: 1em;
-    width: 120.99999928312499px;
+    width: 49.00000476px;
     height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 1em;
-    margin-left: 8.813777%;
+    margin-left: 7.195212%;
     margin-top: 0px;
     clear: none;
     min-height: 21px;
@@ -397,29 +307,12 @@ body {
 #text3 {
     float: left;
     font-size: 1em;
-    width: 49.00000476px;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    margin-left: 10.557279%;
-    margin-top: 0px;
-    clear: none;
-    min-height: 21px;
-    font-family: Roboto;
-    color: rgb(255, 255, 255);
-    margin-right: 0%;
-}
-
-#text4 {
-    float: left;
-    font-size: 1em;
     width: 69.18750627px;
     height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 1em;
-    margin-left: 7.49278%;
+    margin-left: 7.494441%;
     margin-top: 0px;
     clear: none;
     min-height: 0px;
@@ -428,11 +321,11 @@ body {
     color: rgb(255, 255, 255);
 }
 
-#Add_Lang_btn1 {
+#Add_Lang_btn {
     float: left;
     height: 54px;
     font-size: 18px;
-    margin-left: 31.794339%;
+    margin-left: 31.838876%;
     margin-top: 48px;
     clear: left;
     width: 36.579572%;
@@ -477,7 +370,7 @@ body {
     width: auto;
 }
 
-#text10 {
+#text8 {
     float: none;
     font-size: 1em;
     width: auto;
@@ -518,7 +411,7 @@ body {
     width: auto;
 }
 
-#text11 {
+#text9 {
     float: none;
     font-size: 1em;
     width: auto;
@@ -559,7 +452,7 @@ body {
     width: auto;
 }
 
-#text16 {
+#text14 {
     float: none;
     font-size: 1em;
     width: auto;
@@ -600,7 +493,7 @@ body {
     width: auto;
 }
 
-#text12 {
+#text10 {
     float: none;
     font-size: 1em;
     width: auto;
@@ -641,7 +534,7 @@ body {
     width: auto;
 }
 
-#text13 {
+#text11 {
     float: none;
     font-size: 1em;
     width: auto;
@@ -682,7 +575,7 @@ body {
     width: auto;
 }
 
-#text17 {
+#text15 {
     float: none;
     font-size: 1em;
     width: auto;
@@ -723,7 +616,7 @@ body {
     width: auto;
 }
 
-#text14 {
+#text12 {
     float: none;
     font-size: 1em;
     width: auto;
@@ -764,7 +657,7 @@ body {
     width: auto;
 }
 
-#text15 {
+#text13 {
     float: none;
     font-size: 1em;
     width: auto;
@@ -805,7 +698,7 @@ body {
     width: auto;
 }
 
-#text18 {
+#text16 {
     float: none;
     font-size: 1em;
     width: auto;
@@ -846,7 +739,7 @@ body {
     width: auto;
 }
 
-#text19 {
+#text17 {
     float: none;
     font-size: 1em;
     width: auto;
@@ -887,7 +780,7 @@ body {
     width: auto;
 }
 
-#text20 {
+#text18 {
     float: none;
     font-size: 1em;
     width: auto;
@@ -928,7 +821,7 @@ body {
     width: auto;
 }
 
-#text21 {
+#text19 {
     float: none;
     font-size: 1em;
     width: auto;
