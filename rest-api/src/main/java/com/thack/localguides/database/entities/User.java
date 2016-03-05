@@ -22,6 +22,7 @@ public class User {
     private List<String> interests;
     private List<String> languages;
     private List<String> badges;
+    private String bio;
 
     public User() {}
 
