@@ -5,7 +5,7 @@
                 <div id="User_pic" class="clearfix">
                 </div>
                 <p id="Username">
-                    Jonathan Creek &#x28;28&#x29;
+                    {{guideData.name}} &#x28;{{guideData.age}}&#x29;
                 </p>
                 <div id="Badges" class="clearfix">
                     <div id="Badge1" class="clearfix">
@@ -18,24 +18,24 @@
                     </div>
                 </div>
                 <p id="Userinfo">
-                    Like you, I used to think the world was this great place where everybody lived by the same standards I did, then some kid with a nail showed me.<br />
+                    {{guideData.bio}}<br />
                 </p>
             </div>
         </div>
     </div>
-    <p id="text4">
+    <p id="Profession">
         Profession&#x3a;
     </p>
-    <p id="text5">
-        Teacher
+    <p id="profession_info">
+        {{guideData.profession}}
     </p>
-    <p id="text6">
+    <p id="lives_since">
         Lives in Berlin since&#x3a;
     </p>
-    <p id="text7">
-        1999
+    <p id="year">
+        {{guideData.liveSince}}
     </p>
-    <p id="text8">
+    <p id="knows_about">
         Knows about&#x3a;
     </p>
     <div id="Knowledge_icon_1" class="clearfix">
@@ -46,7 +46,7 @@
     </div>
     <div id="Knowledge_icon_4" class="clearfix">
     </div>
-    <a href="chat.html">
-        <input id="Connect_guide_btn" type="button" value="Connect with Jonathan">
-    </a>
+
+    <input id="Connect_guide_btn" [value]="connectButtonText" type="button" (click)="onConnect()">
+
 </div>

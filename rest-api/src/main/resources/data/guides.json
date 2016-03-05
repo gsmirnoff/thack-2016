@@ -1,12 +1,22 @@
 [
     {
         "firstName" : "Joe",
+        "name" : "Joe",
         "lastName" : "Black",
+        "profession" : "Teacher",
+        "age": 28,
+        "bio" : "Like you, I used to think the world was this great place where everybody lived by the same standards I did, then some kid with a nail showed me.",
+        "liveSince" : "1999",
         "position" : [52.50023,13.40490]
     },
     {
         "firstName" : "Max",
+        "name" : "Max",
         "lastName" : "Mustermann",
+        "profession" : "Teacher",
+        "age": 28,
+        "bio" : "Like you, I used to think the world was this great place where everybody lived by the same standards I did, then some kid with a nail showed me.",
+        "liveSince" : "1999",
         "position" : [52.50364,13.39463]
     }
 ]

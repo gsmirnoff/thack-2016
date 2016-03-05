@@ -14,6 +14,7 @@ public class User {
     private String id;
 
     private String name;
+    private int age;
     private String email;
     private double[] position;
     private String password;
@@ -22,6 +23,8 @@ public class User {
     private List<String> languages;
     private List<String> badges;
     private String bio;
+    private String liveSince;
+    private String profession;
 
     private String role;
     private String status;
