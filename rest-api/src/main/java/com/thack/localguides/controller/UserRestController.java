@@ -25,11 +25,29 @@ public class UserRestController {
     @Autowired
     private UserRepository userRepository;
 
+    /**
+     *
+     * @return
+     */
     @GET
     @Path("guides")
     @Produces({ MediaType.APPLICATION_JSON })
     public Iterable<User> getGuides() {
-//        return Response.ok(userRepository.findAll()).build();
         return userRepository.findAll();
+    }
+
+    /**
+     * This method is used to obtain detailed information about specific user in the szstem.
+     * can be used on following flows:
+     *  - guide see more information about specific users that have booked contact with him
+     *  - tourist see more information about the guide near him
+     *
+     * @return
+     */
+    @GET
+    @Path("guide/{id}")
+    @Produces({ MediaType.APPLICATION_JSON })
+    public User getUser(@PathParam("id") String id) {
+        return userRepository.findOne(id);
     }
 }
