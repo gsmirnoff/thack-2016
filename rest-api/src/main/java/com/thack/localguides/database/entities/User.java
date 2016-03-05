@@ -1,6 +1,7 @@
 package com.thack.localguides.database.entities;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
+import lombok.Data;
 import org.springframework.data.annotation.Id;
 
 import javax.xml.bind.annotation.XmlRootElement;
@@ -8,7 +9,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 /**
  * Created by aakhmerov on 05.03.16.
  */
-@JsonAutoDetect
+@Data
 public class User {
     @Id
     private String id;
@@ -23,10 +24,4 @@ public class User {
         this.lastName = lastName;
     }
 
-    @Override
-    public String toString() {
-        return String.format(
-                "User[id=%s, firstName='%s', lastName='%s']",
-                id, firstName, lastName);
-    }
 }
