@@ -1,1 +1,10 @@
-login
+<div id="Hero_Picture" class="clearfix login">
+  <p id="text5">
+    Travel Globally, Help Locally
+  </p>
+  <form [ngFormModel]="loginForm">
+    <input id="Main_CTA" ngControl="name" type="text" value="Username">
+    <input id="Main_CTA1" ngControl="password" type="text" value="Password">
+    <button id="Main_CTA2" type="button" (click)="onSubmit()">Log in</button>
+  </form>
+</div>

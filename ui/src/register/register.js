@@ -3,18 +3,20 @@ import {FormBuilder, Validators} from 'angular2/common';
 import {User} from '../models/user'
 import {HTTP_PROVIDERS} from 'angular2/http'
 import {Router} from 'angular2/router';
-import {UserService} from '../services/UserService'
+import {UserService} from '../services/userService'
+import {AuthenticationService} from  '../services/authenticationService'
 
 
 @Component({
   selector: 'registation',
   templateUrl: 'register/register.html',
-  providers: [HTTP_PROVIDERS, UserService]
+  providers: [HTTP_PROVIDERS, UserService, AuthenticationService]
 })
 
 export class Register {
-  constructor(fb:FormBuilder, userService:UserService, router:Router) {
+  constructor(fb:FormBuilder, userService:UserService, authenticationService:AuthenticationService, router:Router) {
     this.userService = userService;
+    this.authenticationService = authenticationService;
     this.router = router;
     this.registrationForm = fb.group({
       name: ['', Validators.required],
@@ -34,7 +36,9 @@ export class Register {
       position.coords.longitude - 0.4
     ];
     this.userService.save(new User(fields))
-      .subscribe(() => this.router.navigate(['Map']));
+      .subscribe((user) => {
+        this.authenticationService.login(user.email, user.password);
+        this.router.navigate(['Map']);
+      });
   }
-
 }

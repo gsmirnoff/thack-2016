@@ -1,4 +1,4 @@
-.home#Hero_Picture {
+.login#Hero_Picture {
   float: left;
   height: 753px;
   margin-left: 0%;
@@ -13,23 +13,7 @@
   background-repeat: no-repeat no-repeat;
 }
 
-.home #text5 {
-  float: left;
-  font-size: 64px;
-  width: 70.665083%;
-  height: auto;
-  text-align: center;
-  font-weight: normal;
-  line-height: 1em;
-  margin-left: 14.666221%;
-  margin-top: 179px;
-  clear: none;
-  min-height: 78px;
-  color: rgb(255, 255, 255);
-  font-family: 'Roboto Black';
-}
-
-.home #Main_CTA {
+.login #Main_CTA {
   float: left;
   height: 65px;
   font-size: 24px;
@@ -37,24 +21,29 @@
   margin-top: 128px;
   clear: both;
   width: 31.728771%;
-  border-style: none;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
   -webkit-box-shadow: none;
   box-shadow: none;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
-  background-color: rgb(255, 95, 0);
+  background-color: rgb(255, 255, 255);
   font-family: 'Roboto Medium';
-  color: rgb(255, 255, 255);
+  color: rgb(81, 81, 81);
   display: block;
+  text-align: left;
+  padding-left: 16px;
 }
 
-.home #Main_CTA1 {
+.login #Main_CTA2 {
   float: left;
   height: 65px;
   font-size: 24px;
-  margin-left: 34.223694%;
+  margin-left: 34.242627%;
   margin-top: 36px;
   clear: both;
   width: 31.728771%;
@@ -75,5 +64,29 @@
   margin-right: 0%;
 }
 
-
-
+.login #Main_CTA1 {
+  float: left;
+  height: 65px;
+  font-size: 24px;
+  margin-left: 34.22407%;
+  margin-top: 36px;
+  clear: both;
+  width: 31.728771%;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  font-family: 'Roboto Medium';
+  color: rgb(81, 81, 81);
+  display: block;
+  text-align: left;
+  padding-left: 16px;
+  background-color: rgb(255, 255, 255);
+  margin-right: 0%;
+}
