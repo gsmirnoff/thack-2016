@@ -4,9 +4,10 @@ import {Location, RouteConfig, RouterLink, Router, HashLocationStrategy, Locatio
 import {ROUTER_PROVIDERS} from 'angular2/router';
 import {HTTP_PROVIDERS} from 'angular2/http';
 import {Page} from 'page/page';
-import {Login} from 'login/login'
-import {Register} from 'register/register'
-import {Home} from 'home/home'
+import {Login} from 'login/login';
+import {Register} from 'register/register';
+import {Home} from 'home/home';
+import {Map} from 'map/map';
 
 @Component({
   selector: 'main'
@@ -21,7 +22,8 @@ import {Home} from 'home/home'
   {path: '/', redirectTo: ['/Home']},
   {path: '/home', component: Home, as: 'Home'},
   {path: '/register', component: Register, as: 'Register'},
-  {path: '/login', component: Login, as: 'Login'}
+  {path: '/login', component: Login, as: 'Login'},
+  {path: '/map', component: Map, as: 'Map'}
 ])
 
 class Main {
