@@ -36,7 +36,7 @@ public class UserRestController {
     }
 
     /**
-     * This method is used to obtain detailed information about specific user in the szstem.
+     * This method is used to obtain detailed information about specific user in the system.
      * can be used on following flows:
      *  - guide see more information about specific users that have booked contact with him
      *  - tourist see more information about the guide near him
