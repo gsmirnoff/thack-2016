@@ -86,7 +86,7 @@ export class Map {
     }
 
     addInfoWindow (markerPin, info) {
-        var description = '<div class ="marker icon"><a href="/#/guideInfo/' + info.id + '">' + info.firstName + ' </a> </div>';
+        var description = '<div class ="marker icon"><a href="/#/guideInfo/' + info.id + '">' + info.name + ' </a> </div>';
         let infoWindow = new google.maps.InfoWindow({
             content: description
         });

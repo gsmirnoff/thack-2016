@@ -61,7 +61,6 @@ public class UserRestController {
      * @return
      */
     @POST
-    @Path("/")
     @Produces({ MediaType.APPLICATION_JSON })
     @Consumes({ MediaType.APPLICATION_JSON })
     public User createUser(User toSave) {
@@ -76,7 +75,6 @@ public class UserRestController {
      * @return
      */
     @PUT
-    @Path("/")
     @Produces({ MediaType.APPLICATION_JSON })
     @Consumes({ MediaType.APPLICATION_JSON })
     public User updateUser(User toSave) {

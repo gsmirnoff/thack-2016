@@ -86,16 +86,13 @@ body {
     color: rgb(255, 255, 255);
 }
 
-#Add_Lang_btn {
+#Connect_guide_btn {
     float: left;
     height: 64px;
     font-size: 18px;
     clear: left;
     width: 48.849466%;
-    border-top-style: none;
-    border-right-style: none;
-    border-bottom-style: none;
-    border-left-style: none;
+    border-style: none;
     -webkit-box-shadow: none;
     box-shadow: none;
     font-family: 'Roboto Medium';
@@ -114,7 +111,7 @@ body {
     margin-right: 0px;
 }
 
-#text10 {
+#text8 {
     float: left;
     font-size: 20px;
     width: 16.990796%;
@@ -130,7 +127,7 @@ body {
     margin-right: 0%;
 }
 
-#text8 {
+#text6 {
     float: left;
     font-size: 20px;
     width: 17.066261%;
@@ -146,7 +143,7 @@ body {
     margin-right: 0%;
 }
 
-#text6 {
+#text4 {
     float: left;
     font-size: 20px;
     width: 17.066261%;
@@ -162,7 +159,7 @@ body {
     margin-right: 0%;
 }
 
-#box8 {
+#Knowledge_icon_1 {
     float: left;
     height: 70px;
     margin-left: 25.726198%;
@@ -173,7 +170,7 @@ body {
     margin-right: 0%;
 }
 
-#box9 {
+#Knowledge_icon_2 {
     float: left;
     height: 70px;
     margin-left: 2.988915%;
@@ -184,7 +181,7 @@ body {
     margin-right: 0%;
 }
 
-#box10 {
+#Knowledge_icon_3 {
     float: left;
     height: 70px;
     margin-left: 3.068092%;
@@ -195,7 +192,7 @@ body {
     background-color: rgb(178, 178, 178);
 }
 
-#box11 {
+#Knowledge_icon_4 {
     float: left;
     height: 70px;
     margin-left: 2.917162%;
@@ -206,7 +203,7 @@ body {
     background-color: rgb(178, 178, 178);
 }
 
-#text7 {
+#text5 {
     float: right;
     font-size: 20px;
     width: 17.066261%;
@@ -222,7 +219,7 @@ body {
     margin-right: 25.507225%;
 }
 
-#text9 {
+#text7 {
     float: right;
     font-size: 20px;
     width: 17.066261%;
@@ -238,7 +235,7 @@ body {
     margin-right: 25.505988%;
 }
 
-#box {
+#Profile_hero_pic {
     float: left;
     height: 351px;
     margin-left: 0%;
@@ -246,14 +243,14 @@ body {
     clear: both;
     width: 100%;
     background-image:url("img/breakfast_blur.jpg");
-    background-position: 50% 50%;
-    background-repeat: repeat;
     background-attachment: scroll;
     -webkit-background-size: cover;
     background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: repeat repeat;
 }
 
-#box1 {
+#Profile_info_box {
     float: left;
     height: 253px;
     margin-left: 0%;
@@ -267,7 +264,7 @@ body {
     border-bottom-left-radius: 3px;
 }
 
-#Register_Graphic {
+#User_pic {
     float: left;
     height: 200px;
     margin-left: 20%;
@@ -281,11 +278,11 @@ body {
     border-bottom-left-radius: 100px;
     display: block;
     background-image:url("img/jonathan_s.jpg");
-    background-position: 50% 10%;
-    background-repeat: no-repeat;
     background-attachment: scroll;
     -webkit-background-size: auto;
     background-size: auto;
+    background-position: 50% 10%;
+    background-repeat: no-repeat no-repeat;
 }
 
 #text2 {
@@ -318,7 +315,7 @@ body {
     display: none;
 }
 
-#text4 {
+#Username {
     float: left;
     font-size: 32px;
     width: 50%;
@@ -335,7 +332,7 @@ body {
     display: block;
 }
 
-#box4 {
+#Badge1 {
     float: left;
     height: 30px;
     margin-left: 0%;
@@ -351,7 +348,7 @@ body {
     background-color: rgb(255, 206, 0);
 }
 
-#box5 {
+#Badge2 {
     float: left;
     height: 30px;
     margin-left: 10%;
@@ -367,7 +364,7 @@ body {
     background-color: rgb(0, 206, 255);
 }
 
-#box6 {
+#Badge3 {
     float: left;
     height: 30px;
     margin-left: 10%;
@@ -383,7 +380,7 @@ body {
     background-color: rgb(97, 204, 0);
 }
 
-#box7 {
+#Badge4 {
     float: left;
     height: 30px;
     margin-left: 10%;
@@ -399,7 +396,7 @@ body {
     background-color: rgb(255, 147, 0);
 }
 
-#text5 {
+#Userinfo {
     float: left;
     font-size: 1em;
     width: 50%;
@@ -407,30 +404,24 @@ body {
     text-align: left;
     font-weight: normal;
     line-height: 1.2em;
-    margin-left: -50%;
-    margin-top: 80px;
+    margin: 80px 0px 0px -50%;
     clear: none;
     min-height: 118px;
     color: rgb(81, 81, 81);
     font-family: 'Roboto Light';
-    margin-right: 0px;
     display: block;
-    margin-bottom: 0px;
 }
 
-#box3 {
+#Badges {
     float: left;
     height: auto;
-    margin-left: -49.87%;
-    margin-top: 40px;
+    margin: 40px 0% 0px -49.87%;
     clear: none;
     width: 20%;
-    margin-right: 0%;
     min-height: 0px;
-    margin-bottom: 0px;
 }
 
-#box2 {
+#Profile_info {
     float: none;
     height: auto;
     margin-left: auto;
@@ -454,13 +445,21 @@ body {
         display: none;
     }
 
-    #Register_Graphic {
+    #User_pic {
         margin-left: 6%;
+    }
+
+    #text4 {
+        margin-left: 5.999349%;
+        margin-top: 31px;
+        clear: both;
+        height: auto;
+        width: 28.133138%;
     }
 
     #text6 {
         margin-left: 5.999349%;
-        margin-top: 31px;
+        margin-top: 18px;
         clear: both;
         height: auto;
         width: 28.133138%;
@@ -471,24 +470,16 @@ body {
         margin-top: 18px;
         clear: both;
         height: auto;
-        width: 28.133138%;
-    }
-
-    #text10 {
-        margin-left: 5.999349%;
-        margin-top: 18px;
-        clear: both;
-        height: auto;
         width: 27.931315%;
     }
 
-    #box8 {
+    #Knowledge_icon_1 {
         margin-left: 5.999349%;
         margin-top: 30px;
         clear: left;
     }
 
-    #Add_Lang_btn {
+    #Connect_guide_btn {
         width: 53%;
         margin-left: auto;
         margin-right: auto;
@@ -497,29 +488,29 @@ body {
         margin-top: 732px;
     }
 
-    #box {
+    #Profile_hero_pic {
         margin-top: 0px;
         margin-left: 0%;
         clear: both;
         background-image:url("img/breakfast_blur.jpg");
-        background-position: 50% 50%;
-        background-repeat: repeat;
         background-attachment: scroll;
         -webkit-background-size: cover;
         background-size: cover;
+        background-position: 50% 50%;
+        background-repeat: repeat repeat;
     }
 
-    #text9 {
+    #text7 {
         margin-right: 5.999349%;
         margin-top: -6px;
         clear: left;
     }
 
-    #text7 {
+    #text5 {
         margin-right: 6%;
     }
 
-    #text4 {
+    #Username {
         height: auto;
         clear: none;
         margin-right: 0px;
@@ -529,7 +520,7 @@ body {
         width: 50%;
     }
 
-    #box4 {
+    #Badge1 {
         margin-left: 0%;
         margin-right: 0px;
         float: left;
@@ -537,7 +528,7 @@ body {
         margin-top: 0px;
     }
 
-    #box5 {
+    #Badge2 {
         margin-left: 12%;
         margin-right: 0px;
         float: left;
@@ -545,7 +536,7 @@ body {
         margin-top: 0px;
     }
 
-    #box6 {
+    #Badge3 {
         margin-left: 15%;
         margin-right: 0px;
         float: left;
@@ -553,7 +544,7 @@ body {
         margin-top: 0px;
     }
 
-    #box7 {
+    #Badge4 {
         margin-left: 86.216919%;
         margin-right: 0px;
         float: left;
@@ -561,17 +552,153 @@ body {
         margin-top: -30px;
     }
 
-    #text5 {
+    #Userinfo {
         clear: none;
         height: auto;
         float: left;
     }
 
-    #box3 {
+    #Badges {
         float: left;
         clear: none;
         height: 30px;
         width: 204.28125119999999px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #Username {
+        font-size: 20px;
+        height: auto;
+        width: 57.978125%;
+    }
+
+    #Badges {
+        width: 40.85625%;
+        margin-top: 32px;
+        margin-left: -57.846875%;
+        clear: none;
+    }
+
+    #User_pic {
+        width: 120px;
+        height: 120px;
+        background-image:url("img/jonathan_s.jpg");
+        background-attachment: scroll;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: 50% 10%;
+        background-repeat: no-repeat no-repeat;
+    }
+
+    #Profile_info {
+        height: 159px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #Userinfo {
+        height: auto;
+        width: 57.978125%;
+        min-height: 79px;
+        font-size: 13px;
+        margin-top: 80px;
+        margin-left: -57.978125%;
+        clear: none;
+    }
+
+    #Header {
+        height: 56px;
+    }
+
+    #text {
+        font-size: 36px;
+        margin-top: 10px;
+    }
+
+    #Hamburger {
+        height: 20px;
+        margin-top: 18px;
+    }
+
+    #Profile_info_box {
+        height: 203px;
+        margin-top: 24px;
+    }
+
+    #text4 {
+        margin-top: 24px;
+        margin-left: 5.996875%;
+        clear: both;
+        font-size: 16px;
+        height: auto;
+        width: 36.66875%;
+    }
+
+    #text5 {
+        margin-right: 6%;
+        margin-top: 24px;
+        clear: none;
+        font-size: 16px;
+    }
+
+    #Profile_hero_pic {
+        height: 260px;
+        margin-top: 0px;
+        margin-left: 0%;
+        clear: both;
+    }
+
+    #text6 {
+        font-size: 16px;
+        height: auto;
+        width: 36.66875%;
+        margin-top: 18px;
+        margin-left: 5.996875%;
+        clear: both;
+    }
+
+    #text7 {
+        margin-right: 6%;
+        margin-top: -23px;
+        clear: left;
+        font-size: 16px;
+    }
+
+    #text8 {
+        font-size: 16px;
+        margin-top: 44px;
+        margin-left: 5.996875%;
+        clear: none;
+    }
+
+    #Knowledge_icon_1 {
+        margin-top: 30px;
+        margin-left: 5.996875%;
+        clear: left;
+        height: 48px;
+        width: 48px;
+    }
+
+    #Knowledge_icon_2 {
+        width: 48px;
+        height: 48px;
+    }
+
+    #Knowledge_icon_3 {
+        height: 48px;
+        width: 48px;
+    }
+
+    #Knowledge_icon_4 {
+        height: 48px;
+        width: 48px;
+    }
+
+    #Connect_guide_btn {
+        margin-top: 584px;
+        clear: none;
+        width: 87%;
     }
 }
 
