@@ -107,11 +107,11 @@ body {
     top: 0px;
     left: 0px;
     margin-top: 48px;
-    margin-left: 25.701455%;
+    margin-left: 25.701103%;
     margin-right: 0px;
 }
 
-#text8 {
+#knows_about {
     float: left;
     font-size: 20px;
     width: 16.990796%;
@@ -119,23 +119,23 @@ body {
     text-align: left;
     font-weight: normal;
     line-height: 1em;
-    margin-left: 25.801663%;
-    margin-top: 18px;
+    margin-left: 25.801474%;
+    margin-top: 35px;
     clear: none;
     min-height: 23px;
     font-family: 'Roboto Black';
     margin-right: 0%;
 }
 
-#text6 {
+#lives_since {
     float: left;
     font-size: 20px;
-    width: 17.066261%;
+    width: 23.073466%;
     height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 1em;
-    margin-left: 25.726198%;
+    margin-left: 25.725072%;
     margin-top: 18px;
     clear: both;
     min-height: 23px;
@@ -143,15 +143,15 @@ body {
     margin-right: 0%;
 }
 
-#text4 {
+#Profession {
     float: left;
     font-size: 20px;
-    width: 17.066261%;
+    width: 23.073466%;
     height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 1em;
-    margin-left: 25.726198%;
+    margin-left: 25.725072%;
     margin-top: 31px;
     clear: both;
     min-height: 23px;
@@ -162,7 +162,7 @@ body {
 #Knowledge_icon_1 {
     float: left;
     height: 70px;
-    margin-left: 25.726198%;
+    margin-left: 25.725072%;
     margin-top: 30px;
     clear: left;
     width: 70px;
@@ -203,7 +203,7 @@ body {
     background-color: rgb(178, 178, 178);
 }
 
-#text5 {
+#profession_info {
     float: right;
     font-size: 20px;
     width: 17.066261%;
@@ -219,7 +219,7 @@ body {
     margin-right: 25.507225%;
 }
 
-#text7 {
+#year {
     float: right;
     font-size: 20px;
     width: 17.066261%;
@@ -232,7 +232,7 @@ body {
     clear: left;
     min-height: 23px;
     font-family: 'Roboto Light';
-    margin-right: 25.505988%;
+    margin-right: 25.504854%;
 }
 
 #Profile_hero_pic {
@@ -242,7 +242,7 @@ body {
     margin-top: 0px;
     clear: both;
     width: 100%;
-    background-image:url("img/breakfast_blur.jpg");
+    background-image:url("/img/breakfast_blur.jpg");
     background-attachment: scroll;
     -webkit-background-size: cover;
     background-size: cover;
@@ -277,7 +277,7 @@ body {
     border-bottom-right-radius: 100px;
     border-bottom-left-radius: 100px;
     display: block;
-    background-image:url("img/jonathan_s.jpg");
+    background-image:url("/img/jonathan_s.jpg");
     background-attachment: scroll;
     -webkit-background-size: auto;
     background-size: auto;
@@ -449,7 +449,7 @@ body {
         margin-left: 6%;
     }
 
-    #text4 {
+    #Profession {
         margin-left: 5.999349%;
         margin-top: 31px;
         clear: both;
@@ -457,7 +457,7 @@ body {
         width: 28.133138%;
     }
 
-    #text6 {
+    #lives_since {
         margin-left: 5.999349%;
         margin-top: 18px;
         clear: both;
@@ -465,10 +465,10 @@ body {
         width: 28.133138%;
     }
 
-    #text8 {
+    #knows_about {
         margin-left: 5.999349%;
         margin-top: 18px;
-        clear: both;
+        clear: none;
         height: auto;
         width: 27.931315%;
     }
@@ -492,7 +492,7 @@ body {
         margin-top: 0px;
         margin-left: 0%;
         clear: both;
-        background-image:url("img/breakfast_blur.jpg");
+        background-image:url("/img/breakfast_blur.jpg");
         background-attachment: scroll;
         -webkit-background-size: cover;
         background-size: cover;
@@ -500,13 +500,13 @@ body {
         background-repeat: repeat repeat;
     }
 
-    #text7 {
+    #year {
         margin-right: 5.999349%;
-        margin-top: -6px;
+        margin-top: -23px;
         clear: left;
     }
 
-    #text5 {
+    #profession_info {
         margin-right: 6%;
     }
 
@@ -583,7 +583,7 @@ body {
     #User_pic {
         width: 120px;
         height: 120px;
-        background-image:url("img/jonathan_s.jpg");
+        background-image:url("/img/jonathan_s.jpg");
         background-attachment: scroll;
         -webkit-background-size: cover;
         background-size: cover;
@@ -626,7 +626,7 @@ body {
         margin-top: 24px;
     }
 
-    #text4 {
+    #Profession {
         margin-top: 24px;
         margin-left: 5.996875%;
         clear: both;
@@ -635,7 +635,7 @@ body {
         width: 36.66875%;
     }
 
-    #text5 {
+    #profession_info {
         margin-right: 6%;
         margin-top: 24px;
         clear: none;
@@ -649,7 +649,7 @@ body {
         clear: both;
     }
 
-    #text6 {
+    #lives_since {
         font-size: 16px;
         height: auto;
         width: 36.66875%;
@@ -658,22 +658,22 @@ body {
         clear: both;
     }
 
-    #text7 {
+    #year {
         margin-right: 6%;
         margin-top: -23px;
         clear: left;
         font-size: 16px;
     }
 
-    #text8 {
+    #knows_about {
         font-size: 16px;
-        margin-top: 44px;
+        margin-top: 18px;
         margin-left: 5.996875%;
         clear: none;
     }
 
     #Knowledge_icon_1 {
-        margin-top: 30px;
+        margin-top: 24px;
         margin-left: 5.996875%;
         clear: left;
         height: 48px;
@@ -683,20 +683,24 @@ body {
     #Knowledge_icon_2 {
         width: 48px;
         height: 48px;
+        margin-bottom: 0px;
+        margin-top: 24px;
     }
 
     #Knowledge_icon_3 {
         height: 48px;
         width: 48px;
+        margin-top: 24px;
     }
 
     #Knowledge_icon_4 {
         height: 48px;
         width: 48px;
+        margin-top: 24px;
     }
 
     #Connect_guide_btn {
-        margin-top: 584px;
+        margin-top: 548px;
         clear: none;
         width: 87%;
     }
