@@ -90,8 +90,9 @@ export class Map {
     }
 
     addInfoWindow (markerPin, info) {
+        var description = '<div class ="marker icon"><a href="/#/guideInfo/' + info.id + '">' + info.name + ' </a> </div>';
         let infoWindow = new google.maps.InfoWindow({
-            content: info.description
+            content: description
         });
 
         google.maps.event.addListener(markerPin, 'click', function(){

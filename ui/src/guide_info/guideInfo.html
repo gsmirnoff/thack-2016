@@ -1,0 +1,52 @@
+<div id="primaryContainer" class="primaryContainer clearfix">
+    <div id="Profile_hero_pic" class="clearfix">
+        <div id="Profile_info_box" class="clearfix">
+            <div id="Profile_info" class="clearfix">
+                <div id="User_pic" class="clearfix">
+                </div>
+                <p id="Username">
+                    {{guideData.name}} &#x28;{{guideData.age}}&#x29;
+                </p>
+                <div id="Badges" class="clearfix">
+                    <div id="Badge1" class="clearfix">
+                    </div>
+                    <div id="Badge2" class="clearfix">
+                    </div>
+                    <div id="Badge3" class="clearfix">
+                    </div>
+                    <div id="Badge4" class="clearfix">
+                    </div>
+                </div>
+                <p id="Userinfo">
+                    {{guideData.bio}}<br />
+                </p>
+            </div>
+        </div>
+    </div>
+    <p id="Profession">
+        Profession&#x3a;
+    </p>
+    <p id="profession_info">
+        {{guideData.profession}}
+    </p>
+    <p id="lives_since">
+        Lives in Berlin since&#x3a;
+    </p>
+    <p id="year">
+        {{guideData.liveSince}}
+    </p>
+    <p id="knows_about">
+        Knows about&#x3a;
+    </p>
+    <div id="Knowledge_icon_1" class="clearfix">
+    </div>
+    <div id="Knowledge_icon_2" class="clearfix">
+    </div>
+    <div id="Knowledge_icon_3" class="clearfix">
+    </div>
+    <div id="Knowledge_icon_4" class="clearfix">
+    </div>
+
+    <input id="Connect_guide_btn" [value]="connectButtonText" type="button" (click)="onConnect()">
+
+</div>

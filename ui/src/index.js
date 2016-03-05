@@ -8,6 +8,7 @@ import {Login} from 'login/login';
 import {Register} from 'register/register';
 import {Home} from 'home/home';
 import {Map} from 'map/map';
+import {GuideInfo} from 'guide_info/guideInfo';
 
 @Component({
   selector: 'main'
@@ -23,7 +24,8 @@ import {Map} from 'map/map';
   {path: '/home', component: Home, as: 'Home'},
   {path: '/register', component: Register, as: 'Register'},
   {path: '/login', component: Login, as: 'Login'},
-  {path: '/map', component: Map, as: 'Map'}
+  {path: '/map', component: Map, as: 'Map'},
+  {path: '/guideInfo/:id', component: GuideInfo, as: 'GuideInfo'}
 ])
 
 class Main {
