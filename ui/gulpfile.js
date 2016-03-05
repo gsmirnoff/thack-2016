@@ -1,7 +1,7 @@
 var gulp = require('gulp'),
-    rename = require('gulp-rename'),
-    traceur = require('gulp-traceur'),
-    webserver = require('gulp-webserver');
+  rename = require('gulp-rename'),
+  traceur = require('gulp-traceur'),
+  webserver = require('gulp-webserver');
 
 // run init tasks
 gulp.task('default', ['dependencies', 'js', 'html', 'css']);
@@ -27,16 +27,17 @@ gulp.task('watch', function () {
 // move dependencies into build dir
 gulp.task('dependencies', function () {
   return gulp.src([
-    'node_modules/traceur/bin/traceur-runtime.js',
-    'node_modules/systemjs/dist/system-csp-production.src.js',
-    'node_modules/systemjs/dist/system.js',
-    'node_modules/reflect-metadata/Reflect.js',
-    'node_modules/angular2/bundles/angular2.js',
-    'node_modules/angular2/bundles/angular2-polyfills.js',
-    'node_modules/rxjs/bundles/Rx.js',
-    'node_modules/es6-shim/es6-shim.min.js',
-    'node_modules/es6-shim/es6-shim.map'
-  ])
+      'node_modules/traceur/bin/traceur-runtime.js',
+      'node_modules/systemjs/dist/system-csp-production.src.js',
+      'node_modules/systemjs/dist/system.js',
+      'node_modules/reflect-metadata/Reflect.js',
+      'node_modules/angular2/bundles/angular2.js',
+      'node_modules/angular2/bundles/angular2-polyfills.js',
+      'node_modules/angular2/bundles/router.js',
+      'node_modules/rxjs/bundles/Rx.js',
+      'node_modules/es6-shim/es6-shim.min.js',
+      'node_modules/es6-shim/es6-shim.map'
+    ])
     .pipe(gulp.dest('build/lib'));
 });
 
