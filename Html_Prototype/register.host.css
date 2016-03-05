@@ -147,7 +147,7 @@
     margin-top: 28px;
     clear: right;
     width: 36.532561%;
-    margin-right: 31.734956%;
+    margin-right: 31.733353%;
 }
 
 #text6 {
@@ -209,7 +209,7 @@
     height: 93px;
     display: block;
     text-align: left;
-    margin-left: 31.732482%;
+    margin-left: 31.731893%;
     margin-top: 26px;
     clear: right;
     width: 36.429879%;
@@ -325,7 +325,7 @@ body {
     float: left;
     height: 54px;
     font-size: 18px;
-    margin-left: 31.838876%;
+    margin-left: 31.838493%;
     margin-top: 48px;
     clear: left;
     width: 36.579572%;
@@ -351,7 +351,7 @@ body {
     height: auto;
     display: block;
     text-align: left;
-    margin-left: 31.794339%;
+    margin-left: 31.793224%;
     margin-top: 56.5px;
     clear: left;
     width: 17.009353%;
@@ -433,7 +433,7 @@ body {
     height: auto;
     display: block;
     text-align: left;
-    margin-left: 31.794339%;
+    margin-left: 31.793224%;
     margin-top: 33px;
     clear: left;
     width: 17.009353%;
@@ -474,7 +474,7 @@ body {
     height: auto;
     display: block;
     text-align: left;
-    margin-left: 31.847536%;
+    margin-left: 31.845794%;
     margin-top: 33px;
     clear: left;
     width: 16.952445%;
@@ -551,19 +551,19 @@ body {
     font-family: 'Roboto Light';
 }
 
-#formgroup7 {
+#formgroup8 {
     float: left;
     height: auto;
     display: block;
     text-align: left;
-    margin-left: 31.847536%;
-    margin-top: 33px;
+    margin-left: 31.845794%;
+    margin-top: 31px;
     clear: left;
     width: 16.952445%;
     margin-right: 0%;
 }
 
-#input7 {
+#input8 {
     float: none;
     height: auto;
     padding-top: 0px;
@@ -575,7 +575,7 @@ body {
     width: auto;
 }
 
-#text15 {
+#text16 {
     float: none;
     font-size: 1em;
     width: auto;
@@ -597,7 +597,7 @@ body {
     height: auto;
     display: block;
     text-align: left;
-    margin-left: 31.874753%;
+    margin-left: 31.87354%;
     margin-top: 33px;
     clear: left;
     width: 16.925228%;
@@ -674,97 +674,15 @@ body {
     font-family: 'Roboto Light';
 }
 
-#formgroup8 {
-    float: left;
-    height: auto;
-    display: block;
-    text-align: left;
-    margin-left: 31.874753%;
-    margin-top: 33px;
-    clear: left;
-    width: 16.928939%;
-    margin-right: 0%;
-}
-
-#input8 {
-    float: none;
-    height: auto;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    font-size: 1em;
-    display: inline-block;
-    width: auto;
-}
-
-#text16 {
-    float: none;
-    font-size: 1em;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    padding-top: 0em;
-    padding-bottom: 0em;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    display: inline-block;
-    margin-left: 16px;
-    font-family: 'Roboto Light';
-}
-
-#formgroup9 {
-    float: left;
-    height: auto;
-    display: block;
-    text-align: left;
-    margin-left: 2.486639%;
-    margin-top: -69px;
-    clear: none;
-    width: 17.029147%;
-    margin-right: 0%;
-}
-
-#input9 {
-    float: none;
-    height: auto;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    font-size: 1em;
-    display: inline-block;
-    width: auto;
-}
-
-#text17 {
-    float: none;
-    font-size: 1em;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    padding-top: 0em;
-    padding-bottom: 0em;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    display: inline-block;
-    margin-left: 16px;
-    font-family: 'Roboto Light';
-}
-
 #formgroup10 {
     float: left;
     height: auto;
     display: block;
     text-align: left;
-    margin-left: 2.567053%;
-    margin-top: -17px;
-    clear: none;
-    width: 16.948733%;
+    margin-left: 31.87354%;
+    margin-top: 33px;
+    clear: left;
+    width: 16.928939%;
     margin-right: 0%;
 }
 
@@ -797,13 +715,95 @@ body {
     font-family: 'Roboto Light';
 }
 
+#formgroup7 {
+    float: left;
+    height: auto;
+    display: block;
+    text-align: left;
+    margin-left: 2.273657%;
+    margin-top: 33px;
+    clear: none;
+    width: 17.029147%;
+    margin-right: 0%;
+}
+
+#input7 {
+    float: none;
+    height: auto;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+    display: inline-block;
+    width: auto;
+}
+
+#text15 {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    display: inline-block;
+    margin-left: 16px;
+    font-family: 'Roboto Light';
+}
+
+#formgroup9 {
+    float: left;
+    height: auto;
+    display: block;
+    text-align: left;
+    margin-left: 2.400701%;
+    margin-top: 33px;
+    clear: none;
+    width: 16.948733%;
+    margin-right: 0%;
+}
+
+#input9 {
+    float: none;
+    height: auto;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+    display: inline-block;
+    width: auto;
+}
+
+#text17 {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    display: inline-block;
+    margin-left: 16px;
+    font-family: 'Roboto Light';
+}
+
 #formgroup11 {
     float: left;
     height: auto;
     display: block;
     text-align: left;
-    margin-left: -17.065024%;
-    margin-top: 35px;
+    margin-left: 2.275117%;
+    margin-top: 33px;
     clear: none;
     width: 17.066261%;
     margin-right: 0%;
@@ -836,5 +836,165 @@ body {
     display: inline-block;
     margin-left: 16px;
     font-family: 'Roboto Light';
+}
+
+#Hamburger {
+    float: left;
+    width: auto;
+    max-width: none;
+    height: 25px;
+    margin-left: 12.141958%;
+    margin-top: 23px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+    display: none;
+}
+
+@media only screen and (max-width: 960px) {
+    #Menu {
+        display: none;
+    }
+
+    #Hamburger {
+        display: block;
+        margin-left: 0px;
+        margin-right: 5%;
+        float: right;
+        margin-top: 28px;
+        clear: none;
+    }
+
+    #text4 {
+        height: auto;
+        margin-top: 41px;
+        margin-left: auto;
+        clear: none;
+        width: 70%;
+        margin-right: auto;
+        min-height: 86px;
+    }
+
+    #Address_Input {
+        margin-right: auto;
+        margin-top: 77px;
+        clear: none;
+        margin-left: auto;
+        float: none;
+        width: 70%;
+    }
+
+    #Email_Input {
+        margin-right: auto;
+        margin-top: 28px;
+        clear: none;
+        margin-left: auto;
+        float: none;
+        width: 70%;
+    }
+
+    #Language_Select {
+        margin-top: 26px;
+        margin-left: auto;
+        clear: none;
+        margin-right: auto;
+        float: none;
+        width: 70%;
+    }
+
+    #formgroup {
+        margin-top: 57px;
+        margin-left: 15%;
+        clear: none;
+        width: 19.132487%;
+    }
+
+    #formgroup2 {
+        margin-top: 57px;
+        margin-left: 6.222331%;
+        clear: none;
+        width: 19.046224%;
+    }
+
+    #formgroup4 {
+        margin-top: 48px;
+        margin-left: 6.132813%;
+        clear: none;
+        width: 19.466146%;
+    }
+
+    #formgroup5 {
+        margin-top: 48px;
+        margin-left: 6.118164%;
+        clear: none;
+        width: 19.482422%;
+    }
+
+    #formgroup6 {
+        margin-top: 48px;
+        margin-left: 15%;
+        clear: both;
+        width: 19.132487%;
+    }
+
+    #formgroup8 {
+        margin-top: 48px;
+        margin-left: 6.222331%;
+        clear: none;
+        width: 19.378255%;
+    }
+
+    #formgroup10 {
+        margin-top: 48px;
+        margin-left: 6.132813%;
+        clear: none;
+        width: 19.466146%;
+    }
+
+    #formgroup7 {
+        margin-top: 48px;
+        margin-left: 6.220703%;
+        clear: none;
+        margin-right: 0%;
+        width: 19.378255%;
+    }
+
+    #formgroup9 {
+        margin-top: 48px;
+        margin-left: 15%;
+        clear: both;
+        margin-right: 0%;
+        width: 19.132487%;
+    }
+
+    #formgroup11 {
+        margin-top: 48px;
+        margin-left: 6.118164%;
+        clear: none;
+        width: 19.482422%;
+    }
+
+    #Add_Lang_btn {
+        margin-top: 380px;
+        margin-left: auto;
+        clear: none;
+        margin-right: auto;
+        float: none;
+        width: 53%;
+    }
+
+    #formgroup1 {
+        margin-top: 57px;
+        margin-left: 6.132813%;
+        clear: none;
+        width: 19.466146%;
+    }
+
+    #formgroup3 {
+        margin-top: 48px;
+        margin-left: 15%;
+        clear: both;
+        width: 19.132487%;
+    }
 }
 

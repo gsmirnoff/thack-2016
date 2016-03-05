@@ -110,7 +110,7 @@ body {
     top: 0px;
     left: 0px;
     margin-top: 48px;
-    margin-left: 25.703929%;
+    margin-left: 25.701455%;
     margin-right: 0px;
 }
 
@@ -138,7 +138,7 @@ body {
     text-align: left;
     font-weight: normal;
     line-height: 1em;
-    margin-left: 25.727435%;
+    margin-left: 25.726198%;
     margin-top: 18px;
     clear: both;
     min-height: 23px;
@@ -154,7 +154,7 @@ body {
     text-align: left;
     font-weight: normal;
     line-height: 1em;
-    margin-left: 25.727435%;
+    margin-left: 25.726198%;
     margin-top: 31px;
     clear: both;
     min-height: 23px;
@@ -162,10 +162,10 @@ body {
     margin-right: 0%;
 }
 
-#box7 {
+#box8 {
     float: left;
     height: 70px;
-    margin-left: 25.727435%;
+    margin-left: 25.726198%;
     margin-top: 30px;
     clear: left;
     width: 70px;
@@ -173,7 +173,7 @@ body {
     margin-right: 0%;
 }
 
-#box8 {
+#box9 {
     float: left;
     height: 70px;
     margin-left: 2.988915%;
@@ -184,7 +184,7 @@ body {
     margin-right: 0%;
 }
 
-#box9 {
+#box10 {
     float: left;
     height: 70px;
     margin-left: 3.068092%;
@@ -195,7 +195,7 @@ body {
     background-color: rgb(178, 178, 178);
 }
 
-#box10 {
+#box11 {
     float: left;
     height: 70px;
     margin-left: 2.917162%;
@@ -235,7 +235,7 @@ body {
     clear: left;
     min-height: 23px;
     font-family: 'Roboto Light';
-    margin-right: 25.507225%;
+    margin-right: 25.505988%;
 }
 
 #box {
@@ -249,13 +249,13 @@ body {
     background-position: 50% 50%;
     background-repeat: repeat;
     background-attachment: scroll;
-    -webkit-background-size: 100%;
-    background-size: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
 #box1 {
     float: left;
-    height: 251px;
+    height: 253px;
     margin-left: 0%;
     margin-top: 47px;
     clear: none;
@@ -270,8 +270,8 @@ body {
 #Register_Graphic {
     float: left;
     height: 200px;
-    margin-left: 25.598773%;
-    margin-top: 23px;
+    margin-left: 20%;
+    margin-top: 0px;
     clear: none;
     width: 200px;
     margin-right: 0px;
@@ -286,110 +286,6 @@ body {
     background-attachment: scroll;
     -webkit-background-size: auto;
     background-size: auto;
-}
-
-#text4 {
-    float: left;
-    font-size: 32px;
-    width: 36.193587%;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    margin-left: 1.230948%;
-    margin-top: 23px;
-    clear: none;
-    min-height: 32px;
-    font-family: 'Roboto Black';
-    margin-right: 0%;
-    display: block;
-}
-
-#text5 {
-    float: left;
-    font-size: 1em;
-    width: 36.067399%;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1.2em;
-    margin-left: -36.103276%;
-    margin-top: 136px;
-    clear: none;
-    min-height: 87px;
-    color: rgb(81, 81, 81);
-    font-family: 'Roboto Light';
-    margin-right: 0px;
-    display: block;
-}
-
-#box3 {
-    float: left;
-    height: 30px;
-    margin-left: 0%;
-    margin-top: 0px;
-    clear: none;
-    width: 30px;
-    background-color: rgb(255, 206, 0);
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    margin-right: 0%;
-}
-
-#box4 {
-    float: left;
-    height: 30px;
-    margin-left: 5%;
-    margin-top: 0px;
-    clear: none;
-    width: 30.000001110000003px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    background-color: rgb(0, 206, 255);
-    margin-right: 0%;
-}
-
-#box5 {
-    float: left;
-    height: 30px;
-    margin-left: 5%;
-    margin-top: 0px;
-    clear: none;
-    width: 30.000001110000003px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    margin-right: 0%;
-    background-color: rgb(97, 204, 0);
-}
-
-#box6 {
-    float: left;
-    height: 30px;
-    margin-left: 5%;
-    margin-top: 0px;
-    clear: none;
-    width: 30.000001110000003px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    margin-right: 0%;
-    background-color: rgb(255, 147, 0);
-}
-
-#box2 {
-    float: left;
-    height: auto;
-    margin-left: -36.270289%;
-    margin-top: 75px;
-    clear: none;
-    width: 36.234412%;
 }
 
 #text2 {
@@ -407,5 +303,275 @@ body {
     font-family: Roboto;
     color: rgb(255, 255, 255);
     margin-right: 0%;
+}
+
+#Hamburger {
+    float: left;
+    width: auto;
+    max-width: none;
+    height: 25px;
+    margin-left: 4.428332%;
+    margin-top: 23px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+    display: none;
+}
+
+#text4 {
+    float: left;
+    font-size: 32px;
+    width: 50%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 3.49%;
+    margin-top: 0px;
+    clear: none;
+    min-height: 32px;
+    font-family: 'Roboto Black';
+    margin-right: 0%;
+    display: block;
+}
+
+#box4 {
+    float: left;
+    height: 30px;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    width: 30px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-right: 0%;
+    display: block;
+    background-color: rgb(255, 206, 0);
+}
+
+#box5 {
+    float: left;
+    height: 30px;
+    margin-left: 10%;
+    margin-top: 0px;
+    clear: none;
+    width: 30.000001110000003px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-right: 0%;
+    display: block;
+    background-color: rgb(0, 206, 255);
+}
+
+#box6 {
+    float: left;
+    height: 30px;
+    margin-left: 10%;
+    margin-top: 0px;
+    clear: none;
+    width: 30.000001110000003px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-right: 0%;
+    display: block;
+    background-color: rgb(97, 204, 0);
+}
+
+#box7 {
+    float: left;
+    height: 30px;
+    margin-left: 10%;
+    margin-top: 0px;
+    clear: none;
+    width: 30.000001110000003px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-right: 0%;
+    display: block;
+    background-color: rgb(255, 147, 0);
+}
+
+#text5 {
+    float: left;
+    font-size: 1em;
+    width: 50%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1.2em;
+    margin-left: -50%;
+    margin-top: 80px;
+    clear: none;
+    min-height: 118px;
+    color: rgb(81, 81, 81);
+    font-family: 'Roboto Light';
+    margin-right: 0px;
+    display: block;
+    margin-bottom: 0px;
+}
+
+#box3 {
+    float: left;
+    height: auto;
+    margin-left: -49.87%;
+    margin-top: 40px;
+    clear: none;
+    width: 20%;
+    margin-right: 0%;
+    min-height: 0px;
+    margin-bottom: 0px;
+}
+
+#box2 {
+    float: none;
+    height: auto;
+    margin-left: auto;
+    margin-top: 23px;
+    clear: none;
+    width: 100%;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 960px) {
+    #Hamburger {
+        display: block;
+        margin-left: 0px;
+        margin-right: 5%;
+        float: right;
+        margin-top: 28px;
+        clear: none;
+    }
+
+    #Menu {
+        display: none;
+    }
+
+    #Register_Graphic {
+        margin-left: 6%;
+    }
+
+    #text6 {
+        margin-left: 5.999349%;
+        margin-top: 31px;
+        clear: both;
+        height: auto;
+        width: 28.133138%;
+    }
+
+    #text8 {
+        margin-left: 5.999349%;
+        margin-top: 18px;
+        clear: both;
+        height: auto;
+        width: 28.133138%;
+    }
+
+    #text10 {
+        margin-left: 5.999349%;
+        margin-top: 18px;
+        clear: both;
+        height: auto;
+        width: 27.931315%;
+    }
+
+    #box8 {
+        margin-left: 5.999349%;
+        margin-top: 30px;
+        clear: left;
+    }
+
+    #Add_Lang_btn {
+        width: 53%;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        clear: none;
+        margin-top: 732px;
+    }
+
+    #box {
+        margin-top: 0px;
+        margin-left: 0%;
+        clear: both;
+        background-image:url("img/breakfast_blur.jpg");
+        background-position: 50% 50%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+
+    #text9 {
+        margin-right: 5.999349%;
+        margin-top: -6px;
+        clear: left;
+    }
+
+    #text7 {
+        margin-right: 6%;
+    }
+
+    #text4 {
+        height: auto;
+        clear: none;
+        margin-right: 0px;
+        float: left;
+        min-height: 0px;
+        font-size: 32px;
+        width: 50%;
+    }
+
+    #box4 {
+        margin-left: 0%;
+        margin-right: 0px;
+        float: left;
+        clear: none;
+        margin-top: 0px;
+    }
+
+    #box5 {
+        margin-left: 12%;
+        margin-right: 0px;
+        float: left;
+        clear: none;
+        margin-top: 0px;
+    }
+
+    #box6 {
+        margin-left: 15%;
+        margin-right: 0px;
+        float: left;
+        clear: none;
+        margin-top: 0px;
+    }
+
+    #box7 {
+        margin-left: 86.216919%;
+        margin-right: 0px;
+        float: left;
+        clear: none;
+        margin-top: -30px;
+    }
+
+    #text5 {
+        clear: none;
+        height: auto;
+        float: left;
+    }
+
+    #box3 {
+        float: left;
+        clear: none;
+        height: 30px;
+        width: 204.28125119999999px;
+    }
 }
 

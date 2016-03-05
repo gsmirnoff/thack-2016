@@ -86,11 +86,11 @@ body {
     color: rgb(255, 255, 255);
 }
 
-#Add_Lang_btn {
-    float: left;
+#Add_Lang_btn1 {
+    float: none;
     height: 64px;
     font-size: 18px;
-    clear: left;
+    clear: none;
     width: 48.849466%;
     border-top-style: none;
     border-right-style: none;
@@ -109,133 +109,9 @@ body {
     position: static;
     top: 0px;
     left: 0px;
-    margin-top: 48px;
-    margin-left: 25.701455%;
-    margin-right: 0px;
-}
-
-#text10 {
-    float: left;
-    font-size: 20px;
-    width: 16.990796%;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    margin-left: 25.801663%;
-    margin-top: 18px;
-    clear: none;
-    min-height: 23px;
-    font-family: 'Roboto Black';
-    margin-right: 0%;
-}
-
-#text8 {
-    float: left;
-    font-size: 20px;
-    width: 17.066261%;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    margin-left: 25.726198%;
-    margin-top: 18px;
-    clear: both;
-    min-height: 23px;
-    font-family: 'Roboto Black';
-    margin-right: 0%;
-}
-
-#text6 {
-    float: left;
-    font-size: 20px;
-    width: 17.066261%;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    margin-left: 25.726198%;
-    margin-top: 31px;
-    clear: both;
-    min-height: 23px;
-    font-family: 'Roboto Black';
-    margin-right: 0%;
-}
-
-#box8 {
-    float: left;
-    height: 70px;
-    margin-left: 25.726198%;
-    margin-top: 30px;
-    clear: left;
-    width: 70px;
-    background-color: rgb(178, 178, 178);
-    margin-right: 0%;
-}
-
-#box9 {
-    float: left;
-    height: 70px;
-    margin-left: 2.988915%;
-    margin-top: 30px;
-    clear: none;
-    width: 70px;
-    background-color: rgb(178, 178, 178);
-    margin-right: 0%;
-}
-
-#box10 {
-    float: left;
-    height: 70px;
-    margin-left: 3.068092%;
-    margin-top: 30px;
-    clear: none;
-    width: 70px;
-    margin-right: 0%;
-    background-color: rgb(178, 178, 178);
-}
-
-#box11 {
-    float: left;
-    height: 70px;
-    margin-left: 2.917162%;
-    margin-top: 30px;
-    clear: none;
-    width: 70px;
-    margin-right: 0%;
-    background-color: rgb(178, 178, 178);
-}
-
-#text7 {
-    float: right;
-    font-size: 20px;
-    width: 17.066261%;
-    height: auto;
-    text-align: right;
-    font-weight: normal;
-    line-height: 1em;
-    margin-left: 0px;
-    margin-top: 31px;
-    clear: none;
-    min-height: 23px;
-    font-family: 'Roboto Light';
-    margin-right: 25.507225%;
-}
-
-#text9 {
-    float: right;
-    font-size: 20px;
-    width: 25.735677%;
-    height: auto;
-    text-align: right;
-    font-weight: normal;
-    line-height: 1em;
-    margin-left: 0px;
-    margin-top: -23px;
-    clear: left;
-    min-height: 23px;
-    font-family: 'Roboto Light';
-    margin-right: 25.505988%;
+    margin-top: 38px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #box {
@@ -245,47 +121,12 @@ body {
     margin-top: 0px;
     clear: both;
     width: 100%;
-    background-image:url("img/autumn-in-china_blurred.jpg");
+    background-image:url("img/breakfast_blur.jpg");
     background-position: 50% 50%;
     background-repeat: repeat;
     background-attachment: scroll;
-    -webkit-background-size: cover;
-    background-size: cover;
-}
-
-#box1 {
-    float: left;
-    height: 253px;
-    margin-left: 0%;
-    margin-top: 47px;
-    clear: none;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.901961);
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-    border-bottom-left-radius: 3px;
-}
-
-#Register_Graphic {
-    float: left;
-    height: 200px;
-    margin-left: 20%;
-    margin-top: 0px;
-    clear: none;
-    width: 200px;
-    margin-right: 0px;
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
-    border-bottom-right-radius: 100px;
-    border-bottom-left-radius: 100px;
-    display: block;
-    background-image:url("img/girl-s.jpg");
-    background-position: 50% 10%;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    -webkit-background-size: auto;
-    background-size: auto;
+    -webkit-background-size: 100%;
+    background-size: 100%;
 }
 
 #text2 {
@@ -305,17 +146,207 @@ body {
     margin-right: 0%;
 }
 
+#box8 {
+    float: left;
+    height: 48px;
+    margin-left: 25.793003%;
+    margin-top: 16px;
+    clear: both;
+    width: 48px;
+    margin-right: 0%;
+    background-color: rgb(178, 178, 178);
+}
+
+#text6 {
+    float: left;
+    font-size: 20px;
+    width: 17.066261%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 25.726198%;
+    margin-top: 31px;
+    clear: both;
+    min-height: 23px;
+    font-family: 'Roboto Black';
+    margin-right: 0%;
+}
+
+#box9 {
+    float: left;
+    height: 48px;
+    margin-left: 2.137767%;
+    margin-top: 16px;
+    clear: none;
+    width: 48px;
+    margin-right: 0%;
+    background-color: rgb(178, 178, 178);
+}
+
+#box10 {
+    float: left;
+    height: 48px;
+    margin-left: 2.132819%;
+    margin-top: 16px;
+    clear: none;
+    width: 48px;
+    margin-right: 0%;
+    background-color: rgb(178, 178, 178);
+}
+
+#box11 {
+    float: left;
+    height: 48px;
+    margin-left: 2.053642%;
+    margin-top: 16px;
+    clear: none;
+    width: 48px;
+    margin-right: 0%;
+    background-color: rgb(178, 178, 178);
+}
+
+#box12 {
+    float: left;
+    height: 48px;
+    margin-left: 1.829721%;
+    margin-top: 16px;
+    clear: none;
+    width: 48px;
+    margin-right: 0%;
+    background-color: rgb(178, 178, 178);
+}
+
+#Add_Lang_btn {
+    float: none;
+    height: 64px;
+    font-size: 18px;
+    clear: none;
+    width: 48.849466%;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-family: 'Roboto Medium';
+    color: rgb(255, 255, 255);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    display: block;
+    position: static;
+    top: 0px;
+    left: 0px;
+    margin-top: 797px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 95, 0);
+}
+
+#formgroup {
+    float: left;
+    height: 150px;
+    display: block;
+    text-align: left;
+    margin-left: 25.621041%;
+    margin-top: 38px;
+    clear: both;
+    width: 48.801217%;
+}
+
+#textinput {
+    float: none;
+    height: 6.9140625em;
+    padding-top: 16px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 16px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    margin-top: 17px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    background-color: rgb(241, 241, 241);
+}
+
+#text7 {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: block;
+}
+
 #Hamburger {
     float: left;
     width: auto;
     max-width: none;
     height: 25px;
-    margin-left: 4.428332%;
-    margin-top: 23px;
+    margin-left: 3.228368%;
+    margin-top: 30px;
     clear: none;
     color: rgb(0, 0, 0);
     margin-right: 0%;
     display: none;
+}
+
+#box1 {
+    float: left;
+    height: 253px;
+    margin-left: 0%;
+    margin-top: 47px;
+    clear: none;
+    width: 100%;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.901961);
+    margin-right: 0%;
+}
+
+#box2 {
+    float: none;
+    height: auto;
+    margin-left: auto;
+    margin-top: 23px;
+    clear: none;
+    width: 100%;
+    margin-right: auto;
+}
+
+#Register_Graphic {
+    float: left;
+    height: 200px;
+    margin-left: 20%;
+    margin-top: 0px;
+    clear: none;
+    width: 200px;
+    margin-right: 0px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    display: block;
+    background-image:url("img/jonathan_s.jpg");
+    background-position: 50% 10%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    -webkit-background-size: auto;
+    background-size: auto;
 }
 
 #text4 {
@@ -333,6 +364,18 @@ body {
     font-family: 'Roboto Black';
     margin-right: 0%;
     display: block;
+}
+
+#box3 {
+    float: left;
+    height: auto;
+    margin-left: -49.87%;
+    margin-top: 40px;
+    clear: none;
+    width: 20%;
+    margin-right: 0%;
+    min-height: 0px;
+    margin-bottom: 0px;
 }
 
 #box4 {
@@ -418,28 +461,6 @@ body {
     margin-bottom: 0px;
 }
 
-#box3 {
-    float: left;
-    height: auto;
-    margin-left: -49.87%;
-    margin-top: 40px;
-    clear: none;
-    width: 20%;
-    margin-right: 0%;
-    min-height: 0px;
-    margin-bottom: 0px;
-}
-
-#box2 {
-    float: none;
-    height: auto;
-    margin-left: auto;
-    margin-top: 23px;
-    clear: none;
-    width: 100%;
-    margin-right: auto;
-}
-
 @media only screen and (max-width: 960px) {
     #Hamburger {
         display: block;
@@ -456,69 +477,6 @@ body {
 
     #Register_Graphic {
         margin-left: 6%;
-        background-image:url("img/girl-s.jpg");
-        background-position: 50% 10%;
-        background-repeat: no-repeat;
-        background-attachment: scroll;
-        -webkit-background-size: auto;
-        background-size: auto;
-    }
-
-    #text6 {
-        margin-left: 5.997721%;
-        margin-top: 31px;
-        clear: both;
-        height: auto;
-        width: 28.133138%;
-    }
-
-    #text8 {
-        margin-left: 5.997721%;
-        margin-top: 18px;
-        clear: both;
-        height: auto;
-        width: 28.133138%;
-    }
-
-    #text10 {
-        margin-left: 5.997721%;
-        margin-top: 18px;
-        clear: both;
-        height: auto;
-        width: 27.931315%;
-    }
-
-    #box8 {
-        margin-left: 5.997721%;
-        margin-top: 30px;
-        clear: left;
-    }
-
-    #Add_Lang_btn {
-        width: 53%;
-        margin-left: auto;
-        margin-right: auto;
-        float: none;
-        clear: none;
-        margin-top: 732px;
-    }
-
-    #box {
-        margin-top: 0px;
-        margin-left: 0%;
-        clear: both;
-    }
-
-    #text9 {
-        margin-right: 5.997721%;
-        margin-top: -6px;
-        clear: left;
-        height: auto;
-        width: 25.735677%;
-    }
-
-    #text7 {
-        margin-right: 6%;
     }
 
     #text4 {
@@ -529,6 +487,13 @@ body {
         min-height: 0px;
         font-size: 32px;
         width: 50%;
+    }
+
+    #box3 {
+        float: left;
+        clear: none;
+        height: 30px;
+        width: 204.28125119999999px;
     }
 
     #box4 {
@@ -569,11 +534,41 @@ body {
         float: left;
     }
 
-    #box3 {
-        float: left;
+    #text6 {
+        margin-left: 5.999349%;
+        margin-top: 31px;
+        clear: both;
+    }
+
+    #box8 {
+        margin-left: 5.999349%;
+        margin-top: 16px;
+        clear: both;
+    }
+
+    #formgroup {
+        margin-left: auto;
+        width: 87.866211%;
+        margin-right: auto;
+        float: none;
         clear: none;
-        height: 30px;
-        width: 204.28125119999999px;
+        margin-top: 587px;
+    }
+
+    #box {
+        margin-top: 0px;
+        margin-left: 0%;
+        clear: both;
+    }
+
+    #Add_Lang_btn {
+        margin-top: 60px;
+        clear: none;
+        width: 53%;
+    }
+
+    #Add_Lang_btn1 {
+        width: 53%;
     }
 }
 

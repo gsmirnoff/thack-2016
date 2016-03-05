@@ -148,7 +148,7 @@
     margin-top: 28px;
     clear: right;
     width: 36.532561%;
-    margin-right: 31.734956%;
+    margin-right: 31.733719%;
 }
 
 #text7 {
@@ -214,7 +214,7 @@
     margin-top: 28px;
     clear: right;
     width: 36.532561%;
-    margin-right: 31.734956%;
+    margin-right: 31.733719%;
 }
 
 #text8 {
@@ -276,7 +276,7 @@
     height: 93px;
     display: block;
     text-align: left;
-    margin-left: 31.732482%;
+    margin-left: 31.730008%;
     margin-top: 26px;
     clear: right;
     width: 27.998812%;
@@ -432,8 +432,8 @@ body {
     float: left;
     height: 54px;
     font-size: 18px;
-    margin-left: 31.794339%;
-    margin-top: 48px;
+    margin-left: 31.791865%;
+    margin-top: 72px;
     clear: left;
     width: 36.579572%;
     border-top-style: none;
@@ -458,7 +458,7 @@ body {
     height: auto;
     display: block;
     text-align: left;
-    margin-left: 31.794339%;
+    margin-left: 31.791865%;
     margin-top: 56.5px;
     clear: left;
     width: 17.009353%;
@@ -540,7 +540,7 @@ body {
     height: auto;
     display: block;
     text-align: left;
-    margin-left: 31.794339%;
+    margin-left: 31.791865%;
     margin-top: 33px;
     clear: left;
     width: 17.009353%;
@@ -581,7 +581,7 @@ body {
     height: auto;
     display: block;
     text-align: left;
-    margin-left: 31.847536%;
+    margin-left: 31.845061%;
     margin-top: 33px;
     clear: left;
     width: 16.952445%;
@@ -658,19 +658,19 @@ body {
     font-family: 'Roboto Light';
 }
 
-#formgroup7 {
+#formgroup8 {
     float: left;
     height: auto;
     display: block;
     text-align: left;
-    margin-left: 31.847536%;
-    margin-top: 33px;
+    margin-left: 31.845061%;
+    margin-top: 31px;
     clear: left;
     width: 16.952445%;
     margin-right: 0%;
 }
 
-#input7 {
+#input8 {
     float: none;
     height: auto;
     padding-top: 0px;
@@ -682,7 +682,7 @@ body {
     width: auto;
 }
 
-#text17 {
+#text18 {
     float: none;
     font-size: 1em;
     width: auto;
@@ -704,7 +704,7 @@ body {
     height: auto;
     display: block;
     text-align: left;
-    margin-left: 31.874753%;
+    margin-left: 31.873515%;
     margin-top: 33px;
     clear: left;
     width: 16.925228%;
@@ -781,97 +781,15 @@ body {
     font-family: 'Roboto Light';
 }
 
-#formgroup8 {
-    float: left;
-    height: auto;
-    display: block;
-    text-align: left;
-    margin-left: 31.874753%;
-    margin-top: 33px;
-    clear: left;
-    width: 16.928939%;
-    margin-right: 0%;
-}
-
-#input8 {
-    float: none;
-    height: auto;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    font-size: 1em;
-    display: inline-block;
-    width: auto;
-}
-
-#text18 {
-    float: none;
-    font-size: 1em;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    padding-top: 0em;
-    padding-bottom: 0em;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    display: inline-block;
-    margin-left: 16px;
-    font-family: 'Roboto Light';
-}
-
-#formgroup9 {
-    float: left;
-    height: auto;
-    display: block;
-    text-align: left;
-    margin-left: 2.486639%;
-    margin-top: -69px;
-    clear: none;
-    width: 17.029147%;
-    margin-right: 0%;
-}
-
-#input9 {
-    float: none;
-    height: auto;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    font-size: 1em;
-    display: inline-block;
-    width: auto;
-}
-
-#text19 {
-    float: none;
-    font-size: 1em;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    padding-top: 0em;
-    padding-bottom: 0em;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    display: inline-block;
-    margin-left: 16px;
-    font-family: 'Roboto Light';
-}
-
 #formgroup10 {
     float: left;
     height: auto;
     display: block;
     text-align: left;
-    margin-left: 2.567053%;
-    margin-top: -17px;
-    clear: none;
-    width: 16.948733%;
+    margin-left: 31.873515%;
+    margin-top: 33px;
+    clear: left;
+    width: 16.928939%;
     margin-right: 0%;
 }
 
@@ -904,13 +822,95 @@ body {
     font-family: 'Roboto Light';
 }
 
+#formgroup7 {
+    float: left;
+    height: auto;
+    display: block;
+    text-align: left;
+    margin-left: 2.395091%;
+    margin-top: 33px;
+    clear: none;
+    width: 17.029147%;
+    margin-right: 0px;
+}
+
+#input7 {
+    float: none;
+    height: auto;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+    display: inline-block;
+    width: auto;
+}
+
+#text17 {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    display: inline-block;
+    margin-left: 16px;
+    font-family: 'Roboto Light';
+}
+
+#formgroup9 {
+    float: left;
+    height: auto;
+    display: block;
+    text-align: left;
+    margin-left: 2.563341%;
+    margin-top: 31px;
+    clear: none;
+    width: 16.948733%;
+    margin-right: 0%;
+}
+
+#input9 {
+    float: none;
+    height: auto;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1em;
+    display: inline-block;
+    width: auto;
+}
+
+#text19 {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    display: inline-block;
+    margin-left: 16px;
+    font-family: 'Roboto Light';
+}
+
 #formgroup11 {
     float: left;
     height: auto;
     display: block;
     text-align: left;
-    margin-left: -17.065024%;
-    margin-top: 35px;
+    margin-left: 2.320863%;
+    margin-top: 33px;
     clear: none;
     width: 17.066261%;
     margin-right: 0%;
@@ -943,5 +943,180 @@ body {
     display: inline-block;
     margin-left: 16px;
     font-family: 'Roboto Light';
+}
+
+#Hamburger {
+    float: left;
+    width: auto;
+    max-width: none;
+    height: 25px;
+    margin-left: 2.142258%;
+    margin-top: 30px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+    display: none;
+}
+
+@media only screen and (max-width: 960px) {
+    #Menu {
+        display: none;
+    }
+
+    #Hamburger {
+        display: block;
+        margin-left: 0px;
+        margin-right: 5%;
+        float: right;
+        margin-top: 28px;
+        clear: none;
+    }
+
+    #text5 {
+        height: auto;
+        margin-top: 41px;
+        margin-left: auto;
+        clear: none;
+        width: 70.470378%;
+        margin-right: auto;
+        min-height: 82px;
+    }
+
+    #Name_Input {
+        margin-top: 77px;
+        clear: none;
+        margin-left: auto;
+        float: none;
+        width: 70%;
+        margin-right: auto;
+    }
+
+    #Address_Input {
+        margin-top: 28px;
+        clear: none;
+        margin-left: auto;
+        float: none;
+        width: 70%;
+        margin-right: auto;
+    }
+
+    #Email_Input {
+        margin-top: 28px;
+        clear: none;
+        margin-left: auto;
+        float: none;
+        width: 70%;
+        margin-right: auto;
+    }
+
+    #Language_Select {
+        margin-top: 26px;
+        margin-left: 15%;
+        clear: none;
+        width: 53.372396%;
+    }
+
+    #formgroup {
+        margin-top: 57px;
+        margin-left: 15%;
+        clear: both;
+        width: 19.132487%;
+    }
+
+    #formgroup2 {
+        margin-top: 57px;
+        margin-left: 6.326497%;
+        clear: none;
+        width: 19.275716%;
+    }
+
+    #formgroup4 {
+        margin-top: 48px;
+        margin-left: 6.132813%;
+        clear: none;
+        width: 19.466146%;
+    }
+
+    #formgroup5 {
+        margin-top: 48px;
+        margin-left: 6.118164%;
+        clear: none;
+        width: 19.482422%;
+    }
+
+    #formgroup6 {
+        margin-top: 48px;
+        margin-left: 14.788411%;
+        clear: both;
+        width: 19.344076%;
+    }
+
+    #formgroup8 {
+        margin-top: 48px;
+        margin-left: 6.118164%;
+        clear: none;
+        width: 19.482422%;
+    }
+
+    #formgroup10 {
+        margin-top: 48px;
+        margin-left: 6.015625%;
+        clear: none;
+        width: 19.627279%;
+        margin-right: 0%;
+    }
+
+    #formgroup7 {
+        margin-top: 46px;
+        margin-left: 5.97168%;
+        clear: none;
+        margin-right: 0%;
+        width: 19.627279%;
+    }
+
+    #formgroup9 {
+        margin-top: 46px;
+        margin-left: 14.635417%;
+        clear: both;
+        margin-right: 0%;
+        width: 19.49707%;
+    }
+
+    #formgroup11 {
+        margin-top: 48px;
+        margin-left: 5.913086%;
+        clear: none;
+        width: 19.614258%;
+    }
+
+    #Add_Lang_btn1 {
+        margin-top: 500px;
+        margin-left: auto;
+        clear: none;
+        width: 53%;
+        float: none;
+        margin-right: auto;
+    }
+
+    #Add_Lang_btn {
+        margin-top: 65px;
+        margin-left: 1.861979%;
+        clear: none;
+        width: 15.185547%;
+    }
+
+    #formgroup1 {
+        margin-top: 57px;
+        margin-left: 6.220703%;
+        clear: none;
+        width: 19.378255%;
+    }
+
+    #formgroup3 {
+        margin-top: 48px;
+        margin-left: 14.666341%;
+        clear: both;
+        width: 19.466146%;
+    }
 }
 

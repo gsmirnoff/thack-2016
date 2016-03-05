@@ -201,7 +201,7 @@
     margin-top: 30px;
     clear: none;
     width: 569.171875px;
-    margin-right: 6.121338%;
+    margin-right: 3.036613%;
     display: block;
 }
 
@@ -220,6 +220,7 @@
     font-family: 'Roboto Black';
     color: rgb(255, 255, 255);
     margin-right: 0%;
+    display: block;
 }
 
 #text2 {
@@ -254,5 +255,33 @@
     margin-right: 0%;
     font-family: Roboto;
     color: rgb(255, 255, 255);
+}
+
+#Hamburger {
+    float: left;
+    width: auto;
+    max-width: none;
+    height: 25px;
+    margin-left: 5.402085%;
+    margin-top: 16px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+    display: none;
+}
+
+@media only screen and (max-width: 960px) {
+    #Hamburger {
+        display: block;
+        margin-left: 0px;
+        margin-right: 5%;
+        float: right;
+        margin-top: 28px;
+        clear: none;
+    }
+
+    #Menu {
+        display: none;
+    }
 }
 
