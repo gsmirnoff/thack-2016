@@ -13,21 +13,28 @@ import {UserService} from '../services/UserService'
 })
 
 export class Register {
-  constructor(fb: FormBuilder, userService:UserService, router:Router) {
+  constructor(fb:FormBuilder, userService:UserService, router:Router) {
     this.userService = userService;
     this.router = router;
     this.registrationForm = fb.group({
       name: ['', Validators.required],
-      address: ['', Validators.required],
       email: ['', Validators.required]
     });
   }
+
   onSubmit() {
     if (this.registrationForm.valid) {
-      this.userService.save(new User(this.registrationForm.value))
-        .subscribe(() => this.router.navigate(['Map']));
-
+      navigator.geolocation.getCurrentPosition(this.saveNewUser.bind(this, this.registrationForm.value));
     }
+  }
+
+  saveNewUser(fields, position) {
+    fields.position = [
+      position.coords.latitude + 0.1,
+      position.coords.longitude - 0.4
+    ];
+    this.userService.save(new User(fields))
+      .subscribe(() => this.router.navigate(['Map']));
   }
 
 }
