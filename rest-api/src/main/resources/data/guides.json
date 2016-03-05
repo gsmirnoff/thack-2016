@@ -1,12 +1,602 @@
 [
-    {
-        "firstName" : "Joe",
-        "lastName" : "Black",
-        "position" : [52.50023,13.40490]
+  {
+    "_id": {
+      "$oid": "56db5e9127366b04f4550208"
     },
-    {
-        "firstName" : "Max",
-        "lastName" : "Mustermann",
-        "position" : [52.50364,13.39463]
-    }
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Gwyn Viens",
+    "email": "mymail0@gmail.com",
+    "position": [
+      52.57293507413085,
+      13.329541388800516
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9127366b04f4550209"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Anja Serrano",
+    "email": "mymail1@gmail.com",
+    "position": [
+      52.59788099262475,
+      13.404774648620895
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9127366b04f455020a"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Riva Pasco",
+    "email": "mymail3@gmail.com",
+    "position": [
+      52.578525523986514,
+      13.321309934457913
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9127366b04f455020b"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Caren Obando",
+    "email": "mymail4@gmail.com",
+    "position": [
+      52.52322728199031,
+      13.360816537653244
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9127366b04f455020c"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Brinda Hahn",
+    "email": "mymail2@gmail.com",
+    "position": [
+      52.59203075289804,
+      13.396800478728638
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9127366b04f455020d"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Andre Remillard",
+    "email": "mymail5@gmail.com",
+    "position": [
+      52.5440200743087,
+      13.330218544131293
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9127366b04f455020f"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Forrest Tesar",
+    "email": "mymail7@gmail.com",
+    "position": [
+      52.59634747533671,
+      13.36554287017245
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9127366b04f455020e"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Tobie Gipson",
+    "email": "mymail6@gmail.com",
+    "position": [
+      52.58853286954652,
+      13.376319095091112
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9227366b04f4550210"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Leanna Fleming",
+    "email": "mymail9@gmail.com",
+    "position": [
+      52.60046886795278,
+      13.344062953599877
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9227366b04f4550212"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Yasmine Padmore",
+    "email": "mymail10@gmail.com",
+    "position": [
+      52.53665137359019,
+      13.398487641819901
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9227366b04f4550213"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Jame Stutzman",
+    "email": "mymail11@gmail.com",
+    "position": [
+      52.55953653732392,
+      13.330777916842289
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9227366b04f4550215"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Reinaldo Midgette",
+    "email": "mymail13@gmail.com",
+    "position": [
+      52.548595409217135,
+      13.32429195972547
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9227366b04f4550214"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Rudolph Melanson",
+    "email": "mymail12@gmail.com",
+    "position": [
+      52.6029236424303,
+      13.38616578075491
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9227366b04f4550211"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Rosita Lavergne",
+    "email": "mymail8@gmail.com",
+    "position": [
+      52.51727109165474,
+      13.363247533206977
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9227366b04f4550216"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Elizabet Perrett",
+    "email": "mymail16@gmail.com",
+    "position": [
+      52.52212795506309,
+      13.381954735861308
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9227366b04f4550217"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Lawerence Guilliams",
+    "email": "mymail14@gmail.com",
+    "position": [
+      52.55733316424846,
+      13.370244854147694
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9227366b04f4550218"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Brigette Althoff",
+    "email": "mymail17@gmail.com",
+    "position": [
+      52.57212981314476,
+      13.348022030404918
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9227366b04f4550219"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Jule Cagle",
+    "email": "mymail15@gmail.com",
+    "position": [
+      52.52736929236523,
+      13.380294376839101
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9227366b04f455021a"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Dorris Lewey",
+    "email": "mymail19@gmail.com",
+    "position": [
+      52.51702993240285,
+      13.41130184288524
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9227366b04f455021b"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Dennis Pontius",
+    "email": "mymail18@gmail.com",
+    "position": [
+      52.55345628883767,
+      13.369984700385631
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9227366b04f455021d"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Adrianne Schiro",
+    "email": "mymail21@gmail.com",
+    "position": [
+      52.54522645259819,
+      13.378953974548876
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9227366b04f455021c"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Kizzie Picha",
+    "email": "mymail20@gmail.com",
+    "position": [
+      52.59362731087565,
+      13.411149287381358
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9227366b04f455021e"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Fredrick Hynd",
+    "email": "mymail22@gmail.com",
+    "position": [
+      52.589100546139136,
+      13.341657240846343
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9227366b04f4550221"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Lorilee Nagle",
+    "email": "mymail24@gmail.com",
+    "position": [
+      52.584097914310014,
+      13.35087208679799
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9227366b04f455021f"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Milda Clyne",
+    "email": "mymail23@gmail.com",
+    "position": [
+      52.52493388986293,
+      13.391254579386823
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9227366b04f4550220"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Jamar Eicher",
+    "email": "mymail25@gmail.com",
+    "position": [
+      52.556025161133924,
+      13.35155685922984
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9227366b04f4550222"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Cammie Clinton",
+    "email": "mymail26@gmail.com",
+    "position": [
+      52.50935085653871,
+      13.377720248996429
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9227366b04f4550223"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Jeanie Flippen",
+    "email": "mymail27@gmail.com",
+    "position": [
+      52.53267335219386,
+      13.336101951933616
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9227366b04f4550224"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Pattie Daws",
+    "email": "mymail28@gmail.com",
+    "position": [
+      52.598511261777794,
+      13.340851167933232
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9227366b04f4550225"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Arletta Thaler",
+    "email": "mymail29@gmail.com",
+    "position": [
+      52.55708491751536,
+      13.345435015898348
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9227366b04f4550226"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Anabel Tabron",
+    "email": "mymail30@gmail.com",
+    "position": [
+      52.59866825074966,
+      13.409724408522397
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9227366b04f4550227"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Wilford Worthy",
+    "email": "mymail33@gmail.com",
+    "position": [
+      52.55927683350708,
+      13.412097540678605
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9227366b04f4550228"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Corey Somerville",
+    "email": "mymail32@gmail.com",
+    "position": [
+      52.52022513675581,
+      13.401792613411471
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9227366b04f4550229"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Dann Schrock",
+    "email": "mymail34@gmail.com",
+    "position": [
+      52.54763563250269,
+      13.329342639929765
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9227366b04f455022a"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Casimira Chynoweth",
+    "email": "mymail35@gmail.com",
+    "position": [
+      52.58118408322878,
+      13.38786663344983
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9227366b04f455022b"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Ellis Rideaux",
+    "email": "mymail36@gmail.com",
+    "position": [
+      52.56843993338368,
+      13.388628240925408
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9227366b04f455022c"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Mariah Strahan",
+    "email": "mymail37@gmail.com",
+    "position": [
+      52.53664710787668,
+      13.376088301832006
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9227366b04f455022d"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Del Monroe",
+    "email": "mymail39@gmail.com",
+    "position": [
+      52.59376646676644,
+      13.401346072060205
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9227366b04f455022e"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Taylor Barrington",
+    "email": "mymail38@gmail.com",
+    "position": [
+      52.55695768229741,
+      13.338591828750596
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9227366b04f455022f"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Kasi Gaver",
+    "email": "mymail31@gmail.com",
+    "position": [
+      52.53556667918417,
+      13.35666368568238
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9227366b04f4550230"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Wendolyn Loder",
+    "email": "mymail40@gmail.com",
+    "position": [
+      52.50945650735482,
+      13.372484168521277
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9227366b04f4550232"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Rosalind Masser",
+    "email": "mymail44@gmail.com",
+    "position": [
+      52.53170952571634,
+      13.31285328936685
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9227366b04f4550233"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Dannielle Jantz",
+    "email": "mymail41@gmail.com",
+    "position": [
+      52.55124641778491,
+      13.326006663003154
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9227366b04f4550231"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Kasie Matteo",
+    "email": "mymail43@gmail.com",
+    "position": [
+      52.56145502266552,
+      13.339271873695925
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9227366b04f4550234"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Mara Rey",
+    "email": "mymail42@gmail.com",
+    "position": [
+      52.529405654599735,
+      13.351714754099175
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9227366b04f4550235"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Numbers Nasser",
+    "email": "mymail45@gmail.com",
+    "position": [
+      52.509310960705236,
+      13.396129557857439
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9227366b04f4550236"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Jamel Santucci",
+    "email": "mymail48@gmail.com",
+    "position": [
+      52.52954755293283,
+      13.394022823585347
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9227366b04f4550239"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Iluminada Lebo",
+    "email": "mymail46@gmail.com",
+    "position": [
+      52.57462630104817,
+      13.336071733403168
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9227366b04f4550238"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Winston Speziale",
+    "email": "mymail49@gmail.com",
+    "position": [
+      52.559952910971674,
+      13.322322631389051
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "56db5e9227366b04f4550237"
+    },
+    "_class": "com.thack.localguides.database.entities.User",
+    "name": "Ashlie Mcwhite",
+    "email": "mymail47@gmail.com",
+    "position": [
+      52.54309038045428,
+      13.39172901438471
+    ]
+  }
 ]
