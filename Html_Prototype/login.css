@@ -288,3 +288,44 @@
     }
 }
 
+@media only screen and (max-width: 500px) {
+    #Header {
+        height: 56px;
+    }
+
+    #Hamburger {
+        height: 20px;
+        margin-top: 18px;
+    }
+
+    #text {
+        font-size: 36px;
+        margin-top: 10px;
+    }
+
+    #text5 {
+        width: 100%;
+        margin-top: 50px;
+        font-size: 36px;
+    }
+
+    #Main_CTA {
+        margin-top: 60px;
+        width: 75%;
+        font-size: 20px;
+        height: 48px;
+    }
+
+    #Main_CTA1 {
+        width: 75%;
+        font-size: 20px;
+        height: 48px;
+    }
+
+    #Main_CTA2 {
+        width: 75%;
+        font-size: 20px;
+        height: 48px;
+    }
+}
+
