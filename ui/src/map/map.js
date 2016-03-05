@@ -1,6 +1,6 @@
 import {Component, View, provide} from 'angular2/core';
+import {Http, Headers} from 'angular2/http';
 
-import {ANGULAR2_GOOGLE_MAPS_DIRECTIVES} from 'angular2-google-maps/core';
 
 @Component({
   selector: 'map'
@@ -8,40 +8,48 @@ import {ANGULAR2_GOOGLE_MAPS_DIRECTIVES} from 'angular2-google-maps/core';
 })
 
 @View({
-  templateUrl: 'map/map.html',
-  directives: [ANGULAR2_GOOGLE_MAPS_DIRECTIVES]
+  templateUrl: 'map/map.html'
 })
 
 export class Map {
-
-    constructor() {
+    constructor(http: Http) {
+        console.log(Http);
+        this.http = Http;
         // google maps zoom level
-        this.
-            zoom = 8;
+        this.zoom = 8;
+        this.markers = [];
 
-        // initial center position for the map
-        this.lat = 51.673858;
-        this.lng = 7.815982;
-        this.markers = [
-            {
-                lat: 51.673858,
-                lng: 7.815982,
-                label: 'A',
-                draggable: true
-            },
-            {
-                lat: 51.373858,
-                lng: 7.215982,
-                label: 'B',
-                draggable: false
-            },
-            {
-                lat: 51.723858,
-                lng: 7.895982,
-                label: 'C',
-                draggable: true
-            }
-        ];
+        navigator.geolocation.getCurrentPosition(this.setCurrentLocationFromBrowser.bind(this));
+    }
+
+    setCurrentLocationFromBrowser(position) {
+        this.lat = position.coords.latitude;
+        this.lng = position.coords.longitude;
+        this.markers = this.loadMarkers();
+        this.processMarkers();
+    }
+
+    loadMarkers() {
+        var url = '/api/location/guides/' + this.lat + '/' + this.lng;
+        return this.http.get(url)
+            .map(res => res.json());
+    }
+
+    processMarkers() {
+
+        loadMap()
+    }
+
+    loadMap() {
+        let latLng = new google.maps.LatLng(this.lat, this.lng);
+
+        let mapOptions = {
+            center: latLng,
+            zoom: 15,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+
+        this.map = new google.maps.Map($("#map"), mapOptions);
     }
 
     clickedMarker(label, index) {

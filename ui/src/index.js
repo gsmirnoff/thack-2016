@@ -3,11 +3,11 @@ import {bootstrap} from 'angular2/platform/browser';
 import {Location, RouteConfig, RouterLink, Router, HashLocationStrategy, LocationStrategy} from 'angular2/router';
 import {ROUTER_PROVIDERS} from 'angular2/router';
 import {Page} from 'page/page';
-import {Login} from 'login/login'
-import {Register} from 'register/register'
-import {Home} from 'home/home'
-import {Map} from 'map/map'
-import {ANGULAR2_GOOGLE_MAPS_PROVIDERS} from 'angular2-google-maps/core';
+import {Login} from 'login/login';
+import {Register} from 'register/register';
+import {Home} from 'home/home';
+import {Map} from 'map/map';
+import {HTTP_BINDINGS} from 'angular2/http';
 
 @Component({
   selector: 'main'
@@ -31,4 +31,4 @@ class Main {
   }
 }
 
-bootstrap(Main, [ROUTER_PROVIDERS,ANGULAR2_GOOGLE_MAPS_PROVIDERS, provide(LocationStrategy, {useClass: HashLocationStrategy})]);
+bootstrap(Main, [ROUTER_PROVIDERS,HTTP_BINDINGS, provide(LocationStrategy, {useClass: HashLocationStrategy})]);
