@@ -19,6 +19,7 @@ export class Map {
         // google maps zoom level
         this.zoom = 8;
         this.markers = [];
+        this.markerPins = [];
 
         navigator.geolocation.getCurrentPosition(this.setCurrentLocationFromBrowser.bind(this));
     }
@@ -27,21 +28,16 @@ export class Map {
         this.lat = position.coords.latitude;
         this.lng = position.coords.longitude;
         this.loadMarkers();
-        this.processMarkers();
     }
 
     loadMarkers() {
         var url = '/api/location/guides/' + this.lat + '/' + this.lng;
         this.http.get(url)
-            .map(res => res.json())
-            .subscribe(
-                data => this.markers = data,
-                err => this.logError(err),
-                () => console.log('getting guides Complete')
-            );
+            .subscribe(this.processMarkers.bind(this));
     }
 
-    processMarkers() {
+    processMarkers(response) {
+        this.markers = response.json();
         this.loadMap()
     }
 
@@ -55,6 +51,26 @@ export class Map {
         };
 
         this.map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+
+        this.myMarker = new google.maps.Marker({
+            map: this.map,
+            animation: google.maps.Animation.DROP,
+            position: this.map.getCenter()
+        });
+
+//      add guides
+        for (let i = 0; i < this.markers.length; i++) {
+            let marker = this.markers[i];
+            let markerPin = new google.maps.Marker({
+                map: this.map,
+                animation: google.maps.Animation.DROP,
+                position: new google.maps.LatLng(marker.position[0], marker.position[1])
+            });
+            this.markerPins.push(markerPin);
+        }
+
+
     }
 
     clickedMarker(label, index) {
