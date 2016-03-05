@@ -1,6 +1,8 @@
 package com.thack.localguides.controller;
 
 import com.pusher.rest.Pusher;
+import com.thack.localguides.service.ConnectionService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.stereotype.Component;
@@ -9,6 +11,7 @@ import javax.annotation.PostConstruct;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+import java.util.HashMap;
 
 /**
  * Created by aakhmerov on 05.03.16.
@@ -17,23 +20,9 @@ import javax.ws.rs.core.Response;
 @Path("connection")
 @EnableAutoConfiguration
 public class ConnectionRestController {
-    private static final String REQUEST_CONNECTION = "request-connection";
 
-    private Pusher pusher;
-
-    @Value("${pusher.appId}")
-    private String appId;
-
-    @Value("${pusher.apiKey}")
-    private String apiKey;
-
-    @Value("${pusher.apiSecret}")
-    private String apiSecret;
-
-    @PostConstruct
-    public void init() {
-        this.pusher = new Pusher(appId, apiKey, apiSecret);
-    }
+    @Autowired
+    private ConnectionService connectionService;
 
     /**
      * This method is intended to request connection from one user to another using pusher
@@ -54,7 +43,7 @@ public class ConnectionRestController {
     @Produces({ MediaType.APPLICATION_JSON })
     @Consumes({ MediaType.APPLICATION_JSON })
     public Response establishConnection(@PathParam("from") String from,@PathParam("to") String to) {
-        pusher.trigger(to,REQUEST_CONNECTION,from);
+        connectionService.establishConnection(from,to);
         return Response.ok().build();
     }
 }
