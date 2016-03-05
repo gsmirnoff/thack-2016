@@ -44,6 +44,8 @@
     width: 200px;
     margin-right: auto;
     background-image:url("img/jonathan_s.jpg");
+    background-position: 50% 0%;
+    background-repeat: repeat;
     background-attachment: scroll;
     -webkit-background-size: cover;
     background-size: cover;
@@ -51,8 +53,6 @@
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
     border-bottom-left-radius: 100px;
-    background-position: 50% 0%;
-    background-repeat: repeat repeat;
 }
 
 #host_info {
@@ -92,7 +92,10 @@
     text-align: left;
     font-weight: normal;
     line-height: 1em;
-    padding: 0.2em 0em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
     display: block;
     font-family: 'Roboto Light';
     color: rgb(81, 81, 81);
@@ -104,7 +107,10 @@
 #profession_input {
     float: none;
     height: 54.625px;
-    padding: 0px 0px 0px 16px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 16px;
     font-size: 1em;
     display: block;
     width: 100%;
@@ -117,7 +123,18 @@
     border-bottom-left-radius: 3px;
     color: rgb(119, 119, 119);
     font-family: Roboto;
-    border: 1px none rgb(215, 215, 215);
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-color: rgb(215, 215, 215);
+    border-right-color: rgb(215, 215, 215);
+    border-bottom-color: rgb(215, 215, 215);
+    border-left-color: rgb(215, 215, 215);
     background-color: rgb(241, 241, 241);
 }
 
@@ -141,7 +158,10 @@
     text-align: left;
     font-weight: normal;
     line-height: 1em;
-    padding: 0.2em 0em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
     display: block;
     font-family: 'Roboto Light';
     color: rgb(81, 81, 81);
@@ -153,7 +173,10 @@
 #city_input {
     float: none;
     height: 54.625px;
-    padding: 0px 0px 0px 16px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 16px;
     font-size: 1em;
     display: block;
     width: 100%;
@@ -166,7 +189,18 @@
     border-bottom-left-radius: 3px;
     color: rgb(119, 119, 119);
     font-family: Roboto;
-    border: 1px none rgb(215, 215, 215);
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-color: rgb(215, 215, 215);
+    border-right-color: rgb(215, 215, 215);
+    border-bottom-color: rgb(215, 215, 215);
+    border-left-color: rgb(215, 215, 215);
     background-color: rgb(241, 241, 241);
 }
 
@@ -184,13 +218,22 @@
 #since_select {
     float: none;
     height: 54.63px;
-    padding: 0px 0px 0px 16px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 16px;
     font-size: 1em;
     display: block;
     width: 100%;
     margin-top: 17px;
-    border-style: none;
-    border-width: 1px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
     background-color: rgb(241, 241, 241);
 }
 
@@ -202,7 +245,10 @@
     text-align: left;
     font-weight: normal;
     line-height: 1em;
-    padding: 0.2em 0em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
     display: block;
     color: rgb(81, 81, 81);
     font-family: 'Roboto Light';
@@ -283,7 +329,10 @@ body {
     margin-top: 48px;
     clear: left;
     width: 36.579572%;
-    border-style: none;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
     -webkit-box-shadow: none;
     box-shadow: none;
     font-family: 'Roboto Medium';
@@ -312,7 +361,10 @@ body {
 #knowledge1_chk {
     float: none;
     height: auto;
-    padding: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
     font-size: 1em;
     display: inline-block;
     width: auto;
@@ -326,7 +378,10 @@ body {
     text-align: left;
     font-weight: normal;
     line-height: 1em;
-    padding: 0em 0.5em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
     display: inline-block;
     margin-left: 16px;
     font-family: 'Roboto Light';
@@ -347,7 +402,10 @@ body {
 #knowledge2_chk {
     float: none;
     height: auto;
-    padding: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
     font-size: 1em;
     display: inline-block;
     width: auto;
@@ -361,7 +419,10 @@ body {
     text-align: left;
     font-weight: normal;
     line-height: 1em;
-    padding: 0em 0.5em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
     display: inline-block;
     margin-left: 16px;
     font-family: 'Roboto Light';
@@ -382,7 +443,10 @@ body {
 #knowledge7_chk {
     float: none;
     height: auto;
-    padding: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
     font-size: 1em;
     display: inline-block;
     width: auto;
@@ -396,7 +460,10 @@ body {
     text-align: left;
     font-weight: normal;
     line-height: 1em;
-    padding: 0em 0.5em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
     display: inline-block;
     margin-left: 16px;
     font-family: 'Roboto Light';
@@ -417,7 +484,10 @@ body {
 #knowledge3_chk {
     float: none;
     height: auto;
-    padding: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
     font-size: 1em;
     display: inline-block;
     width: auto;
@@ -431,7 +501,10 @@ body {
     text-align: left;
     font-weight: normal;
     line-height: 1em;
-    padding: 0em 0.5em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
     display: inline-block;
     margin-left: 16px;
     font-family: 'Roboto Light';
@@ -452,7 +525,10 @@ body {
 #knowledge4_chk {
     float: none;
     height: auto;
-    padding: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
     font-size: 1em;
     display: inline-block;
     width: auto;
@@ -466,7 +542,10 @@ body {
     text-align: left;
     font-weight: normal;
     line-height: 1em;
-    padding: 0em 0.5em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
     display: inline-block;
     margin-left: 16px;
     font-family: 'Roboto Light';
@@ -487,7 +566,10 @@ body {
 #knowledge9_chk {
     float: none;
     height: auto;
-    padding: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
     font-size: 1em;
     display: inline-block;
     width: auto;
@@ -501,7 +583,10 @@ body {
     text-align: left;
     font-weight: normal;
     line-height: 1em;
-    padding: 0em 0.5em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
     display: inline-block;
     margin-left: 16px;
     font-family: 'Roboto Light';
@@ -522,7 +607,10 @@ body {
 #knowledge5_chk {
     float: none;
     height: auto;
-    padding: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
     font-size: 1em;
     display: inline-block;
     width: auto;
@@ -536,7 +624,10 @@ body {
     text-align: left;
     font-weight: normal;
     line-height: 1em;
-    padding: 0em 0.5em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
     display: inline-block;
     margin-left: 16px;
     font-family: 'Roboto Light';
@@ -557,7 +648,10 @@ body {
 #knowledge6_chk {
     float: none;
     height: auto;
-    padding: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
     font-size: 1em;
     display: inline-block;
     width: auto;
@@ -571,7 +665,10 @@ body {
     text-align: left;
     font-weight: normal;
     line-height: 1em;
-    padding: 0em 0.5em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
     display: inline-block;
     margin-left: 16px;
     font-family: 'Roboto Light';
@@ -592,7 +689,10 @@ body {
 #knowledge11_chk {
     float: none;
     height: auto;
-    padding: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
     font-size: 1em;
     display: inline-block;
     width: auto;
@@ -606,7 +706,10 @@ body {
     text-align: left;
     font-weight: normal;
     line-height: 1em;
-    padding: 0em 0.5em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
     display: inline-block;
     margin-left: 16px;
     font-family: 'Roboto Light';
@@ -627,7 +730,10 @@ body {
 #knowledge8_chk {
     float: none;
     height: auto;
-    padding: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
     font-size: 1em;
     display: inline-block;
     width: auto;
@@ -641,7 +747,10 @@ body {
     text-align: left;
     font-weight: normal;
     line-height: 1em;
-    padding: 0em 0.5em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
     display: inline-block;
     margin-left: 16px;
     font-family: 'Roboto Light';
@@ -662,7 +771,10 @@ body {
 #knowledge10_chk {
     float: none;
     height: auto;
-    padding: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
     font-size: 1em;
     display: inline-block;
     width: auto;
@@ -676,7 +788,10 @@ body {
     text-align: left;
     font-weight: normal;
     line-height: 1em;
-    padding: 0em 0.5em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
     display: inline-block;
     margin-left: 16px;
     font-family: 'Roboto Light';
@@ -697,7 +812,10 @@ body {
 #knowledge12_chk {
     float: none;
     height: auto;
-    padding: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
     font-size: 1em;
     display: inline-block;
     width: auto;
@@ -711,7 +829,10 @@ body {
     text-align: left;
     font-weight: normal;
     line-height: 1em;
-    padding: 0em 0.5em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
     display: inline-block;
     margin-left: 16px;
     font-family: 'Roboto Light';

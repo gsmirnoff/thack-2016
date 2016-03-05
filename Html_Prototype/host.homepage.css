@@ -93,10 +93,7 @@ body {
     font-size: 18px;
     clear: both;
     width: 24.244111%;
-    border-top-style: none;
-    border-right-style: none;
-    border-bottom-style: none;
-    border-left-style: none;
+    border-style: none;
     -webkit-box-shadow: none;
     box-shadow: none;
     font-family: 'Roboto Medium';
@@ -123,11 +120,11 @@ body {
     clear: both;
     width: 100%;
     background-image:url("img/breakfast_blur.jpg");
-    background-position: 50% 50%;
-    background-repeat: repeat;
     background-attachment: scroll;
     -webkit-background-size: cover;
     background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: repeat repeat;
 }
 
 #text2 {
@@ -153,10 +150,7 @@ body {
     font-size: 18px;
     clear: none;
     width: 24.244111%;
-    border-top-style: none;
-    border-right-style: none;
-    border-bottom-style: none;
-    border-left-style: none;
+    border-style: none;
     -webkit-box-shadow: none;
     box-shadow: none;
     font-family: 'Roboto Medium';
@@ -189,11 +183,11 @@ body {
     border-bottom-left-radius: 100px;
     display: block;
     background-image:url("img/girl-s.jpg");
-    background-position: 50% 10%;
-    background-repeat: no-repeat;
     background-attachment: scroll;
     -webkit-background-size: cover;
     background-size: cover;
+    background-position: 50% 10%;
+    background-repeat: no-repeat no-repeat;
 }
 
 #guest1_username {
@@ -278,10 +272,7 @@ body {
     font-size: 18px;
     clear: both;
     width: 10.149446%;
-    border-top-style: none;
-    border-right-style: none;
-    border-bottom-style: none;
-    border-left-style: none;
+    border-style: none;
     -webkit-box-shadow: none;
     box-shadow: none;
     font-family: 'Roboto Medium';
@@ -328,11 +319,11 @@ body {
     border-bottom-left-radius: 100px;
     display: block;
     background-image:url("img/Eric.jpg");
-    background-position: 50% 10%;
-    background-repeat: no-repeat;
     background-attachment: scroll;
     -webkit-background-size: cover;
     background-size: cover;
+    background-position: 50% 10%;
+    background-repeat: no-repeat no-repeat;
 }
 
 #guest2_username {
@@ -396,10 +387,7 @@ body {
     font-size: 18px;
     clear: left;
     width: 10.149446%;
-    border-top-style: none;
-    border-right-style: none;
-    border-bottom-style: none;
-    border-left-style: none;
+    border-style: none;
     -webkit-box-shadow: none;
     box-shadow: none;
     font-family: 'Roboto Medium';
@@ -432,11 +420,11 @@ body {
     border-bottom-left-radius: 100px;
     display: block;
     background-image:url("img/Stephanie.jpg");
-    background-position: 100% 10%;
-    background-repeat: no-repeat;
     background-attachment: scroll;
     -webkit-background-size: cover;
     background-size: cover;
+    background-position: 100% 10%;
+    background-repeat: no-repeat no-repeat;
 }
 
 #guest3_username {
@@ -500,10 +488,7 @@ body {
     font-size: 18px;
     clear: right;
     width: 10.149446%;
-    border-top-style: none;
-    border-right-style: none;
-    border-bottom-style: none;
-    border-left-style: none;
+    border-style: none;
     -webkit-box-shadow: none;
     box-shadow: none;
     font-family: 'Roboto Medium';
@@ -586,11 +571,11 @@ body {
     border-bottom-left-radius: 100px;
     display: block;
     background-image:url("img/jonathan_s.jpg");
-    background-position: 50% 10%;
-    background-repeat: no-repeat;
     background-attachment: scroll;
     -webkit-background-size: auto;
     background-size: auto;
+    background-position: 50% 10%;
+    background-repeat: no-repeat no-repeat;
 }
 
 #Username {
@@ -613,13 +598,10 @@ body {
 #Badges {
     float: left;
     height: auto;
-    margin-left: -49.87%;
-    margin-top: 40px;
+    margin: 40px 0% 0px -49.87%;
     clear: none;
     width: 20%;
-    margin-right: 0%;
     min-height: 0px;
-    margin-bottom: 0px;
 }
 
 #Badge1 {
@@ -694,15 +676,12 @@ body {
     text-align: left;
     font-weight: normal;
     line-height: 1.2em;
-    margin-left: -50%;
-    margin-top: 80px;
+    margin: 80px 0px 0px -50%;
     clear: none;
     min-height: 118px;
     color: rgb(81, 81, 81);
     font-family: 'Roboto Light';
-    margin-right: 0px;
     display: block;
-    margin-bottom: 0px;
 }
 
 @media only screen and (max-width: 960px) {
@@ -943,11 +922,11 @@ body {
         width: 120px;
         height: 120px;
         background-image:url("img/jonathan_s.jpg");
-        background-position: 50% 10%;
-        background-repeat: no-repeat;
         background-attachment: scroll;
         -webkit-background-size: cover;
         background-size: cover;
+        background-position: 50% 10%;
+        background-repeat: no-repeat no-repeat;
     }
 
     #Username {
