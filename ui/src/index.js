@@ -7,6 +7,7 @@ import {Login} from 'login/login'
 import {Register} from 'register/register'
 import {Home} from 'home/home'
 import {Map} from 'map/map'
+import {ANGULAR2_GOOGLE_MAPS_PROVIDERS} from 'angular2-google-maps/core';
 
 @Component({
   selector: 'main'
@@ -30,4 +31,4 @@ class Main {
   }
 }
 
-bootstrap(Main, [ROUTER_PROVIDERS, provide(LocationStrategy, {useClass: HashLocationStrategy})]);
+bootstrap(Main, [ROUTER_PROVIDERS,ANGULAR2_GOOGLE_MAPS_PROVIDERS, provide(LocationStrategy, {useClass: HashLocationStrategy})]);
