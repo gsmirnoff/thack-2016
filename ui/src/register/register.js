@@ -21,7 +21,9 @@ export class Register {
     });
   }
   onSubmit() {
-    this.userService.save(new User(this.registrationForm.value));
+    if (this.registrationForm.valid) {
+      this.userService.save(new User(this.registrationForm.value));
+    }
   }
 
 }

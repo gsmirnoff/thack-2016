@@ -7,7 +7,7 @@ export class UserService {
   }
 
   save(user:User) {
-    let endpoint = 'http://localhost:8080//api/users';
+    let endpoint = 'http://localhost:8080/api/users';
     let headers = new Headers({'Content-Type': 'application/json'});
     this.http.post(endpoint, JSON.stringify(user), headers).subscribe(function(e) {console.log(e)},function(e) {console.log(e)}, function(e) {console.log(e)});
   }
