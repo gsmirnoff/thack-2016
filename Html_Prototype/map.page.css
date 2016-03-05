@@ -1,0 +1,258 @@
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+}
+
+#Header {
+    float: left;
+    height: 80px;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    width: 100%;
+    background-color: rgb(0, 148, 255);
+}
+
+#text {
+    float: left;
+    font-size: 48px;
+    width: 245.87500494000003px;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 6.131235%;
+    margin-top: 16px;
+    clear: none;
+    min-height: 37px;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-family: 'Roboto Black';
+}
+
+#Map {
+    float: left;
+    height: 753px;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: both;
+    width: 100%;
+    background-image:url("img/map_1.png");
+    background-position: 50% 60%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    -webkit-background-size: auto;
+    background-size: auto;
+    position: relative;
+}
+
+#Guide2 {
+    float: left;
+    height: 48px;
+    font-size: 20px;
+    clear: none;
+    width: 48px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: rgb(229, 1, 0);
+    font-family: 'Roboto Black';
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 190px;
+    left: 24.398753%;
+}
+
+#Guide3 {
+    float: left;
+    height: 48px;
+    font-size: 20px;
+    clear: both;
+    width: 48px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-family: 'Roboto Black';
+    color: rgb(255, 255, 255);
+    background-color: rgb(107, 178, 50);
+    position: absolute;
+    top: 298px;
+    left: 41.465014%;
+    display: block;
+}
+
+#Guide1 {
+    float: left;
+    height: 48px;
+    font-size: 20px;
+    clear: none;
+    width: 47.99999925px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-family: 'Roboto Black';
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 80px;
+    left: 54.169141%;
+    background-color: rgb(229, 1, 0);
+}
+
+#Guide5 {
+    float: left;
+    height: 48px;
+    font-size: 20px;
+    clear: both;
+    width: 47.99999925px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-family: 'Roboto Black';
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 459px;
+    left: 19.849812%;
+    background-color: rgb(107, 178, 50);
+}
+
+#Guide4 {
+    float: left;
+    height: 48px;
+    font-size: 20px;
+    clear: both;
+    width: 47.99999925px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-family: 'Roboto Black';
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 378px;
+    left: 73.838331%;
+    background-color: rgb(107, 178, 50);
+}
+
+#Guide6 {
+    float: left;
+    height: 48px;
+    font-size: 20px;
+    clear: both;
+    width: 47.99999925px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-family: 'Roboto Black';
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 595px;
+    left: 48.185125%;
+    background-color: rgb(107, 178, 50);
+}
+
+#Menu {
+    float: right;
+    height: auto;
+    margin-left: 0px;
+    margin-top: 30px;
+    clear: none;
+    width: 569.171875px;
+    margin-right: 6.121338%;
+    display: block;
+}
+
+#text1 {
+    float: left;
+    font-size: 1em;
+    width: 164.296875px;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 30.469157%;
+    margin-top: 0px;
+    clear: none;
+    min-height: 21px;
+    font-family: 'Roboto Black';
+    color: rgb(255, 255, 255);
+    margin-right: 0%;
+}
+
+#text2 {
+    float: left;
+    font-size: 1em;
+    width: 49.00000476px;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 4.658632%;
+    margin-top: 0px;
+    clear: none;
+    min-height: 21px;
+    font-family: Roboto;
+    color: rgb(255, 255, 255);
+    margin-right: 0%;
+}
+
+#text3 {
+    float: left;
+    font-size: 1em;
+    width: 69.18750627px;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 7.494441%;
+    margin-top: 0px;
+    clear: none;
+    min-height: 0px;
+    margin-right: 0%;
+    font-family: Roboto;
+    color: rgb(255, 255, 255);
+}
+
