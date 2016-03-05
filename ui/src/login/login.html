@@ -2,9 +2,9 @@
   <p id="text5">
     Travel Globally, Help Locally
   </p>
-  <input id="Main_CTA" type="button" value="Username">
-  <input id="Main_CTA1" type="button" value="Password">
-  <a href="map page.html">
-    <input id="Main_CTA2" type="button" value="Log In">
-  </a>
+  <form [ngFormModel]="loginForm">
+    <input id="Main_CTA" ngControl="name" type="text" value="Username">
+    <input id="Main_CTA1" ngControl="password" type="text" value="Password">
+    <button id="Main_CTA2" type="button" (click)="onSubmit()">Log in</button>
+  </form>
 </div>

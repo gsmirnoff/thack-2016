@@ -1,5 +1,7 @@
 import {Component, View, provide} from 'angular2/core';
 import {Http, Headers} from 'angular2/http';
+import {CanActivate} from 'angular2/router';
+import {isLoggedIn}  from '../services/authenticationService';
 import 'rxjs/Rx';
 
 
@@ -12,6 +14,7 @@ import 'rxjs/Rx';
   templateUrl: 'map/map.html'
 })
 
+@CanActivate(() => isLoggedIn())
 export class Map {
     constructor(http: Http) {
         console.log(http);
