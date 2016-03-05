@@ -111,3 +111,7 @@
   margin-right: 0%;
 }
 
+.ng-invalid {
+  border: 1px solid #a94442 !important;
+}
+

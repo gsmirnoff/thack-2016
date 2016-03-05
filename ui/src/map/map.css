@@ -1,4 +1,7 @@
-
+#map {
+    height: 100%;
+    width: 100%;
+}
 .map-container {
     margin-top: 80px;
     height: 89.5vh;

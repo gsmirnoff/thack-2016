@@ -1,5 +1,6 @@
 import {Component, View, provide} from 'angular2/core';
 import {Http, Headers} from 'angular2/http';
+import 'rxjs/Rx';
 
 
 @Component({
@@ -13,8 +14,8 @@ import {Http, Headers} from 'angular2/http';
 
 export class Map {
     constructor(http: Http) {
-        console.log(Http);
-        this.http = Http;
+        console.log(http);
+        this.http = http;
         // google maps zoom level
         this.zoom = 8;
         this.markers = [];
@@ -25,19 +26,23 @@ export class Map {
     setCurrentLocationFromBrowser(position) {
         this.lat = position.coords.latitude;
         this.lng = position.coords.longitude;
-        this.markers = this.loadMarkers();
+        this.loadMarkers();
         this.processMarkers();
     }
 
     loadMarkers() {
         var url = '/api/location/guides/' + this.lat + '/' + this.lng;
-        return this.http.get(url)
-            .map(res => res.json());
+        this.http.get(url)
+            .map(res => res.json())
+            .subscribe(
+                data => this.markers = data,
+                err => this.logError(err),
+                () => console.log('getting guides Complete')
+            );
     }
 
     processMarkers() {
-
-        loadMap()
+        this.loadMap()
     }
 
     loadMap() {
@@ -49,7 +54,7 @@ export class Map {
             mapTypeId: google.maps.MapTypeId.ROADMAP
         };
 
-        this.map = new google.maps.Map($("#map"), mapOptions);
+        this.map = new google.maps.Map(document.getElementById("map"), mapOptions);
     }
 
     clickedMarker(label, index) {
