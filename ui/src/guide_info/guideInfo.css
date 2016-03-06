@@ -1,58 +1,4 @@
-.primaryContainer {
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    min-height: 100%;
-    width: 100%;
-    padding-bottom: 200px;
-    position: relative;
-}
-
-#Header {
-    float: left;
-    height: 80px;
-    margin-left: 0%;
-    margin-top: 0px;
-    clear: none;
-    width: 100%;
-    display: block;
-    background-color: rgb(0, 148, 255);
-}
-
-#text {
-    float: left;
-    font-size: 48px;
-    width: 245.87500494000003px;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    margin-left: 6.131235%;
-    margin-top: 16px;
-    clear: none;
-    min-height: 37px;
-    color: rgb(255, 255, 255);
-    font-family: 'Roboto Black';
-    font-style: italic;
-}
-
-body {
-    font-family: Roboto;
-    color: rgb(81, 81, 81);
-}
-
-#Menu {
-    float: right;
-    height: auto;
-    margin-left: 0px;
-    margin-top: 30px;
-    clear: none;
-    width: 569.171875px;
-    margin-right: 6.132472%;
-    display: block;
-}
-
-#text1 {
+.guideInfo #text1 {
     float: left;
     font-size: 1em;
     width: 164.296875px;
@@ -69,7 +15,7 @@ body {
     margin-right: 0%;
 }
 
-#text3 {
+.guideInfo #text3 {
     float: left;
     font-size: 1em;
     width: 69.18750627px;
@@ -86,7 +32,7 @@ body {
     color: rgb(255, 255, 255);
 }
 
-#Connect_guide_btn {
+.guideInfo #Connect_guide_btn {
     float: left;
     height: 64px;
     font-size: 18px;
@@ -111,7 +57,7 @@ body {
     margin-right: 0px;
 }
 
-#knows_about {
+.guideInfo #knows_about {
     float: left;
     font-size: 20px;
     width: 16.990796%;
@@ -127,7 +73,7 @@ body {
     margin-right: 0%;
 }
 
-#lives_since {
+.guideInfo #lives_since {
     float: left;
     font-size: 20px;
     width: 23.073466%;
@@ -143,7 +89,7 @@ body {
     margin-right: 0%;
 }
 
-#Profession {
+.guideInfo #Profession {
     float: left;
     font-size: 20px;
     width: 23.073466%;
@@ -159,7 +105,7 @@ body {
     margin-right: 0%;
 }
 
-#Knowledge_icon_1 {
+.guideInfo #Knowledge_icon_1 {
     float: left;
     height: 70px;
     margin-left: 25.725072%;
@@ -170,7 +116,7 @@ body {
     margin-right: 0%;
 }
 
-#Knowledge_icon_2 {
+.guideInfo #Knowledge_icon_2 {
     float: left;
     height: 70px;
     margin-left: 2.988915%;
@@ -181,7 +127,7 @@ body {
     margin-right: 0%;
 }
 
-#Knowledge_icon_3 {
+.guideInfo #Knowledge_icon_3 {
     float: left;
     height: 70px;
     margin-left: 3.068092%;
@@ -192,7 +138,7 @@ body {
     background-color: rgb(178, 178, 178);
 }
 
-#Knowledge_icon_4 {
+.guideInfo #Knowledge_icon_4 {
     float: left;
     height: 70px;
     margin-left: 2.917162%;
@@ -203,7 +149,7 @@ body {
     background-color: rgb(178, 178, 178);
 }
 
-#profession_info {
+.guideInfo #profession_info {
     float: right;
     font-size: 20px;
     width: 17.066261%;
@@ -219,7 +165,7 @@ body {
     margin-right: 25.507225%;
 }
 
-#year {
+.guideInfo #year {
     float: right;
     font-size: 20px;
     width: 17.066261%;
@@ -235,7 +181,7 @@ body {
     margin-right: 25.504854%;
 }
 
-#Profile_hero_pic {
+.guideInfo #Profile_hero_pic {
     float: left;
     height: 351px;
     margin-left: 0%;
@@ -250,7 +196,7 @@ body {
     background-repeat: repeat repeat;
 }
 
-#Profile_info_box {
+.guideInfo #Profile_info_box {
     float: left;
     height: 253px;
     margin-left: 0%;
@@ -264,7 +210,7 @@ body {
     border-bottom-left-radius: 3px;
 }
 
-#User_pic {
+.guideInfo #User_pic {
     float: left;
     height: 200px;
     margin-left: 20%;
@@ -285,7 +231,7 @@ body {
     background-repeat: no-repeat no-repeat;
 }
 
-#text2 {
+.guideInfo #text2 {
     float: left;
     font-size: 1em;
     width: 49.00000476px;
@@ -302,7 +248,7 @@ body {
     margin-right: 0%;
 }
 
-#Hamburger {
+.guideInfo #Hamburger {
     float: left;
     width: auto;
     max-width: none;
@@ -315,7 +261,7 @@ body {
     display: none;
 }
 
-#Username {
+.guideInfo #Username {
     float: left;
     font-size: 32px;
     width: 50%;
@@ -332,7 +278,7 @@ body {
     display: block;
 }
 
-#Badge1 {
+.guideInfo #Badge1 {
     float: left;
     height: 30px;
     margin-left: 0%;
@@ -348,7 +294,7 @@ body {
     background-color: rgb(255, 206, 0);
 }
 
-#Badge2 {
+.guideInfo #Badge2 {
     float: left;
     height: 30px;
     margin-left: 10%;
@@ -364,7 +310,7 @@ body {
     background-color: rgb(0, 206, 255);
 }
 
-#Badge3 {
+.guideInfo #Badge3 {
     float: left;
     height: 30px;
     margin-left: 10%;
@@ -380,7 +326,7 @@ body {
     background-color: rgb(97, 204, 0);
 }
 
-#Badge4 {
+.guideInfo #Badge4 {
     float: left;
     height: 30px;
     margin-left: 10%;
@@ -396,7 +342,7 @@ body {
     background-color: rgb(255, 147, 0);
 }
 
-#Userinfo {
+.guideInfo #Userinfo {
     float: left;
     font-size: 1em;
     width: 50%;
@@ -412,7 +358,7 @@ body {
     display: block;
 }
 
-#Badges {
+.guideInfo #Badges {
     float: left;
     height: auto;
     margin: 40px 0% 0px -49.87%;
@@ -421,7 +367,7 @@ body {
     min-height: 0px;
 }
 
-#Profile_info {
+.guideInfo #Profile_info {
     float: none;
     height: auto;
     margin-left: auto;
@@ -432,7 +378,7 @@ body {
 }
 
 @media only screen and (max-width: 960px) {
-    #Hamburger {
+    .guideInfo #Hamburger {
         display: block;
         margin-left: 0px;
         margin-right: 5%;
@@ -441,15 +387,15 @@ body {
         clear: none;
     }
 
-    #Menu {
+    .guideInfo #Menu {
         display: none;
     }
 
-    #User_pic {
+    .guideInfo #User_pic {
         margin-left: 6%;
     }
 
-    #Profession {
+    .guideInfo #Profession {
         margin-left: 5.999349%;
         margin-top: 31px;
         clear: both;
@@ -457,7 +403,7 @@ body {
         width: 28.133138%;
     }
 
-    #lives_since {
+    .guideInfo #lives_since {
         margin-left: 5.999349%;
         margin-top: 18px;
         clear: both;
@@ -465,7 +411,7 @@ body {
         width: 28.133138%;
     }
 
-    #knows_about {
+    .guideInfo #knows_about {
         margin-left: 5.999349%;
         margin-top: 18px;
         clear: none;
@@ -473,13 +419,13 @@ body {
         width: 27.931315%;
     }
 
-    #Knowledge_icon_1 {
+    .guideInfo #Knowledge_icon_1 {
         margin-left: 5.999349%;
         margin-top: 30px;
         clear: left;
     }
 
-    #Connect_guide_btn {
+    .guideInfo #Connect_guide_btn {
         width: 53%;
         margin-left: auto;
         margin-right: auto;
@@ -488,7 +434,7 @@ body {
         margin-top: 732px;
     }
 
-    #Profile_hero_pic {
+    .guideInfo #Profile_hero_pic {
         margin-top: 0px;
         margin-left: 0%;
         clear: both;
@@ -500,17 +446,17 @@ body {
         background-repeat: repeat repeat;
     }
 
-    #year {
+    .guideInfo #year {
         margin-right: 5.999349%;
         margin-top: -23px;
         clear: left;
     }
 
-    #profession_info {
+    .guideInfo #profession_info {
         margin-right: 6%;
     }
 
-    #Username {
+    .guideInfo #Username {
         height: auto;
         clear: none;
         margin-right: 0px;
@@ -520,7 +466,7 @@ body {
         width: 50%;
     }
 
-    #Badge1 {
+    .guideInfo #Badge1 {
         margin-left: 0%;
         margin-right: 0px;
         float: left;
@@ -528,7 +474,7 @@ body {
         margin-top: 0px;
     }
 
-    #Badge2 {
+    .guideInfo #Badge2 {
         margin-left: 12%;
         margin-right: 0px;
         float: left;
@@ -536,7 +482,7 @@ body {
         margin-top: 0px;
     }
 
-    #Badge3 {
+    .guideInfo #Badge3 {
         margin-left: 15%;
         margin-right: 0px;
         float: left;
@@ -544,7 +490,7 @@ body {
         margin-top: 0px;
     }
 
-    #Badge4 {
+    .guideInfo #Badge4 {
         margin-left: 86.216919%;
         margin-right: 0px;
         float: left;
@@ -552,13 +498,13 @@ body {
         margin-top: -30px;
     }
 
-    #Userinfo {
+    .guideInfo #Userinfo {
         clear: none;
         height: auto;
         float: left;
     }
 
-    #Badges {
+    .guideInfo #Badges {
         float: left;
         clear: none;
         height: 30px;
@@ -567,20 +513,20 @@ body {
 }
 
 @media only screen and (max-width: 500px) {
-    #Username {
+    .guideInfo #Username {
         font-size: 20px;
         height: auto;
         width: 57.978125%;
     }
 
-    #Badges {
+    .guideInfo #Badges {
         width: 40.85625%;
         margin-top: 32px;
         margin-left: -57.846875%;
         clear: none;
     }
 
-    #User_pic {
+    .guideInfo #User_pic {
         width: 120px;
         height: 120px;
         background-image:url("/img/jonathan_s.jpg");
@@ -591,13 +537,13 @@ body {
         background-repeat: no-repeat no-repeat;
     }
 
-    #Profile_info {
+    .guideInfo #Profile_info {
         height: 159px;
         margin-left: auto;
         margin-right: auto;
     }
 
-    #Userinfo {
+    .guideInfo #Userinfo {
         height: auto;
         width: 57.978125%;
         min-height: 79px;
@@ -607,26 +553,26 @@ body {
         clear: none;
     }
 
-    #Header {
+    .guideInfo #Header {
         height: 56px;
     }
 
-    #text {
+    .guideInfo #text {
         font-size: 36px;
         margin-top: 10px;
     }
 
-    #Hamburger {
+    .guideInfo #Hamburger {
         height: 20px;
         margin-top: 18px;
     }
 
-    #Profile_info_box {
+    .guideInfo #Profile_info_box {
         height: 203px;
         margin-top: 24px;
     }
 
-    #Profession {
+    .guideInfo #Profession {
         margin-top: 24px;
         margin-left: 5.996875%;
         clear: both;
@@ -635,21 +581,21 @@ body {
         width: 36.66875%;
     }
 
-    #profession_info {
+    .guideInfo #profession_info {
         margin-right: 6%;
         margin-top: 24px;
         clear: none;
         font-size: 16px;
     }
 
-    #Profile_hero_pic {
+    .guideInfo #Profile_hero_pic {
         height: 260px;
         margin-top: 0px;
         margin-left: 0%;
         clear: both;
     }
 
-    #lives_since {
+    .guideInfo #lives_since {
         font-size: 16px;
         height: auto;
         width: 36.66875%;
@@ -658,21 +604,21 @@ body {
         clear: both;
     }
 
-    #year {
+    .guideInfo #year {
         margin-right: 6%;
         margin-top: -23px;
         clear: left;
         font-size: 16px;
     }
 
-    #knows_about {
+    .guideInfo #knows_about {
         font-size: 16px;
         margin-top: 18px;
         margin-left: 5.996875%;
         clear: none;
     }
 
-    #Knowledge_icon_1 {
+    .guideInfo #Knowledge_icon_1 {
         margin-top: 24px;
         margin-left: 5.996875%;
         clear: left;
@@ -680,26 +626,26 @@ body {
         width: 48px;
     }
 
-    #Knowledge_icon_2 {
+    .guideInfo #Knowledge_icon_2 {
         width: 48px;
         height: 48px;
         margin-bottom: 0px;
         margin-top: 24px;
     }
 
-    #Knowledge_icon_3 {
+    .guideInfo #Knowledge_icon_3 {
         height: 48px;
         width: 48px;
         margin-top: 24px;
     }
 
-    #Knowledge_icon_4 {
+    .guideInfo #Knowledge_icon_4 {
         height: 48px;
         width: 48px;
         margin-top: 24px;
     }
 
-    #Connect_guide_btn {
+    .guideInfo #Connect_guide_btn {
         margin-top: 548px;
         clear: none;
         width: 87%;
