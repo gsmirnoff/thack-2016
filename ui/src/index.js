@@ -10,6 +10,7 @@ import {Register} from 'register/register';
 import {Home} from 'home/home';
 import {Map} from 'map/map';
 import {GuideInfo} from 'guide_info/guideInfo';
+import {ReviewHost} from 'review_host/review_host';
 import {Chat} from 'chat/chat';
 import {HostStatus} from 'host/host';
 
@@ -30,7 +31,7 @@ import {HostStatus} from 'host/host';
   {path: '/map', component: Map, as: 'Map'},
   {path: '/chat', component: Chat, as: 'Chat'},
   {path: '/host/:id', component: HostStatus, as: 'HostStatus'},
-  {path: '/guideInfo/:id', component: GuideInfo, as: 'GuideInfo'}
+  {path: '/review_host', component: ReviewHost, as: 'ReviewHost'}
 ])
 
 class Main {
