@@ -21,6 +21,7 @@ export class HostStatus {
         this.router = router;
         this.active = false;
         this.transport = false;
+        this.connectionRequests = [];
     }
 
     toggleActive () {
@@ -37,12 +38,18 @@ export class HostStatus {
     }
 
     handleConnectionDone(){
-        console.log('redirect to chat')
+        this.router.navigate(['Chat']);
     }
 
     handleConnectionRequest(data) {
-        console.log(data);
+        this.connectionRequests.push(JSON.parse(data));
+    }
 
+    acceptChat (withUser) {
+        var url = '/api/connection/establish/' + this.id + '/' + withUser.id;
+        console.log(url);
+        this.http.get(url)
+            .subscribe(function(e){});
     }
 
     toggleTransport () {
