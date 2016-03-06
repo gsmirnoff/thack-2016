@@ -7,7 +7,9 @@
         "age": 28,
         "bio" : "Like you, I used to think the world was this great place where everybody lived by the same standards I did, then some kid with a nail showed me.",
         "liveSince" : "1999",
-        "position" : [52.50023,13.40490]
+        "position" : [52.50023,13.40490],
+        "password": "pass",
+        "email": "some-email@mail.com"
     },
     {
         "firstName" : "Max",
@@ -17,6 +19,8 @@
         "age": 28,
         "bio" : "Like you, I used to think the world was this great place where everybody lived by the same standards I did, then some kid with a nail showed me.",
         "liveSince" : "1999",
-        "position" : [52.50364,13.39463]
+        "position" : [52.50364,13.39463],
+        "password": "pass",
+        "email": "some@mail.com"
     }
 ]
