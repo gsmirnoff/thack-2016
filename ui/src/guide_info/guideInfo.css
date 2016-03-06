@@ -105,7 +105,7 @@
     margin-right: 0%;
 }
 
-.guideInfo #Knowledge_dancing {
+.guideInfo #Knowledge_Architecture {
     float: left;
     height: 70px;
     margin-left: 25.725072%;
@@ -114,9 +114,10 @@
     width: 70px;
     background-color: rgb(178, 178, 178);
     margin-right: 0%;
+  background-image:url("/img/icons/architecture.svg");
 }
 
-.guideInfo #Knowledge_museums {
+.guideInfo #Knowledge_Museums {
     float: left;
     height: 70px;
     margin-left: 2.988915%;
@@ -125,6 +126,7 @@
     width: 70px;
     background-color: rgb(178, 178, 178);
     margin-right: 0%;
+  background-image:url("/img/icons/museums.svg");
 }
 
 .guideInfo #Knowledge_icon_3 {

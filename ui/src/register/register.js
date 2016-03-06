@@ -19,16 +19,16 @@ export class Register {
     this.authenticationService = authenticationService;
     this.router = router;
     this.interests = [
-      {value: 'interest 1', fg: 'formgroup', inputClass: 'input', textClass: 'text10'},
-      {value: 'interest 2', fg: 'formgroup1', inputClass: 'input1', textClass: 'text11'},
-      {value: 'interest 3', fg: 'formgroup2', inputClass: 'input2', textClass: 'text12'},
-      {value: 'interest 4', fg: 'formgroup3', inputClass: 'input3', textClass: 'text13'}
+      {value: 'Architecture', fg: 'formgroup', inputClass: 'input', textClass: 'text10'},
+      {value: 'Bars', fg: 'formgroup1', inputClass: 'input1', textClass: 'text11'},
+      {value: 'Clubs', fg: 'formgroup2', inputClass: 'input2', textClass: 'text12'},
+      {value: 'Museums', fg: 'formgroup3', inputClass: 'input3', textClass: 'text13'}
     ];
     this.registrationForm = fb.group({
       name: ['', Validators.required],
       email: ['', Validators.required],
       interests: fb.group(
-        {'interest 1': [], 'interest 2': [], 'interest 3': [], 'interest 4': []}
+        {'Architecture': [], 'Bars': [], 'Clubs': [], 'Museums': []}
       )
     });
   }
