@@ -1,3 +1,4 @@
+let Pusher: any;
 import {Component, View, provide} from 'angular2/core';
 import {bootstrap} from 'angular2/platform/browser';
 import {Location, RouteConfig, RouterLink, Router, HashLocationStrategy, LocationStrategy} from 'angular2/router';
@@ -9,6 +10,8 @@ import {Register} from 'register/register';
 import {Home} from 'home/home';
 import {Map} from 'map/map';
 import {GuideInfo} from 'guide_info/guideInfo';
+import {Chat} from 'chat/chat';
+import {HostStatus} from 'host/host';
 
 @Component({
   selector: 'main'
@@ -25,6 +28,8 @@ import {GuideInfo} from 'guide_info/guideInfo';
   {path: '/register', component: Register, as: 'Register'},
   {path: '/login', component: Login, as: 'Login'},
   {path: '/map', component: Map, as: 'Map'},
+  {path: '/chat', component: Chat, as: 'Chat'},
+  {path: '/host/:id', component: HostStatus, as: 'HostStatus'},
   {path: '/guideInfo/:id', component: GuideInfo, as: 'GuideInfo'}
 ])
 
