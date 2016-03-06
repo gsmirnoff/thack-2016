@@ -34,7 +34,6 @@ export class HostStatus {
     processGuide(response) {
         this.guideData = response.json();
         console.log(this.guideData);
-        this.updateConnectLabel();
     }
 
     toggleActive () {
