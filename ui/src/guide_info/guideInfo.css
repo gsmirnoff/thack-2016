@@ -1,660 +1,662 @@
 .guideInfo #text1 {
-    float: left;
-    font-size: 1em;
-    width: 164.296875px;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    margin-left: 30.469157%;
-    margin-top: 0px;
-    clear: none;
-    min-height: 21px;
-    font-family: 'Roboto Black';
-    color: rgb(255, 255, 255);
-    margin-right: 0%;
+  float: left;
+  font-size: 1em;
+  width: 164.296875px;
+  height: auto;
+  text-align: left;
+  font-weight: normal;
+  line-height: 1em;
+  margin-left: 30.469157%;
+  margin-top: 0px;
+  clear: none;
+  min-height: 21px;
+  font-family: 'Roboto Black';
+  color: rgb(255, 255, 255);
+  margin-right: 0%;
 }
 
 .guideInfo #text3 {
-    float: left;
-    font-size: 1em;
-    width: 69.18750627px;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    margin-left: 7.494441%;
-    margin-top: 0px;
-    clear: none;
-    min-height: 0px;
-    margin-right: 0%;
-    font-family: Roboto;
-    color: rgb(255, 255, 255);
+  float: left;
+  font-size: 1em;
+  width: 69.18750627px;
+  height: auto;
+  text-align: left;
+  font-weight: normal;
+  line-height: 1em;
+  margin-left: 7.494441%;
+  margin-top: 0px;
+  clear: none;
+  min-height: 0px;
+  margin-right: 0%;
+  font-family: Roboto;
+  color: rgb(255, 255, 255);
 }
 
 .guideInfo #Connect_guide_btn {
-    float: left;
-    height: 64px;
-    font-size: 18px;
-    clear: left;
-    width: 48.849466%;
-    border-style: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    font-family: 'Roboto Medium';
-    color: rgb(255, 255, 255);
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-    border-bottom-left-radius: 3px;
-    display: block;
-    background-color: rgb(97, 204, 0);
-    position: static;
-    top: 0px;
-    left: 0px;
-    margin-top: 48px;
-    margin-left: 25.701103%;
-    margin-right: 0px;
+  float: left;
+  height: 64px;
+  font-size: 18px;
+  clear: left;
+  width: 48.849466%;
+  border-style: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-family: 'Roboto Medium';
+  color: rgb(255, 255, 255);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  display: block;
+  background-color: rgb(97, 204, 0);
+  position: static;
+  top: 0px;
+  left: 0px;
+  margin-top: 48px;
+  margin-left: 25.701103%;
+  margin-right: 0px;
 }
 
 .guideInfo #knows_about {
-    float: left;
-    font-size: 20px;
-    width: 16.990796%;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    margin-left: 25.801474%;
-    margin-top: 35px;
-    clear: none;
-    min-height: 23px;
-    font-family: 'Roboto Black';
-    margin-right: 0%;
+  float: left;
+  font-size: 20px;
+  width: 16.990796%;
+  height: auto;
+  text-align: left;
+  font-weight: normal;
+  line-height: 1em;
+  margin-left: 25.801474%;
+  margin-top: 35px;
+  clear: none;
+  min-height: 23px;
+  font-family: 'Roboto Black';
+  margin-right: 0%;
 }
 
 .guideInfo #lives_since {
-    float: left;
-    font-size: 20px;
-    width: 23.073466%;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    margin-left: 25.725072%;
-    margin-top: 18px;
-    clear: both;
-    min-height: 23px;
-    font-family: 'Roboto Black';
-    margin-right: 0%;
+  float: left;
+  font-size: 20px;
+  width: 23.073466%;
+  height: auto;
+  text-align: left;
+  font-weight: normal;
+  line-height: 1em;
+  margin-left: 25.725072%;
+  margin-top: 18px;
+  clear: both;
+  min-height: 23px;
+  font-family: 'Roboto Black';
+  margin-right: 0%;
 }
 
 .guideInfo #Profession {
-    float: left;
-    font-size: 20px;
-    width: 23.073466%;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    margin-left: 25.725072%;
-    margin-top: 31px;
-    clear: both;
-    min-height: 23px;
-    font-family: 'Roboto Black';
-    margin-right: 0%;
+  float: left;
+  font-size: 20px;
+  width: 23.073466%;
+  height: auto;
+  text-align: left;
+  font-weight: normal;
+  line-height: 1em;
+  margin-left: 25.725072%;
+  margin-top: 31px;
+  clear: both;
+  min-height: 23px;
+  font-family: 'Roboto Black';
+  margin-right: 0%;
 }
 
 .guideInfo #Knowledge_Architecture {
-    float: left;
-    height: 70px;
-    margin-left: 25.725072%;
-    margin-top: 30px;
-    clear: left;
-    width: 70px;
-    background-color: rgb(178, 178, 178);
-    margin-right: 0%;
-  background-image:url("/img/icons/architecture.svg");
+  float: left;
+  height: 70px;
+  margin-left: 25.725072%;
+  margin-top: 30px;
+  clear: left;
+  width: 70px;
+  background-color: white;
+  margin-right: 0%;
+  background-image: url("/img/icons/architecture.svg");
 }
 
 .guideInfo #Knowledge_Museums {
-    float: left;
-    height: 70px;
-    margin-left: 2.988915%;
-    margin-top: 30px;
-    clear: none;
-    width: 70px;
-    background-color: rgb(178, 178, 178);
-    margin-right: 0%;
-  background-image:url("/img/icons/museums.svg");
+  float: left;
+  height: 70px;
+  margin-left: 2.988915%;
+  margin-top: 30px;
+  clear: none;
+  width: 70px;
+  background-color: white;
+  margin-right: 0%;
+  background-image: url("/img/icons/museums.svg");
 }
 
-.guideInfo #Knowledge_icon_3 {
-    float: left;
-    height: 70px;
-    margin-left: 3.068092%;
-    margin-top: 30px;
-    clear: none;
-    width: 70px;
-    margin-right: 0%;
-    background-color: rgb(178, 178, 178);
+.guideInfo #Knowledge_Clubs {
+  float: left;
+  height: 70px;
+  margin-left: 3.068092%;
+  margin-top: 30px;
+  clear: none;
+  width: 70px;
+  margin-right: 0%;
+  background-color: white;
+  background-image: url("/img/icons/clubs.svg");
 }
 
-.guideInfo #Knowledge_icon_4 {
-    float: left;
-    height: 70px;
-    margin-left: 2.917162%;
-    margin-top: 30px;
-    clear: none;
-    width: 70px;
-    margin-right: 0%;
-    background-color: rgb(178, 178, 178);
+.guideInfo #Knowledge_Bars {
+  float: left;
+  height: 70px;
+  margin-left: 2.917162%;
+  margin-top: 30px;
+  clear: none;
+  width: 70px;
+  margin-right: 0%;
+  background-color: white;
+  background-image: url("/img/icons/clubs.svg");
 }
 
 .guideInfo #profession_info {
-    float: right;
-    font-size: 20px;
-    width: 17.066261%;
-    height: auto;
-    text-align: right;
-    font-weight: normal;
-    line-height: 1em;
-    margin-left: 0px;
-    margin-top: 31px;
-    clear: none;
-    min-height: 23px;
-    font-family: 'Roboto Light';
-    margin-right: 25.507225%;
+  float: right;
+  font-size: 20px;
+  width: 17.066261%;
+  height: auto;
+  text-align: right;
+  font-weight: normal;
+  line-height: 1em;
+  margin-left: 0px;
+  margin-top: 31px;
+  clear: none;
+  min-height: 23px;
+  font-family: 'Roboto Light';
+  margin-right: 25.507225%;
 }
 
 .guideInfo #year {
-    float: right;
-    font-size: 20px;
-    width: 17.066261%;
-    height: auto;
-    text-align: right;
-    font-weight: normal;
-    line-height: 1em;
-    margin-left: 0px;
-    margin-top: -23px;
-    clear: left;
-    min-height: 23px;
-    font-family: 'Roboto Light';
-    margin-right: 25.504854%;
+  float: right;
+  font-size: 20px;
+  width: 17.066261%;
+  height: auto;
+  text-align: right;
+  font-weight: normal;
+  line-height: 1em;
+  margin-left: 0px;
+  margin-top: -23px;
+  clear: left;
+  min-height: 23px;
+  font-family: 'Roboto Light';
+  margin-right: 25.504854%;
 }
 
 .guideInfo #Profile_hero_pic {
-    float: left;
-    height: 351px;
-    margin-left: 0%;
-    margin-top: 0px;
+  float: left;
+  height: 351px;
+  margin-left: 0%;
+  margin-top: 0px;
+  clear: both;
+  width: 100%;
+  background-image: url("/img/breakfast_blur.jpg");
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: repeat repeat;
+}
+
+.guideInfo #Profile_info_box {
+  float: left;
+  height: 253px;
+  margin-left: 0%;
+  margin-top: 47px;
+  clear: none;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.901961);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.guideInfo #User_pic {
+  float: left;
+  height: 200px;
+  margin-left: 20%;
+  margin-top: 0px;
+  clear: none;
+  width: 200px;
+  margin-right: 0px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  display: block;
+  background-image: url("/img/jonathan_s.jpg");
+  background-attachment: scroll;
+  -webkit-background-size: auto;
+  background-size: auto;
+  background-position: 50% 10%;
+  background-repeat: no-repeat no-repeat;
+}
+
+.guideInfo #text2 {
+  float: left;
+  font-size: 1em;
+  width: 49.00000476px;
+  height: auto;
+  text-align: left;
+  font-weight: normal;
+  line-height: 1em;
+  margin-left: 4.658632%;
+  margin-top: 0px;
+  clear: none;
+  min-height: 21px;
+  font-family: Roboto;
+  color: rgb(255, 255, 255);
+  margin-right: 0%;
+}
+
+.guideInfo #Hamburger {
+  float: left;
+  width: auto;
+  max-width: none;
+  height: 25px;
+  margin-left: 4.428332%;
+  margin-top: 23px;
+  clear: none;
+  color: rgb(0, 0, 0);
+  margin-right: 0%;
+  display: none;
+}
+
+.guideInfo #Username {
+  float: left;
+  font-size: 32px;
+  width: 50%;
+  height: auto;
+  text-align: left;
+  font-weight: normal;
+  line-height: 1em;
+  margin-left: 3.49%;
+  margin-top: 0px;
+  clear: none;
+  min-height: 32px;
+  font-family: 'Roboto Black';
+  margin-right: 0%;
+  display: block;
+}
+
+.guideInfo #Badge1 {
+  float: left;
+  height: 30px;
+  margin-left: 0%;
+  margin-top: 0px;
+  clear: none;
+  width: 30px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-image: url("/img/badges/funny.svg");
+  margin-right: 0%;
+  display: block;
+  background-color: rgb(255, 206, 0);
+}
+
+.guideInfo #Badge2 {
+  float: left;
+  height: 30px;
+  margin-left: 10%;
+  margin-top: 0px;
+  clear: none;
+  width: 30.000001110000003px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-image: url("/img/badges/gourmand.svg");
+  margin-right: 0%;
+  display: block;
+  background-color: rgb(0, 206, 255);
+}
+
+.guideInfo #Badge3 {
+  float: left;
+  height: 30px;
+  margin-left: 10%;
+  margin-top: 0px;
+  clear: none;
+  width: 30.000001110000003px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-image: url("/img/badges/knowledgeable.svg");
+  margin-right: 0%;
+  display: block;
+  background-color: rgb(97, 204, 0);
+}
+
+.guideInfo #Badge4 {
+  float: left;
+  height: 30px;
+  margin-left: 10%;
+  margin-top: 0px;
+  clear: none;
+  width: 30.000001110000003px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-image: url("/img/badges/lh_star.svg");
+  margin-right: 0%;
+  display: block;
+  background-color: rgb(255, 147, 0);
+}
+
+.guideInfo #Userinfo {
+  float: left;
+  font-size: 1em;
+  width: 50%;
+  height: auto;
+  text-align: left;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 80px 0px 0px -50%;
+  clear: none;
+  min-height: 118px;
+  color: rgb(81, 81, 81);
+  font-family: 'Roboto Light';
+  display: block;
+}
+
+.guideInfo #Badges {
+  float: left;
+  height: auto;
+  margin: 40px 0% 0px -49.87%;
+  clear: none;
+  width: 20%;
+  min-height: 0px;
+}
+
+.guideInfo #Profile_info {
+  float: none;
+  height: auto;
+  margin-left: auto;
+  margin-top: 23px;
+  clear: none;
+  width: 100%;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 960px) {
+  .guideInfo #Hamburger {
+    display: block;
+    margin-left: 0px;
+    margin-right: 5%;
+    float: right;
+    margin-top: 28px;
+    clear: none;
+  }
+
+  .guideInfo #Menu {
+    display: none;
+  }
+
+  .guideInfo #User_pic {
+    margin-left: 6%;
+  }
+
+  .guideInfo #Profession {
+    margin-left: 5.999349%;
+    margin-top: 31px;
     clear: both;
-    width: 100%;
-    background-image:url("/img/breakfast_blur.jpg");
+    height: auto;
+    width: 28.133138%;
+  }
+
+  .guideInfo #lives_since {
+    margin-left: 5.999349%;
+    margin-top: 18px;
+    clear: both;
+    height: auto;
+    width: 28.133138%;
+  }
+
+  .guideInfo #knows_about {
+    margin-left: 5.999349%;
+    margin-top: 18px;
+    clear: none;
+    height: auto;
+    width: 27.931315%;
+  }
+
+  .guideInfo #Knowledge_icon_1 {
+    margin-left: 5.999349%;
+    margin-top: 30px;
+    clear: left;
+  }
+
+  .guideInfo #Connect_guide_btn {
+    width: 53%;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    clear: none;
+    margin-top: 732px;
+  }
+
+  .guideInfo #Profile_hero_pic {
+    margin-top: 0px;
+    margin-left: 0%;
+    clear: both;
+    background-image: url("/img/breakfast_blur.jpg");
     background-attachment: scroll;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: repeat repeat;
-}
+  }
 
-.guideInfo #Profile_info_box {
-    float: left;
-    height: 253px;
-    margin-left: 0%;
-    margin-top: 47px;
-    clear: none;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.901961);
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-    border-bottom-left-radius: 3px;
-}
+  .guideInfo #year {
+    margin-right: 5.999349%;
+    margin-top: -23px;
+    clear: left;
+  }
 
-.guideInfo #User_pic {
-    float: left;
-    height: 200px;
-    margin-left: 20%;
-    margin-top: 0px;
-    clear: none;
-    width: 200px;
-    margin-right: 0px;
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
-    border-bottom-right-radius: 100px;
-    border-bottom-left-radius: 100px;
-    display: block;
-    background-image:url("/img/jonathan_s.jpg");
-    background-attachment: scroll;
-    -webkit-background-size: auto;
-    background-size: auto;
-    background-position: 50% 10%;
-    background-repeat: no-repeat no-repeat;
-}
+  .guideInfo #profession_info {
+    margin-right: 6%;
+  }
 
-.guideInfo #text2 {
-    float: left;
-    font-size: 1em;
-    width: 49.00000476px;
+  .guideInfo #Username {
     height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    margin-left: 4.658632%;
-    margin-top: 0px;
     clear: none;
-    min-height: 21px;
-    font-family: Roboto;
-    color: rgb(255, 255, 255);
-    margin-right: 0%;
-}
-
-.guideInfo #Hamburger {
+    margin-right: 0px;
     float: left;
-    width: auto;
-    max-width: none;
-    height: 25px;
-    margin-left: 4.428332%;
-    margin-top: 23px;
-    clear: none;
-    color: rgb(0, 0, 0);
-    margin-right: 0%;
-    display: none;
-}
-
-.guideInfo #Username {
-    float: left;
+    min-height: 0px;
     font-size: 32px;
     width: 50%;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    margin-left: 3.49%;
-    margin-top: 0px;
-    clear: none;
-    min-height: 32px;
-    font-family: 'Roboto Black';
-    margin-right: 0%;
-    display: block;
-}
+  }
 
-.guideInfo #Badge1 {
-    float: left;
-    height: 30px;
+  .guideInfo #Badge1 {
     margin-left: 0%;
-    margin-top: 0px;
-    clear: none;
-    width: 30px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    background-image:url("/img/badges/funny.svg");
-    margin-right: 0%;
-    display: block;
-    background-color: rgb(255, 206, 0);
-}
-
-.guideInfo #Badge2 {
+    margin-right: 0px;
     float: left;
-    height: 30px;
-    margin-left: 10%;
-    margin-top: 0px;
     clear: none;
-    width: 30.000001110000003px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    background-image:url("/img/badges/gourmand.svg");
-    margin-right: 0%;
-    display: block;
-    background-color: rgb(0, 206, 255);
-}
-
-.guideInfo #Badge3 {
-    float: left;
-    height: 30px;
-    margin-left: 10%;
     margin-top: 0px;
-    clear: none;
-    width: 30.000001110000003px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    background-image:url("/img/badges/knowledgeable.svg");
-    margin-right: 0%;
-    display: block;
-    background-color: rgb(97, 204, 0);
-}
+  }
 
-.guideInfo #Badge4 {
+  .guideInfo #Badge2 {
+    margin-left: 12%;
+    margin-right: 0px;
     float: left;
-    height: 30px;
-    margin-left: 10%;
+    clear: none;
     margin-top: 0px;
-    clear: none;
-    width: 30.000001110000003px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    background-image:url("/img/badges/lh_star.svg");
-    margin-right: 0%;
-    display: block;
-    background-color: rgb(255, 147, 0);
-}
+  }
 
-.guideInfo #Userinfo {
+  .guideInfo #Badge3 {
+    margin-left: 15%;
+    margin-right: 0px;
     float: left;
-    font-size: 1em;
-    width: 50%;
+    clear: none;
+    margin-top: 0px;
+  }
+
+  .guideInfo #Badge4 {
+    margin-left: 86.216919%;
+    margin-right: 0px;
+    float: left;
+    clear: none;
+    margin-top: -30px;
+  }
+
+  .guideInfo #Userinfo {
+    clear: none;
     height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1.2em;
-    margin: 80px 0px 0px -50%;
-    clear: none;
-    min-height: 118px;
-    color: rgb(81, 81, 81);
-    font-family: 'Roboto Light';
-    display: block;
-}
-
-.guideInfo #Badges {
     float: left;
-    height: auto;
-    margin: 40px 0% 0px -49.87%;
+  }
+
+  .guideInfo #Badges {
+    float: left;
     clear: none;
-    width: 20%;
-    min-height: 0px;
-}
-
-.guideInfo #Profile_info {
-    float: none;
-    height: auto;
-    margin-left: auto;
-    margin-top: 23px;
-    clear: none;
-    width: 100%;
-    margin-right: auto;
-}
-
-@media only screen and (max-width: 960px) {
-    .guideInfo #Hamburger {
-        display: block;
-        margin-left: 0px;
-        margin-right: 5%;
-        float: right;
-        margin-top: 28px;
-        clear: none;
-    }
-
-    .guideInfo #Menu {
-        display: none;
-    }
-
-    .guideInfo #User_pic {
-        margin-left: 6%;
-    }
-
-    .guideInfo #Profession {
-        margin-left: 5.999349%;
-        margin-top: 31px;
-        clear: both;
-        height: auto;
-        width: 28.133138%;
-    }
-
-    .guideInfo #lives_since {
-        margin-left: 5.999349%;
-        margin-top: 18px;
-        clear: both;
-        height: auto;
-        width: 28.133138%;
-    }
-
-    .guideInfo #knows_about {
-        margin-left: 5.999349%;
-        margin-top: 18px;
-        clear: none;
-        height: auto;
-        width: 27.931315%;
-    }
-
-    .guideInfo #Knowledge_icon_1 {
-        margin-left: 5.999349%;
-        margin-top: 30px;
-        clear: left;
-    }
-
-    .guideInfo #Connect_guide_btn {
-        width: 53%;
-        margin-left: auto;
-        margin-right: auto;
-        float: none;
-        clear: none;
-        margin-top: 732px;
-    }
-
-    .guideInfo #Profile_hero_pic {
-        margin-top: 0px;
-        margin-left: 0%;
-        clear: both;
-        background-image:url("/img/breakfast_blur.jpg");
-        background-attachment: scroll;
-        -webkit-background-size: cover;
-        background-size: cover;
-        background-position: 50% 50%;
-        background-repeat: repeat repeat;
-    }
-
-    .guideInfo #year {
-        margin-right: 5.999349%;
-        margin-top: -23px;
-        clear: left;
-    }
-
-    .guideInfo #profession_info {
-        margin-right: 6%;
-    }
-
-    .guideInfo #Username {
-        height: auto;
-        clear: none;
-        margin-right: 0px;
-        float: left;
-        min-height: 0px;
-        font-size: 32px;
-        width: 50%;
-    }
-
-    .guideInfo #Badge1 {
-        margin-left: 0%;
-        margin-right: 0px;
-        float: left;
-        clear: none;
-        margin-top: 0px;
-    }
-
-    .guideInfo #Badge2 {
-        margin-left: 12%;
-        margin-right: 0px;
-        float: left;
-        clear: none;
-        margin-top: 0px;
-    }
-
-    .guideInfo #Badge3 {
-        margin-left: 15%;
-        margin-right: 0px;
-        float: left;
-        clear: none;
-        margin-top: 0px;
-    }
-
-    .guideInfo #Badge4 {
-        margin-left: 86.216919%;
-        margin-right: 0px;
-        float: left;
-        clear: none;
-        margin-top: -30px;
-    }
-
-    .guideInfo #Userinfo {
-        clear: none;
-        height: auto;
-        float: left;
-    }
-
-    .guideInfo #Badges {
-        float: left;
-        clear: none;
-        height: 30px;
-        width: 204.28125119999999px;
-    }
+    height: 30px;
+    width: 204.28125119999999px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
-    .guideInfo #Username {
-        font-size: 20px;
-        height: auto;
-        width: 57.978125%;
-    }
+  .guideInfo #Username {
+    font-size: 20px;
+    height: auto;
+    width: 57.978125%;
+  }
 
-    .guideInfo #Badges {
-        width: 40.85625%;
-        margin-top: 32px;
-        margin-left: -57.846875%;
-        clear: none;
-    }
+  .guideInfo #Badges {
+    width: 40.85625%;
+    margin-top: 32px;
+    margin-left: -57.846875%;
+    clear: none;
+  }
 
-    .guideInfo #User_pic {
-        width: 120px;
-        height: 120px;
-        background-image:url("/img/jonathan_s.jpg");
-        background-attachment: scroll;
-        -webkit-background-size: cover;
-        background-size: cover;
-        background-position: 50% 10%;
-        background-repeat: no-repeat no-repeat;
-    }
+  .guideInfo #User_pic {
+    width: 120px;
+    height: 120px;
+    background-image: url("/img/jonathan_s.jpg");
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 50% 10%;
+    background-repeat: no-repeat no-repeat;
+  }
 
-    .guideInfo #Profile_info {
-        height: 159px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+  .guideInfo #Profile_info {
+    height: 159px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-    .guideInfo #Userinfo {
-        height: auto;
-        width: 57.978125%;
-        min-height: 79px;
-        font-size: 13px;
-        margin-top: 80px;
-        margin-left: -57.978125%;
-        clear: none;
-    }
+  .guideInfo #Userinfo {
+    height: auto;
+    width: 57.978125%;
+    min-height: 79px;
+    font-size: 13px;
+    margin-top: 80px;
+    margin-left: -57.978125%;
+    clear: none;
+  }
 
-    .guideInfo #Header {
-        height: 56px;
-    }
+  .guideInfo #Header {
+    height: 56px;
+  }
 
-    .guideInfo #text {
-        font-size: 36px;
-        margin-top: 10px;
-    }
+  .guideInfo #text {
+    font-size: 36px;
+    margin-top: 10px;
+  }
 
-    .guideInfo #Hamburger {
-        height: 20px;
-        margin-top: 18px;
-    }
+  .guideInfo #Hamburger {
+    height: 20px;
+    margin-top: 18px;
+  }
 
-    .guideInfo #Profile_info_box {
-        height: 203px;
-        margin-top: 24px;
-    }
+  .guideInfo #Profile_info_box {
+    height: 203px;
+    margin-top: 24px;
+  }
 
-    .guideInfo #Profession {
-        margin-top: 24px;
-        margin-left: 5.996875%;
-        clear: both;
-        font-size: 16px;
-        height: auto;
-        width: 36.66875%;
-    }
+  .guideInfo #Profession {
+    margin-top: 24px;
+    margin-left: 5.996875%;
+    clear: both;
+    font-size: 16px;
+    height: auto;
+    width: 36.66875%;
+  }
 
-    .guideInfo #profession_info {
-        margin-right: 6%;
-        margin-top: 24px;
-        clear: none;
-        font-size: 16px;
-    }
+  .guideInfo #profession_info {
+    margin-right: 6%;
+    margin-top: 24px;
+    clear: none;
+    font-size: 16px;
+  }
 
-    .guideInfo #Profile_hero_pic {
-        height: 260px;
-        margin-top: 0px;
-        margin-left: 0%;
-        clear: both;
-    }
+  .guideInfo #Profile_hero_pic {
+    height: 260px;
+    margin-top: 0px;
+    margin-left: 0%;
+    clear: both;
+  }
 
-    .guideInfo #lives_since {
-        font-size: 16px;
-        height: auto;
-        width: 36.66875%;
-        margin-top: 18px;
-        margin-left: 5.996875%;
-        clear: both;
-    }
+  .guideInfo #lives_since {
+    font-size: 16px;
+    height: auto;
+    width: 36.66875%;
+    margin-top: 18px;
+    margin-left: 5.996875%;
+    clear: both;
+  }
 
-    .guideInfo #year {
-        margin-right: 6%;
-        margin-top: -23px;
-        clear: left;
-        font-size: 16px;
-    }
+  .guideInfo #year {
+    margin-right: 6%;
+    margin-top: -23px;
+    clear: left;
+    font-size: 16px;
+  }
 
-    .guideInfo #knows_about {
-        font-size: 16px;
-        margin-top: 18px;
-        margin-left: 5.996875%;
-        clear: none;
-    }
+  .guideInfo #knows_about {
+    font-size: 16px;
+    margin-top: 18px;
+    margin-left: 5.996875%;
+    clear: none;
+  }
 
-    .guideInfo #Knowledge_icon_1 {
-        margin-top: 24px;
-        margin-left: 5.996875%;
-        clear: left;
-        height: 48px;
-        width: 48px;
-    }
+  .guideInfo #Knowledge_icon_1 {
+    margin-top: 24px;
+    margin-left: 5.996875%;
+    clear: left;
+    height: 48px;
+    width: 48px;
+  }
 
-    .guideInfo #Knowledge_icon_2 {
-        width: 48px;
-        height: 48px;
-        margin-bottom: 0px;
-        margin-top: 24px;
-    }
+  .guideInfo #Knowledge_icon_2 {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 0px;
+    margin-top: 24px;
+  }
 
-    .guideInfo #Knowledge_icon_3 {
-        height: 48px;
-        width: 48px;
-        margin-top: 24px;
-    }
+  .guideInfo #Knowledge_icon_3 {
+    height: 48px;
+    width: 48px;
+    margin-top: 24px;
+  }
 
-    .guideInfo #Knowledge_icon_4 {
-        height: 48px;
-        width: 48px;
-        margin-top: 24px;
-    }
+  .guideInfo #Knowledge_icon_4 {
+    height: 48px;
+    width: 48px;
+    margin-top: 24px;
+  }
 
-    .guideInfo #Connect_guide_btn {
-        margin-top: 548px;
-        clear: none;
-        width: 87%;
-    }
+  .guideInfo #Connect_guide_btn {
+    margin-top: 548px;
+    clear: none;
+    width: 87%;
+  }
 }
 

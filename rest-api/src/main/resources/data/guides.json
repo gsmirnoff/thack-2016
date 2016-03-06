@@ -11,7 +11,7 @@
         "password": "pass",
         "badges" : ["funny","gourmand","knowledgeable","lh_star"],
         "email": "some-email@mail.com",
-        "interests": ["dancing", "Museums"]
+        "interests": ["Clubs", "Museums", "Bars"]
     },
     {
         "firstName" : "Max",
