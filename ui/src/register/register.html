@@ -36,10 +36,12 @@
       </select>
     </label>
     <input id="Add_Lang_btn" type="button" value="Add">
+    <div ngControlGroup="interests">
     <label *ngFor="#i of interests" id="{{i.fg}}">
-      <input id="{{i.inputClass}}" type="checkbox">
+      <input id="{{i.inputClass}}" value="{{i.value}}" type="checkbox" ngControl="{{i.value}}">
       <p id="{{i.textClass}}">{{i.value}}</p>
     </label>
+    </div>
     <button id="Add_Lang_btn1" type="submit">Register</button>
   </form>
 </div>

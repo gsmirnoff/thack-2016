@@ -26,7 +26,10 @@ export class Register {
     ];
     this.registrationForm = fb.group({
       name: ['', Validators.required],
-      email: ['', Validators.required]
+      email: ['', Validators.required],
+      interests: fb.group(
+        {'interest 1': [], 'interest 2': [], 'interest 3': [], 'interest 4': []}
+      )
     });
   }
 
@@ -41,6 +44,10 @@ export class Register {
       position.coords.latitude + 0.000001,
       position.coords.longitude - 0.000004
     ];
+    fields.interests = Object.keys(fields.interests)
+      .map((i) => !!fields.interests[i] ? i : null)
+      .filter((i) => !!i);
+    fields.interests = fields.interests.map((a, b) => console.log(a, b));
     this.userService.save(new User(fields))
       .subscribe((user) => {
         this.authenticationService.login(user.email, user.password);
