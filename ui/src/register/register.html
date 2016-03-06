@@ -36,77 +36,9 @@
       </select>
     </label>
     <input id="Add_Lang_btn" type="button" value="Add">
-    <label id="formgroup">
-      <input id="input" type="checkbox">
-      <p id="text10">
-        Interest 1
-      </p>
-    </label>
-    <label id="formgroup1">
-      <input id="input1" type="checkbox">
-      <p id="text11">
-        Interest 2
-      </p>
-    </label>
-    <label id="formgroup2">
-      <input id="input2" type="checkbox">
-      <p id="text12">
-        Interest 3
-      </p>
-    </label>
-    <label id="formgroup3">
-      <input id="input3" type="checkbox">
-      <p id="text13">
-        Interest 4
-      </p>
-    </label>
-    <label id="formgroup4">
-      <input id="input4" type="checkbox">
-      <p id="text14">
-        Interest 5
-      </p>
-    </label>
-    <label id="formgroup5">
-      <input id="input5" type="checkbox">
-      <p id="text15">
-        Interest 6
-      </p>
-    </label>
-    <label id="formgroup6">
-      <input id="input6" type="checkbox">
-      <p id="text16">
-        Interest 7
-      </p>
-    </label>
-    <label id="formgroup7">
-      <input id="input7" type="checkbox">
-      <p id="text17">
-        Interest 9
-      </p>
-    </label>
-    <label id="formgroup8">
-      <input id="input8" type="checkbox">
-      <p id="text18">
-        Interest 11
-      </p>
-    </label>
-    <label id="formgroup9">
-      <input id="input9" type="checkbox">
-      <p id="text19">
-        Interest 8
-      </p>
-    </label>
-    <label id="formgroup10">
-      <input id="input10" type="checkbox">
-      <p id="text20">
-        Interest 10
-      </p>
-    </label>
-    <label id="formgroup11">
-      <input id="input11" type="checkbox">
-      <p id="text21">
-        Interest 12
-      </p>
+    <label *ngFor="#i of interests" id="{{i.fg}}">
+      <input id="{{i.inputClass}}" type="checkbox">
+      <p id="{{i.textClass}}">{{i.value}}</p>
     </label>
     <button id="Add_Lang_btn1" type="submit">Register</button>
   </form>
