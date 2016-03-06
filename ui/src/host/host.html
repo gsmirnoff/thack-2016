@@ -22,12 +22,11 @@
                 </p>
             </div>
         </div>
-        <a href="chat.html">
-            <input id="available_btn" type="button" value="Available">
-        </a>
-        <a href="chat.html">
-            <input id="transportation_btn" type="button" value="Transportation">
-        </a>
+
+        <input id="available_btn" [ngClass]="{green: active}" (click)="toggleActive()" type="button" value="Available">
+
+        <input id="transportation_btn" [ngClass]="{green: transport}" (click)="toggleTransport()" type="button" value="Transportation">
+
     </div>
     <p id="interested_guests_label">
         Guests interested in you&#x3a;<br />
