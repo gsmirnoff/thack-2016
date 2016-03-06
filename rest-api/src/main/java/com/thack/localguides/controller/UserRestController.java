@@ -5,12 +5,9 @@ import com.thack.localguides.database.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.stereotype.Component;
-import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
-import javax.ws.rs.core.Response;
-import java.util.List;
 
 /**
  * Created by aakhmerov on 05.03.16.

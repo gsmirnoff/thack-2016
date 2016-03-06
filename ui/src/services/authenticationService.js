@@ -1,21 +1,32 @@
 import {Injectable} from 'angular2/core';
 import {Observable} from 'rxjs/Observable';
+import {Http, Headers} from 'angular2/http';
 
 export class AuthenticationService {
   token:string;
 
-  constructor() {
+  constructor(http:Http) {
+    this.http = http;
     this.token = localStorage.getItem('token');
   }
 
-  login(username:String, password:String) {
-    if (username === 'test' && password === 'test') {
-      this.token = 'token';
-      localStorage.setItem('token', this.token);
-      return Observable.of('token');
-    }
-
-    return Observable.throw('authentication failure');
+  login(email:String, password:String) {
+    return this.http.post('/api/auth', JSON.stringify({
+        email: email,
+        password: password
+      }), {
+        headers: new Headers({
+          'Content-Type': 'application/json'
+        })
+      })
+      .map((res) => {
+        let data = res.json();
+        this.token = data.token;
+        this.currentUser = data.id;
+        localStorage.setItem('token', this.token);
+        localStorage.setItem('currentUser', this.currentUser);
+        return Observable.of(this.token);
+      });
   }
 
   logout() {

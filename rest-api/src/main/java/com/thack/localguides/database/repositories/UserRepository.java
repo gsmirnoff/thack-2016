@@ -13,4 +13,5 @@ import java.util.List;
 public interface UserRepository extends MongoRepository<User, String> {
 
     List<User> findByPositionNear(Point p, Distance d);
+    User findByEmailAndPassword(String name, String password);
 }

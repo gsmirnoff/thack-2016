@@ -1,6 +1,7 @@
 package com.thack.localguides.database.entities;
 
 import lombok.Data;
+import lombok.Getter;
 import org.springframework.data.annotation.Id;
 
 import java.util.List;
@@ -25,7 +26,6 @@ public class User {
     private String bio;
     private String liveSince;
     private String profession;
-
     private String role;
     private String status;
 
