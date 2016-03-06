@@ -42,6 +42,7 @@ export class HostStatus {
 
     handleConnectionRequest(data) {
         console.log(data);
+
     }
 
     toggleTransport () {
