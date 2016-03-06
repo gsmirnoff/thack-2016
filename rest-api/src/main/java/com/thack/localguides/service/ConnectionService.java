@@ -1,6 +1,12 @@
 package com.thack.localguides.service;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.pusher.rest.Pusher;
+import com.pusher.rest.data.Result;
+import com.thack.localguides.database.entities.User;
+import com.thack.localguides.database.repositories.UserRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
@@ -27,16 +33,33 @@ public class ConnectionService {
     @Value("${pusher.apiSecret}")
     private String apiSecret;
 
+    @Autowired
+    private UserRepository userRepository;
+
+    private ObjectMapper om = new ObjectMapper();
+
     @PostConstruct
     public void init() {
         this.pusher = new Pusher(appId, apiKey, apiSecret);
+        pusher.setHost("api-eu.pusher.com");
+
     }
 
     private HashMap<String,String> establishConnectionRequests = new HashMap<String, String>();
 
     public void establishConnection(String from, String to) {
-        pusher.trigger(to,REQUEST_CONNECTION,from);
-        establishConnectionRequests.put(from,to);
+        User fromUser = userRepository.findOne(from);
+        if (fromUser == null) {
+            fromUser = userRepository.findAll().get(0);
+        }
+        String json = null;
+        try {
+            json = om.writeValueAsString(fromUser);
+        } catch (JsonProcessingException e) {
+            e.printStackTrace();
+        }
+        Result r = pusher.trigger(to,REQUEST_CONNECTION,json);
+        establishConnectionRequests.put(fromUser.getId(),to);
 
 //      notify clients that both have accepted connections and now we can chat
         if (establishConnectionRequests.containsKey(from) && establishConnectionRequests.containsKey(to)) {

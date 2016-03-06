@@ -5,5 +5,6 @@ export class User {
     this.email = o.email;
     this.id = o.id;
     this.position = o.position;
+    this.interests = o.interests;
   }
 }

@@ -49,14 +49,20 @@
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
     display: block;
-    background-color: rgb(97, 204, 0);
     position: static;
     top: 0px;
     left: 0px;
     margin-top: 48px;
     margin-left: 25.597735%;
     margin-right: 0px;
+    background-color: #777777;
 }
+
+.hostpage #available_btn.green {
+    background-color: rgb(97, 204, 0);
+}
+
+
 
 .hostpage #box {
     float: left;
@@ -112,6 +118,10 @@
     margin-top: 48px;
     margin-left: 4.748921%;
     margin-right: 0px;
+    background-color: #777777;
+}
+
+.hostpage #transportation_btn.green {
     background-color: rgb(97, 204, 0);
 }
 

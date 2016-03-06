@@ -38,14 +38,7 @@
     <p id="knows_about">
         Knows about&#x3a;
     </p>
-    <div id="Knowledge_icon_1" class="clearfix">
-    </div>
-    <div id="Knowledge_icon_2" class="clearfix">
-    </div>
-    <div id="Knowledge_icon_3" class="clearfix">
-    </div>
-    <div id="Knowledge_icon_4" class="clearfix">
-    </div>
+  <div *ngFor="#i of guideData.interests" id="Knowledge_{{i}}" class="clearfix"></div>
 
     <input id="Connect_guide_btn" [value]="connectButtonText" type="button" (click)="onConnect()">
   <br/>

@@ -9,7 +9,8 @@
         "liveSince" : "1999",
         "position" : [52.50023,13.40490],
         "password": "pass",
-        "email": "some-email@mail.com"
+        "email": "some-email@mail.com",
+        "interests": ["dancing", "museums"]
     },
     {
         "firstName" : "Max",

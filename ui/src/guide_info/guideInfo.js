@@ -24,7 +24,7 @@ export class GuideInfo {
         this.pusherService = pusherService;
         this.router = router;
         //  TODO: make sure we get current user ID from the local storage here
-        this.myId = 1;
+        this.myId = localStorage.getItem('currentUser');
     }
 
     loadGuide() {

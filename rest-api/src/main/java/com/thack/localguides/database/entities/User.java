@@ -29,4 +29,7 @@ public class User {
     private String role;
     private String status;
 
+    public String getId() {
+        return id;
+    }
 }
