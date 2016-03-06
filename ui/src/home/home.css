@@ -1,10 +1,4 @@
-.home#Hero_Picture {
-  float: left;
-  height: 753px;
-  margin-left: 0%;
-  margin-top: 0px;
-  clear: both;
-  width: 100%;
+.home.banner {
   background-image:url("/img/city.jpg");
   background-attachment: scroll;
   -webkit-background-size: 100%;

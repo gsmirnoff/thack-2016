@@ -4,6 +4,8 @@ import {Router} from 'angular2/router';
 import {PusherService} from '../services/pusherService';
 import {Http, Headers} from 'angular2/http';
 
+//http://test.localhost.com/#/host/56db60e08a07397da1a544db
+
 @Component({
     selector: 'host',
     templateUrl: 'host/host.html',
