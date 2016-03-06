@@ -31,6 +31,7 @@ import {HostStatus} from 'host/host';
   {path: '/map', component: Map, as: 'Map'},
   {path: '/chat', component: Chat, as: 'Chat'},
   {path: '/host/:id', component: HostStatus, as: 'HostStatus'},
+  {path: '/guideInfo/:id', component: GuideInfo, as: 'GuideInfo'},
   {path: '/review_host', component: ReviewHost, as: 'ReviewHost'}
 ])
 
