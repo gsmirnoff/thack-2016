@@ -59,7 +59,7 @@ public class ConnectionService {
             e.printStackTrace();
         }
         Result r = pusher.trigger(to,REQUEST_CONNECTION,json);
-        establishConnectionRequests.put(from,to);
+        establishConnectionRequests.put(fromUser.getId(),to);
 
 //      notify clients that both have accepted connections and now we can chat
         if (establishConnectionRequests.containsKey(from) && establishConnectionRequests.containsKey(to)) {
