@@ -22,6 +22,18 @@ export class HostStatus {
         this.active = false;
         this.transport = false;
         this.connectionRequests = [];
+        this.loadGuide();
+    }
+
+    loadGuide() {
+        var url = '/api/users/' + this.id;
+        this.http.get(url)
+            .subscribe(this.processGuide.bind(this));
+    }
+
+    processGuide(response) {
+        this.guideData = response.json();
+        console.log(this.guideData);
     }
 
     toggleActive () {

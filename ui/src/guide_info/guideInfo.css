@@ -289,6 +289,7 @@
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
+    background-image:url("/img/badges/funny.svg");
     margin-right: 0%;
     display: block;
     background-color: rgb(255, 206, 0);
@@ -305,6 +306,7 @@
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
+    background-image:url("/img/badges/gourmand.svg");
     margin-right: 0%;
     display: block;
     background-color: rgb(0, 206, 255);
@@ -321,6 +323,7 @@
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
+    background-image:url("/img/badges/knowledgeable.svg");
     margin-right: 0%;
     display: block;
     background-color: rgb(97, 204, 0);
@@ -337,6 +340,7 @@
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
+    background-image:url("/img/badges/lh_star.svg");
     margin-right: 0%;
     display: block;
     background-color: rgb(255, 147, 0);
