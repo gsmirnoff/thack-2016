@@ -1,6 +1,7 @@
 package com.thack.localguides.service;
 
 import com.pusher.rest.Pusher;
+import com.pusher.rest.data.Result;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
@@ -30,12 +31,14 @@ public class ConnectionService {
     @PostConstruct
     public void init() {
         this.pusher = new Pusher(appId, apiKey, apiSecret);
+        pusher.setHost("api-eu.pusher.com");
+
     }
 
     private HashMap<String,String> establishConnectionRequests = new HashMap<String, String>();
 
     public void establishConnection(String from, String to) {
-        pusher.trigger(to,REQUEST_CONNECTION,from);
+        Result r = pusher.trigger(to,REQUEST_CONNECTION,from);
         establishConnectionRequests.put(from,to);
 
 //      notify clients that both have accepted connections and now we can chat
