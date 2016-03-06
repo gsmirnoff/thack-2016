@@ -8,15 +8,11 @@
                     {{guideData.name}} &#x28;{{guideData.age}}&#x29;
                 </p>
                 <div id="Badges" class="clearfix">
-                    <div id="Badge1" class="clearfix">
-                    </div>
-                    <div id="Badge2" class="clearfix">
-                    </div>
-                    <div id="Badge3" class="clearfix">
-                    </div>
-                    <div id="Badge4" class="clearfix">
+                    <div *ngFor="#badge of guideData.badges; #j = index" id="Badge{{j+1}}" class="clearfix">
                     </div>
                 </div>
+
+
                 <p id="Userinfo">
                     {{guideData.bio}}<br />
                 </p>
